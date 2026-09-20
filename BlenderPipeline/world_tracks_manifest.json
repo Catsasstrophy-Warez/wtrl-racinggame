@@ -28,7 +28,9 @@
       "widthM": 11,
       "nodes": [
         [0, 0], [320, 60], [480, 220], [420, 420], [200, 520], [-60, 480], [-260, 340], [-300, 140], [-160, 20]
-      ]
+      ],
+      "elevationM": [0, 6, 14, 22, 16, 8, 2, -4, -6],
+      "elevationNote": "Rolling hill terrain rising to a 22m crest at node 3 (the corpus's 'blind crests' -- a real vertical rise this pass's flat 2D shape alone couldn't show), then descending back toward the start. Placeholder magnitudes, not a survey."
     },
     {
       "id": "cliffside-coastal-circuit",
@@ -37,7 +39,9 @@
       "widthM": 10,
       "nodes": [
         [0, 0], [180, -40], [340, 40], [420, 220], [360, 380], [160, 400], [-60, 320], [-140, 140]
-      ]
+      ],
+      "elevationM": [0, 4, 10, 14, -10, -14, -16, -8],
+      "elevationNote": "A 24m single steep drop between node 3 (+14m) and node 4 (-10m) -- the corpus's 'signature moment', matching Racing.SampleContent.CliffsideCoastalCircuitLine's own comment identifying node index 4 as the drop. Placeholder magnitudes, not a survey."
     },
     {
       "id": "ironclad-technical-circuit",
