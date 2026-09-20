@@ -1,0 +1,18 @@
+{
+  "target": "iPhone / iPad mobile-first",
+  "textureCompression": "ASTC",
+  "packedORM": {"R":"ambientOcclusion","G":"roughness","B":"metallicOrApprovedMask"},
+  "meshRules": {
+    "quadDominantCriticalAreas": ["wheel arches","A pillars","B pillars","C pillars","hood press lines","damage deformation zones"],
+    "rejectNGons": true,
+    "heroTrimMaximumMaterialSlots": 2,
+    "notes": "Budgets are starting targets, not measured device guarantees. Validate in Xcode GPU capture and on oldest supported iPhone."
+  },
+  "assets": [
+    {"id":"hero_car_exterior","lod0Triangles":32000,"lod1Triangles":16000,"texture":2048},
+    {"id":"hero_car_interior","lod0Triangles":18000,"lod1Triangles":8000,"texture":2048},
+    {"id":"rival_vehicle","lod0Triangles":18000,"lod1Triangles":8000,"texture":1024},
+    {"id":"wheel_tire","lod0Triangles":3000,"lod1Triangles":1200,"texture":1024},
+    {"id":"dyno_bay","lod0Triangles":45000,"lod1Triangles":20000,"texture":2048}
+  ]
+}

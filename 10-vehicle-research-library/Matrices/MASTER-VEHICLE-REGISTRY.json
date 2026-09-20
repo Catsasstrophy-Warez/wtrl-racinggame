@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "VEH-001",
+    "name": "1965 Restoration",
+    "category": "Hero",
+    "era": "1960s",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-002",
+    "name": "Emissions Transition",
+    "category": "Hero",
+    "era": "mid-1970s",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-003",
+    "name": "EFI Revival",
+    "category": "Hero",
+    "era": "late-1980s",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-004",
+    "name": "Modern Platform",
+    "category": "Hero",
+    "era": "mid-1990s",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-005",
+    "name": "Power Creep",
+    "category": "Hero",
+    "era": "early-2000s",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-006",
+    "name": "Independent Rear",
+    "category": "Hero",
+    "era": "mid-2010s",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-007",
+    "name": "The Legend",
+    "category": "Hero",
+    "era": "2022",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-008",
+    "name": "Reyes Aero GT",
+    "category": "Rival",
+    "era": "multi-era",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-009",
+    "name": "Kade Turbo Six",
+    "category": "Rival",
+    "era": "multi-era",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-010",
+    "name": "Vogel Touring Saloon",
+    "category": "Rival",
+    "era": "multi-era",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-011",
+    "name": "Duquesne Big-Block",
+    "category": "Rival",
+    "era": "multi-era",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-012",
+    "name": "Osei Lightweight",
+    "category": "Rival",
+    "era": "multi-era",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-013",
+    "name": "Marsh Constant",
+    "category": "Rival",
+    "era": "multi-era",
+    "kind": "WTRL fictional/canonical",
+    "refs": "",
+    "notes": "Keep fiction mechanically grounded but visually/IP-distinct."
+  },
+  {
+    "id": "VEH-014",
+    "name": "1963 Ford Falcon",
+    "category": "Ford heritage",
+    "era": "1963",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-015",
+    "name": "1965 Ford Mustang",
+    "category": "Hero reference",
+    "era": "1965",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-016",
+    "name": "1965 Shelby GT350",
+    "category": "Hero reference",
+    "era": "1965",
+    "kind": "real/reference",
+    "refs": "SRC-001",
+    "notes": ""
+  },
+  {
+    "id": "VEH-017",
+    "name": "1966 Shelby GT350",
+    "category": "Hero reference",
+    "era": "1966",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-018",
+    "name": "1967 Ford Mustang",
+    "category": "Hero reference",
+    "era": "1967",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-019",
+    "name": "1967 Shelby GT500",
+    "category": "Hero reference",
+    "era": "1967",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-020",
+    "name": "1968 Ford Mustang GT 390 / Bullitt",
+    "category": "Hero/film reference",
+    "era": "1968",
+    "kind": "real/reference",
+    "refs": "SRC-002;SRC-037",
+    "notes": ""
+  },
+  {
+    "id": "VEH-021",
+    "name": "1968 Shelby Mustang variants",
+    "category": "Hero reference",
+    "era": "1968",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-022",
+    "name": "1969 Ford Mustang Mach 1",
+    "category": "Hero reference",
+    "era": "1969",
+    "kind": "real/reference",
+    "refs": "SRC-003;SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-023",
+    "name": "1969 Ford Mustang Boss 429",
+    "category": "Hero/homologation reference",
+    "era": "1969",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-024",
+    "name": "1971 Ford Mustang SportsRoof/Mach 1",
+    "category": "Hero reference",
+    "era": "1971",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-025",
+    "name": "Mustang II / emissions-era Mustang",
+    "category": "Hero reference",
+    "era": "1974-1978",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-026",
+    "name": "1979-1993 Fox-body Mustang family",
+    "category": "Hero reference",
+    "era": "1979-1993",
+    "kind": "real/reference",
+    "refs": "SRC-009;SRC-010",
+    "notes": ""
+  },
+  {
+    "id": "VEH-027",
+    "name": "1993 Ford Mustang GT 5.0",
+    "category": "Hero reference",
+    "era": "1993",
+    "kind": "real/reference",
+    "refs": "SRC-010",
+    "notes": ""
+  },
+  {
+    "id": "VEH-028",
+    "name": "1993 Ford Mustang SVT Cobra",
+    "category": "Hero reference",
+    "era": "1993",
+    "kind": "real/reference",
+    "refs": "SRC-010",
+    "notes": ""
+  },
+  {
+    "id": "VEH-029",
+    "name": "SN95 Mustang family",
+    "category": "Hero reference",
+    "era": "1994-2004",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-030",
+    "name": "1996-1998 Mustang SVT Cobra 4.6 DOHC",
+    "category": "Hero reference",
+    "era": "1996-1998",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-031",
+    "name": "New Edge Mustang GT",
+    "category": "Hero reference",
+    "era": "1999-2004",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-032",
+    "name": "2005 Mustang GT / S197",
+    "category": "Hero reference",
+    "era": "2005",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-033",
+    "name": "2015 Mustang GT / S550",
+    "category": "Hero reference",
+    "era": "2015",
+    "kind": "real/reference",
+    "refs": "SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-034",
+    "name": "2018 Mustang GT",
+    "category": "Hero reference",
+    "era": "2018",
+    "kind": "real/reference",
+    "refs": "SRC-004",
+    "notes": ""
+  },
+  {
+    "id": "VEH-035",
+    "name": "2016-2020 Shelby GT350/GT350R",
+    "category": "Hero engineering reference",
+    "era": "2016-2020",
+    "kind": "real/reference",
+    "refs": "SRC-005",
+    "notes": ""
+  },
+  {
+    "id": "VEH-036",
+    "name": "2020 Shelby GT500",
+    "category": "Hero halo reference",
+    "era": "2020",
+    "kind": "real/reference",
+    "refs": "SRC-007;SRC-008",
+    "notes": ""
+  },
+  {
+    "id": "VEH-037",
+    "name": "2021 Shelby GT500",
+    "category": "Hero halo reference",
+    "era": "2021",
+    "kind": "real/reference",
+    "refs": "SRC-007",
+    "notes": ""
+  },
+  {
+    "id": "VEH-038",
+    "name": "2022 Shelby GT500",
+    "category": "Hero halo reference",
+    "era": "2022",
+    "kind": "real/reference",
+    "refs": "SRC-006;SRC-007",
+    "notes": ""
+  },
+  {
+    "id": "VEH-039",
+    "name": "2019 Mustang Bullitt",
+    "category": "film/heritage reference",
+    "era": "2019",
+    "kind": "real/reference",
+    "refs": "SRC-037",
+    "notes": ""
+  },
+  {
+    "id": "VEH-040",
+    "name": "Shelby GT500E",
+    "category": "continuation/restomod reference",
+    "era": "",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-041",
+    "name": "Shelby GT500CR",
+    "category": "restomod reference",
+    "era": "modern continuation",
+    "kind": "real/reference",
+    "refs": "SRC-036",
+    "notes": ""
+  },
+  {
+    "id": "VEH-042",
+    "name": "1967 GT500 'Eleanor'-style car",
+    "category": "film/derivation reference",
+    "era": "1967-derived",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-043",
+    "name": "1974 Gone in 60 Seconds 1971 Mustang SportsRoof 'Eleanor'",
+    "category": "film reference",
+    "era": "1971/1974",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-044",
+    "name": "2000 Gone in 60 Seconds GT500-based 'Eleanor'",
+    "category": "film reference",
+    "era": "1967-derived",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-045",
+    "name": "John Wick 1969 Mach 1 / Boss 429-styled Mustang",
+    "category": "film reference",
+    "era": "1969-derived",
+    "kind": "real/reference",
+    "refs": "SRC-003;SRC-002",
+    "notes": ""
+  },
+  {
+    "id": "VEH-046",
+    "name": "Porsche 911 Carrera RS 2.7",
+    "category": "Reyes/Vogel/European reference",
+    "era": "1973",
+    "kind": "real/reference",
+    "refs": "SRC-011",
+    "notes": ""
+  },
+  {
+    "id": "VEH-047",
+    "name": "Porsche 911 Turbo 3.0 (930)",
+    "category": "Reyes/Vogel/European reference",
+    "era": "1974-1977",
+    "kind": "real/reference",
+    "refs": "SRC-012",
+    "notes": ""
+  },
+  {
+    "id": "VEH-048",
+    "name": "Porsche 911 Turbo 3.3 (930)",
+    "category": "Reyes/Vogel/European reference",
+    "era": "1978-1989",
+    "kind": "real/reference",
+    "refs": "SRC-012",
+    "notes": ""
+  },
+  {
+    "id": "VEH-049",
+    "name": "Porsche 911 air-cooled lineage",
+    "category": "Reyes/Vogel/European reference",
+    "era": "1964-1998",
+    "kind": "real/reference",
+    "refs": "SRC-011;SRC-012",
+    "notes": ""
+  },
+  {
+    "id": "VEH-050",
+    "name": "Porsche 911 water-cooled lineage",
+    "category": "Reyes/Vogel/European reference",
+    "era": "1998-present",
+    "kind": "real/reference",
+    "refs": "SRC-013",
+    "notes": ""
+  },
+  {
+    "id": "VEH-051",
+    "name": "Porsche 911 GT3 RS",
+    "category": "Reyes/Vogel/European reference",
+    "era": "modern",
+    "kind": "real/reference",
+    "refs": "SRC-013",
+    "notes": ""
+  },
+  {
+    "id": "VEH-052",
+    "name": "Porsche 911 GT2 RS",
+    "category": "Reyes/Vogel/European reference",
+    "era": "modern",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-053",
+    "name": "RUF-modified Porsche lineage",
+    "category": "Reyes/Vogel/European reference",
+    "era": "multi-era",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-054",
+    "name": "BMW M3 E30",
+    "category": "Reyes/Vogel/European reference",
+    "era": "1986-1991",
+    "kind": "real/reference",
+    "refs": "SRC-017",
+    "notes": ""
+  },
+  {
+    "id": "VEH-055",
+    "name": "BMW M3 E36",
+    "category": "Reyes/Vogel/European reference",
+    "era": "1992-1999",
+    "kind": "real/reference",
+    "refs": "SRC-017",
+    "notes": ""
+  },
+  {
+    "id": "VEH-056",
+    "name": "BMW M3 E46",
+    "category": "Reyes/Vogel/European reference",
+    "era": "2000-2006",
+    "kind": "real/reference",
+    "refs": "SRC-017",
+    "notes": ""
+  },
+  {
+    "id": "VEH-057",
+    "name": "BMW M3 E9x V8",
+    "category": "Reyes/Vogel/European reference",
+    "era": "2007-2013",
+    "kind": "real/reference",
+    "refs": "SRC-017",
+    "notes": ""
+  },
+  {
+    "id": "VEH-058",
+    "name": "BMW M3 F80",
+    "category": "Reyes/Vogel/European reference",
+    "era": "2014-2018",
+    "kind": "real/reference",
+    "refs": "SRC-017",
+    "notes": ""
+  },
+  {
+    "id": "VEH-059",
+    "name": "BMW M3 G80",
+    "category": "Reyes/Vogel/European reference",
+    "era": "2020-present",
+    "kind": "real/reference",
+    "refs": "SRC-017",
+    "notes": ""
+  },
+  {
+    "id": "VEH-060",
+    "name": "BMW M3 GTR",
+    "category": "Reyes/Vogel/European reference",
+    "era": "2000s",
+    "kind": "real/reference",
+    "refs": "SRC-017",
+    "notes": ""
+  },
+  {
+    "id": "VEH-061",
+    "name": "Nissan Skyline GT-R R32",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1989-1994",
+    "kind": "real/reference",
+    "refs": "SRC-015",
+    "notes": ""
+  },
+  {
+    "id": "VEH-062",
+    "name": "Nissan Skyline GT-R R33 V-Spec",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1995-1998",
+    "kind": "real/reference",
+    "refs": "SRC-014",
+    "notes": ""
+  },
+  {
+    "id": "VEH-063",
+    "name": "Nissan Skyline GT-R R34",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1999-2002",
+    "kind": "real/reference",
+    "refs": "SRC-016",
+    "notes": ""
+  },
+  {
+    "id": "VEH-064",
+    "name": "Toyota Supra A80 / 2JZ-GTE archetype",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1993-2002",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-065",
+    "name": "Honda Civic Si",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "multi-era",
+    "kind": "real/reference",
+    "refs": "SRC-019",
+    "notes": ""
+  },
+  {
+    "id": "VEH-066",
+    "name": "Honda Civic EK",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1990s",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-067",
+    "name": "Acura RSX",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "2000s",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-068",
+    "name": "Acura NSX first generation",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1991-2005",
+    "kind": "real/reference",
+    "refs": "SRC-020;SRC-021",
+    "notes": ""
+  },
+  {
+    "id": "VEH-069",
+    "name": "Acura NSX second generation",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "2017-2022",
+    "kind": "real/reference",
+    "refs": "SRC-022",
+    "notes": ""
+  },
+  {
+    "id": "VEH-070",
+    "name": "Toyota MR2 AW11",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1984-1989",
+    "kind": "real/reference",
+    "refs": "SRC-023;SRC-024",
+    "notes": ""
+  },
+  {
+    "id": "VEH-071",
+    "name": "Toyota MR2 SW20",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1990s",
+    "kind": "real/reference",
+    "refs": "SRC-023",
+    "notes": ""
+  },
+  {
+    "id": "VEH-072",
+    "name": "Toyota MR2 Spyder / MR-S ZZW30",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1999-2007",
+    "kind": "real/reference",
+    "refs": "SRC-023;SRC-025",
+    "notes": ""
+  },
+  {
+    "id": "VEH-073",
+    "name": "Fiat/Bertone X1/9",
+    "category": "Kade/Marsh/dynamics reference",
+    "era": "1972-1989",
+    "kind": "real/reference",
+    "refs": "SRC-035",
+    "notes": ""
+  },
+  {
+    "id": "VEH-074",
+    "name": "Lotus Elan",
+    "category": "Osei/lightweight reference",
+    "era": "1962-1973",
+    "kind": "real/reference/archetype",
+    "refs": "SRC-018",
+    "notes": ""
+  },
+  {
+    "id": "VEH-075",
+    "name": "Lotus Esprit Turbo",
+    "category": "Osei/lightweight reference",
+    "era": "1980s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-076",
+    "name": "Lotus/Caterham Seven archetype",
+    "category": "Osei/lightweight reference",
+    "era": "multi-era",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-077",
+    "name": "British lightweight roadster archetype",
+    "category": "Osei/lightweight reference",
+    "era": "1960s",
+    "kind": "real/reference/archetype",
+    "refs": "SRC-018",
+    "notes": ""
+  },
+  {
+    "id": "VEH-078",
+    "name": "cycle-fender lightweight sports car archetype",
+    "category": "Osei/lightweight reference",
+    "era": "multi-era",
+    "kind": "real/reference/archetype",
+    "refs": "SRC-018",
+    "notes": ""
+  },
+  {
+    "id": "VEH-079",
+    "name": "modern minimalist track roadster archetype",
+    "category": "Osei/lightweight reference",
+    "era": "modern",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-080",
+    "name": "1964 Pontiac GTO",
+    "category": "US performance reference",
+    "era": "1964",
+    "kind": "real/reference",
+    "refs": "SRC-026",
+    "notes": ""
+  },
+  {
+    "id": "VEH-081",
+    "name": "American big-block muscle archetype",
+    "category": "US performance reference",
+    "era": "1960s-1970s",
+    "kind": "real/reference",
+    "refs": "SRC-026",
+    "notes": ""
+  },
+  {
+    "id": "VEH-082",
+    "name": "period supercharged big-block muscle archetype",
+    "category": "US performance reference",
+    "era": "1960s-1970s",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-083",
+    "name": "Pontiac Firebird / Trans Am",
+    "category": "US performance reference",
+    "era": "1998 reference",
+    "kind": "real/reference",
+    "refs": "SRC-038",
+    "notes": ""
+  },
+  {
+    "id": "VEH-084",
+    "name": "Dodge Viper RT/10",
+    "category": "US performance reference",
+    "era": "1992+",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-085",
+    "name": "Dodge Stealth",
+    "category": "US performance reference",
+    "era": "1990s",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-086",
+    "name": "Chevrolet Corvette C4",
+    "category": "US performance reference",
+    "era": "1984-1996",
+    "kind": "real/reference",
+    "refs": "SRC-027",
+    "notes": ""
+  },
+  {
+    "id": "VEH-087",
+    "name": "Chevrolet Corvette C5",
+    "category": "US performance reference",
+    "era": "1997-2004",
+    "kind": "real/reference",
+    "refs": "SRC-027",
+    "notes": ""
+  },
+  {
+    "id": "VEH-088",
+    "name": "Chevrolet Corvette C6",
+    "category": "US performance reference",
+    "era": "2005-2013",
+    "kind": "real/reference",
+    "refs": "SRC-027",
+    "notes": ""
+  },
+  {
+    "id": "VEH-089",
+    "name": "Chevrolet Corvette C7",
+    "category": "US performance reference",
+    "era": "2014-2019",
+    "kind": "real/reference",
+    "refs": "SRC-027",
+    "notes": ""
+  },
+  {
+    "id": "VEH-090",
+    "name": "Chevrolet Corvette Z06 lineage",
+    "category": "US performance reference",
+    "era": "1963-present",
+    "kind": "real/reference",
+    "refs": "SRC-028",
+    "notes": ""
+  },
+  {
+    "id": "VEH-091",
+    "name": "Ferrari 250 GT California",
+    "category": "film/derivation/endurance reference",
+    "era": "1950s-1960s",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-092",
+    "name": "Modena GT Spyder replica (Ferris Bueller)",
+    "category": "film/derivation/endurance reference",
+    "era": "1980s replica",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-093",
+    "name": "Ferrari 365 GTB/4 Daytona",
+    "category": "film/derivation/endurance reference",
+    "era": "1968-1973",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-094",
+    "name": "Ferrari Daytona replica / Miami Vice",
+    "category": "film/derivation/endurance reference",
+    "era": "1980s replica",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-095",
+    "name": "Ford GT40",
+    "category": "film/derivation/endurance reference",
+    "era": "1964-1969",
+    "kind": "real/reference",
+    "refs": "SRC-029;SRC-030;SRC-031",
+    "notes": ""
+  },
+  {
+    "id": "VEH-096",
+    "name": "Superformance GT40 MKI",
+    "category": "film/derivation/endurance reference",
+    "era": "modern continuation",
+    "kind": "real/reference",
+    "refs": "SRC-032",
+    "notes": ""
+  },
+  {
+    "id": "VEH-097",
+    "name": "Ford Falcon XB GT",
+    "category": "film/derivation/endurance reference",
+    "era": "1970s",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-098",
+    "name": "Mad Max Interceptor",
+    "category": "film/derivation/endurance reference",
+    "era": "film-derived",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-099",
+    "name": "Lamborghini Diablo",
+    "category": "physics/geometry/presentation reference",
+    "era": "1990-2001",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-100",
+    "name": "Ferrari 308",
+    "category": "physics/geometry/presentation reference",
+    "era": "1975-1985",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-101",
+    "name": "Ferrari 328",
+    "category": "physics/geometry/presentation reference",
+    "era": "1985-1989",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-102",
+    "name": "Toyota S-FR Racing Concept",
+    "category": "physics/geometry/presentation reference",
+    "era": "concept",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-103",
+    "name": "Vision Gran Turismo concepts",
+    "category": "physics/geometry/presentation reference",
+    "era": "multi-brand concept",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-104",
+    "name": "AMC Pacer",
+    "category": "physics/geometry/presentation reference",
+    "era": "1970s",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-105",
+    "name": "Ford Crown Victoria Police Interceptor",
+    "category": "enforcement/pursuit",
+    "era": "1998-2011",
+    "kind": "real/reference",
+    "refs": "SRC-034",
+    "notes": ""
+  },
+  {
+    "id": "VEH-106",
+    "name": "Dodge Charger Pursuit",
+    "category": "enforcement/pursuit",
+    "era": "modern",
+    "kind": "real/reference",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-107",
+    "name": "Ford Police Interceptor Utility AWD",
+    "category": "enforcement/pursuit",
+    "era": "modern",
+    "kind": "real/reference",
+    "refs": "SRC-033",
+    "notes": ""
+  },
+  {
+    "id": "VEH-108",
+    "name": "Corvette-type high-performance pursuit reference",
+    "category": "enforcement/pursuit",
+    "era": "multi-era",
+    "kind": "real/reference",
+    "refs": "SRC-027",
+    "notes": ""
+  },
+  {
+    "id": "VEH-109",
+    "name": "Mustang SSP / Special Service Package",
+    "category": "enforcement/pursuit",
+    "era": "1982-1993",
+    "kind": "real/reference",
+    "refs": "SRC-009;SRC-010",
+    "notes": ""
+  },
+  {
+    "id": "VEH-110",
+    "name": "Apex pursuit vehicle",
+    "category": "enforcement/pursuit",
+    "era": "fictional",
+    "kind": "WTRL fictional",
+    "refs": "",
+    "notes": ""
+  },
+  {
+    "id": "VEH-111",
+    "name": "Trans-Am-spec Hero",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-112",
+    "name": "Super Stock Drag Pack",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-113",
+    "name": "Pro-Touring Restomod",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-114",
+    "name": "Apex Aero-R",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-115",
+    "name": "Apex Revenant",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-116",
+    "name": "Driveway Special",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-117",
+    "name": "Full Compression",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-118",
+    "name": "Hi-Po Spec",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-119",
+    "name": "Homologation Run",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-120",
+    "name": "Paxton Special",
+    "category": "WTRL special/build recipe",
+    "era": "",
+    "kind": "WTRL fictional/derived",
+    "refs": "",
+    "notes": "Research via period-correct component families; not a literal production vehicle."
+  },
+  {
+    "id": "VEH-121",
+    "name": "early-1970s rear-engine flat-six homologation GT",
+    "category": "Reyes archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-122",
+    "name": "ducktail rear-engine GT",
+    "category": "Reyes archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-123",
+    "name": "widebody turbo rear-engine GT",
+    "category": "Reyes archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-124",
+    "name": "whale-tail turbo GT",
+    "category": "Reyes archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-125",
+    "name": "modern active-aero rear-engine GT",
+    "category": "Reyes archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-126",
+    "name": "early Japanese turbo inline-six coupe",
+    "category": "Kade archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-127",
+    "name": "1980s turbo inline-six GT coupe",
+    "category": "Kade archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-128",
+    "name": "1990s peak-era Japanese turbo inline-six coupe",
+    "category": "Kade archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-129",
+    "name": "large-single-turbo modified Japanese coupe",
+    "category": "Kade archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-130",
+    "name": "late-era Japanese turbo inline-six performance coupe",
+    "category": "Kade archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-131",
+    "name": "1980s naturally aspirated German performance saloon",
+    "category": "Vogel archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-132",
+    "name": "1990s refined German performance saloon",
+    "category": "Vogel archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-133",
+    "name": "high-revving naturally aspirated German sports saloon",
+    "category": "Vogel archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-134",
+    "name": "late-NA German performance saloon",
+    "category": "Vogel archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-135",
+    "name": "turbo-transition German sports saloon",
+    "category": "Vogel archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-136",
+    "name": "modern turbocharged German performance saloon",
+    "category": "Vogel archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-137",
+    "name": "first-generation American big-block muscle car",
+    "category": "Duquesne archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-138",
+    "name": "peak-displacement big-block muscle car",
+    "category": "Duquesne archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-139",
+    "name": "emissions-era big-block/muscle decline car",
+    "category": "Duquesne archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-140",
+    "name": "1960s lightweight rear-drive economy compact",
+    "category": "Marsh archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-141",
+    "name": "1970s refined rear-drive economy compact",
+    "category": "Marsh archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-142",
+    "name": "early front-wheel-drive hot hatch",
+    "category": "Marsh archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-143",
+    "name": "1990s refined hot hatch",
+    "category": "Marsh archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-144",
+    "name": "2000s mature hot hatch",
+    "category": "Marsh archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-145",
+    "name": "2010s turbo hot hatch",
+    "category": "Marsh archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-146",
+    "name": "present-day restrained turbo hot hatch",
+    "category": "Marsh archetype",
+    "era": "multi-era",
+    "kind": "WTRL research archetype",
+    "refs": "",
+    "notes": "Use source vehicles as engineering envelopes, never one-for-one visual copies."
+  },
+  {
+    "id": "VEH-147",
+    "name": "351-family Mustang/Ford V8 cars",
+    "category": "Hero powertrain reference",
+    "era": "1970s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-148",
+    "name": "Top Loader-equipped classic Mustangs",
+    "category": "Hero transmission reference",
+    "era": "1960s-1970s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-149",
+    "name": "Paxton-supercharged Shelby/Mustang applications",
+    "category": "Hero forced-induction reference",
+    "era": "1960s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-150",
+    "name": "5.0 Mustang LX performance variants",
+    "category": "Hero reference",
+    "era": "1980s-1990s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-151",
+    "name": "Fox-era aftermarket turbo Mustang builds",
+    "category": "Hero modified reference",
+    "era": "1980s-1990s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-152",
+    "name": "PBR-brake-equipped SVT Cobra",
+    "category": "Hero brake reference",
+    "era": "1990s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-153",
+    "name": "TR-3650-equipped Mustang",
+    "category": "Hero transmission reference",
+    "era": "2000s",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-154",
+    "name": "4.6L 3-valve Mustang GT",
+    "category": "Hero reference",
+    "era": "2005-2010",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-155",
+    "name": "MT82-equipped Mustang GT",
+    "category": "Hero transmission reference",
+    "era": "2011+",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-156",
+    "name": "10-speed automatic Mustang GT",
+    "category": "Hero transmission reference",
+    "era": "2018+",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-157",
+    "name": "5.0 Coyote / 10-speed modern combination",
+    "category": "Hero powertrain reference",
+    "era": "2018+",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-158",
+    "name": "GT350R",
+    "category": "Hero track reference",
+    "era": "2016-2020",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  },
+  {
+    "id": "VEH-159",
+    "name": "Porsche 911 historical game/lineage reference",
+    "category": "Reyes/reference",
+    "era": "multi-era",
+    "kind": "real/reference/archetype",
+    "refs": "",
+    "notes": "See family sources and lineage dossier."
+  }
+]

@@ -1,0 +1,56 @@
+# VEH-038 — 2022 Shelby GT500
+
+**Category:** Hero halo reference  
+**Era:** 2022  
+**Research type:** real/reference  
+
+## WTRL research role
+Use as an engineering, historical, packaging, handling, visual-language, or career-reference input. Real specifications are research evidence, not automatic WTRL canonical truth.
+
+## Verified specification snapshot
+Researched honestly: no sourced evidence of a core mechanical change vs. 2021. The 2020-2022 GT500 shared the same drivetrain across all three model years.
+- Engine: 5.2L supercharged Predator V8 (unchanged from 2021)
+- Power: 760 hp
+- Torque: 625 lb-ft
+- Transmission: Tremec 7-speed dual-clutch automatic (unchanged)
+- Drive layout: RWD, Torsen limited-slip differential, 3.73 final drive (unchanged)
+- 0-60 mph: 3.3 sec; top speed 180 mph (unchanged)
+- Known real 2022-specific changes (non-mechanical): the 4G WiFi module was reportedly dropped for 2022 due to supply-chain constraints during COVID-era production, and most 2022 cars lack the passenger-side valve cover oil-fill extension seen on earlier cars — these are running-change/parts-sourcing notes, not performance changes, and are sourced to enthusiast/community discussion (grade C) rather than an OEM document, so treat them as unconfirmed detail rather than canonical fact
+- Wheelbase/curb weight: unstated to a specific citation in this pass
+- Evidence: SRC-006, SRC-007, SRC-213
+
+## Primary sources
+- **SRC-006 · Ford Media · grade A** — 2022 Mustang Technical Specifications
+  - https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2022/mustang/2022-Mustang-Tech-Specs.pdf
+  - Research use: 2022 Mustang/GT500 dimensions and mass data
+- **SRC-007 · Ford Media · grade A** — 2021 Shelby GT500 Order Guide
+  - https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2021/mustang/2021-Shelby-GT500-Order-Guide.pdf
+  - Research use: 5.2 supercharged V8, Tremec 7-speed DCT, Brembo, cooling hardware
+- **SRC-213 · encyCARpedia · grade B** — Ford Mustang Shelby GT500 specs (2020-2022)
+  - https://www.encycarpedia.com/us/ford/20-mustang-shelby-gt500-coupe
+  - Research use: confirms 760 hp/625 lb-ft Predator V8 unchanged across 2020-2022 model years
+
+## Images
+Use OEM heritage/media galleries first for shape, stance, suspension layout, cockpit, engine bay, brakes, wheels, and period-correct details. Images are **reference links only** in this library; no copyrighted image files are redistributed.
+
+## Video research
+Preferred capture targets: cold start/idle, engine bay, underbody/suspension, steering lock, braking, acceleration, shift behavior, body motion, track/road dynamics, service access, and cockpit ergonomics. See `Media/VIDEO-SOURCE-LEDGER.csv` for indexed videos and continue vehicle-specific capture where no video has yet been verified.
+
+## WTRL extraction checklist
+- Engine architecture and usable RPM band
+- Transmission type, ratios/final drive where verified
+- Differential/driven axle strategy
+- Suspension architecture and wheel travel behavior
+- Brake size/type/bias cues
+- Tire/wheel sizing and sidewall behavior
+- Wheelbase, track, mass and weight-distribution cues
+- Aero devices and their functional intent
+- Cooling/thermal strategy
+- Service packaging and component accessibility
+- Driver ergonomics and instrument layout
+- Period-correct modification culture
+- Failure/wear modes worth simulating
+- Distinctive interaction ideas that can be transformed without copying trade dress
+
+## Evidence policy
+OEM/heritage sources are preferred. Period road tests and high-quality engineering sources are secondary. Community/forum claims require corroboration before becoming canonical WTRL data.

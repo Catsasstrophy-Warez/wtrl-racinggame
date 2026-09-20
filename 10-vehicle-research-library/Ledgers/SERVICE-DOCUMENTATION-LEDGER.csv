@@ -1,0 +1,5 @@
+vehicle,publisher,document,url,grade,use
+2026 Honda Civic Si,Honda TechInfo,inspection/maintenance and Service Express access,https://techinfo.honda.com/,OEM,service source
+2025 Ford Police Interceptor Utility,Ford,Police & Special Service Vehicles guide,https://www.ford.com/content/dam/brand_ford/en_us/brand/police/pdf/24_FordPro_Police_guide.pdf,OEM,upfit/police duty documentation
+2025 Ford Police Interceptor Utility,Ford,Police Modifier Guides landing/features,https://www.ford.com/police-vehicles/features/upfit/,OEM,upfit/service architecture
+2020-2022 Shelby GT500,ShelbyFlyer,brake subsystem walkthrough,https://www.youtube.com/watch?v=J6N-hxbU-90,secondary video,service interaction only; factory source still preferred

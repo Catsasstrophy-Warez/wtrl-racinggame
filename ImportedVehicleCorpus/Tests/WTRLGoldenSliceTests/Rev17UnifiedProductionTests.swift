@@ -1,0 +1,18 @@
+import Testing
+@testable import WTRLVehicle
+@testable import WTRLWorld
+@testable import WTRLRendering
+@testable import WTRLCareer
+@testable import WTRLDyno
+@testable import WTRLAudio
+
+@Test func wetPaintIsLowerGripThanDryAsphalt(){var wet=ClimateState();wet.waterFilmMm=1.5;var p=RoadPatchSample();p.surface = .roadPaint;p.waterFilmMm=1.5;let a=SurfaceClimateAuthority.resolve(samples:[p],speedMps:30,tirePressureKPa:220,treadDepthMm:5,climate:wet);let dry=ClimateState();var q=RoadPatchSample();q.surface = .urbanAsphalt;let b=SurfaceClimateAuthority.resolve(samples:[q],speedMps:30,tirePressureKPa:220,treadDepthMm:5,climate:dry);#expect(a.effectiveMu < b.effectiveMu)}
+@Test func unifiedSolverConsumesAsymmetricRoad(){var s=UnifiedBlackridgeVehicleState();var i=UnifiedBlackridgeVehicleInput();i.throttle=0.6;i.engineRPM=3500;i.environment.frontLeft.roadHeightM=0.035;i.environment.frontRight.roadHeightM=0;i.environment.rearLeft.roadHeightM=0;i.environment.rearRight.roadHeightM=0;for _ in 0..<80{_ = UnifiedBlackridgeVehicleAuthority.step(state:&s,input:i,differentialSetup:.init(),dt:1.0/120)};#expect(abs(s.suspension.frontLeft.unsprungPositionM-s.suspension.frontRight.unsprungPositionM)>0.00001)}
+@Test func chassisFlexFeedsPersistentFatigue(){var s=UnifiedBlackridgeVehicleState();var i=UnifiedBlackridgeVehicleInput();i.throttle=1;i.engineRPM=5200;i.chassisRigidity01=0.1;var spec=ChassisStructureSpec();spec.torsionalStiffnessNmPerDeg=2500;spec.fatigueReferenceTwistDeg=0.05;for _ in 0..<600{_ = UnifiedBlackridgeVehicleAuthority.step(state:&s,input:i,differentialSetup:.init(backlashError01:0.8,preloadError01:0.7,patternError01:0.8,fluidFill01:0.7),chassisSpec:spec,dt:1.0/120)};#expect(s.chassis.peakTwistDeg>0);#expect(s.chassis.fatigueDamage01>=0)}
+@Test func safetyCannotBeFarmedInOpenWorld(){var c=CareerCurrencies();c.safetyRating01=0.42;SafetyRatingAuthority.applyOpenWorldCleanDriving(seconds:9999,to:&c);#expect(c.safetyRating01==0.42)}
+@Test func collisionOutweighsSeveralCleanSectors(){var c=CareerCurrencies();c.safetyRating01=0.7;var r=SanctionedSessionResult();r.cleanSectors=10;r.contactSeverity01=0.8;r.avoidableCollision=true;SafetyRatingAuthority.applySanctioned(r,to:&c);#expect(c.safetyRating01<0.7)}
+@Test func runtimeBudgetProtectsPhysicsAndActorCount(){var x=RuntimeBudgetSample();x.thermal = .serious;x.frameMs=36;x.streamingMs=6;let d=RuntimeBudgetGovernor.decide(x);#expect(d.physicsHz==120);#expect(d.interactiveActorCap==12);#expect(!d.permitNewStreaming)}
+@Test func steeringRackGoesLightAtFrontGripLoss(){#expect(VirtualSteeringRackAuthority.intent(frontUtilization01:0.98,understeerSeverity01:0.8) == .frontGripRelease)}
+@Test func ghostCurveDetectsPowerGainAndRisk(){var a=DynoRun(vehicleId:"x"),b=DynoRun(vehicleId:"x");a.samples=[.init(time:0,rpm:5000,wheelTorqueNm:500,wheelPowerKw:260,coolantC:105,oilC:100,oilPressureKpa:260,vibration01:0.4,differentialC:80)];b.samples=[.init(time:0,rpm:5000,wheelTorqueNm:470,wheelPowerKw:240,coolantC:90,oilC:98,oilPressureKpa:300,vibration01:0.1,differentialC:75)];let d=DynoGhostCurveAuthority.compare(current:a,baseline:b)[0];#expect(d.powerDeltaKw>0);#expect(d.riskIncreased)}
+@Test func fourSourceAudioSeparatesMechanicalSources(){let a=FourSourcePowertrainAudioAuthority.mix(rpm:6500,throttle:1,wheelSpeedMps:50,boostBar:0.8,solidLifters:true,straightCutGears:true);#expect(a.intake>0.8);#expect(a.transmission>0.5);#expect(a.valvetrain>0.5)}
+@Test func scarsPersistAsHistory(){var h=StructuralScarHistory();h.record(.init(kind:.patchWeld,location:"left quarter",severity01:0.4,createdOdometerKm:1200));#expect(h.scars.count==1);#expect(h.scars[0].location=="left quarter")}

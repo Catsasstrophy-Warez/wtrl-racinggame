@@ -1,0 +1,2359 @@
+{
+  "schema": 1,
+  "source": "Swift catalogs",
+  "vehicles": [
+    {
+      "id": "1967_crownfire_original",
+      "displayName": "1967 Crownfire Original",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1968_crownfire_king",
+      "displayName": "1968 Crownfire King",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1970_crownfire_grand",
+      "displayName": "1970 Crownfire Grand",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2008_crownfire_rebirth",
+      "displayName": "2008 Crownfire Rebirth",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2011_crownfire_evolution",
+      "displayName": "2011 Crownfire Evolution",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2014_crownfire_hammer",
+      "displayName": "2014 Crownfire Hammer",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2022_crownfire_apex",
+      "displayName": "2022 Crownfire Apex",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "crownfire_exp_laboratory",
+      "displayName": "Crownfire EXP Laboratory",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "legend_gt_x_bloodline_zero",
+      "displayName": "Legend GT-X Bloodline Zero",
+      "generation": "hero",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "sentinel_county_v8",
+      "displayName": "Sentinel County V8",
+      "generation": "enforcement",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "vector_highway_interceptor",
+      "displayName": "Vector Highway Interceptor",
+      "generation": "enforcement",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "rhino_heavy_containment",
+      "displayName": "Rhino Heavy Containment",
+      "generation": "enforcement",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "phantom_special_response",
+      "displayName": "Phantom Special Response",
+      "generation": "enforcement",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "apex_state_hunter",
+      "displayName": "Apex State Hunter",
+      "generation": "enforcement",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1968_charger_r_t",
+      "displayName": "1968 Charger R/T",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_charger_daytona",
+      "displayName": "1969 Charger Daytona",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1970_challenger_r_t_six_pack",
+      "displayName": "1970 Challenger R/T Six Pack",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1978_magnum_xe",
+      "displayName": "1978 Magnum XE",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1986_shelby_charger_glh_s",
+      "displayName": "1986 Shelby Charger GLH-S",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1999_charger_r_t_concept",
+      "displayName": "1999 Charger R/T Concept",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2006_charger_srt8",
+      "displayName": "2006 Charger SRT8",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2015_challenger_srt_hellcat",
+      "displayName": "2015 Challenger SRT Hellcat",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2023_challenger_srt_demon_170",
+      "displayName": "2023 Challenger SRT Demon 170",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1992_viper_rt_10",
+      "displayName": "1992 Viper RT/10",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1996_viper_gts",
+      "displayName": "1996 Viper GTS",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1998_viper_gts_r_homologation",
+      "displayName": "1998 Viper GTS-R Homologation",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1999_viper_acr",
+      "displayName": "1999 Viper ACR",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2003_viper_srt10_roadster",
+      "displayName": "2003 Viper SRT10 Roadster",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2006_viper_srt10_coupe",
+      "displayName": "2006 Viper SRT10 Coupe",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2008_viper_srt10_acr",
+      "displayName": "2008 Viper SRT10 ACR",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2014_srt_viper_gts",
+      "displayName": "2014 SRT Viper GTS",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2017_viper_acr_extreme_aero",
+      "displayName": "2017 Viper ACR Extreme Aero",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1967_camaro_ss_396",
+      "displayName": "1967 Camaro SS 396",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_camaro_copo_9561",
+      "displayName": "1969 Camaro COPO 9561",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1970_chevelle_ss_454",
+      "displayName": "1970 Chevelle SS 454",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1979_camaro_z28",
+      "displayName": "1979 Camaro Z28",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1985_camaro_iroc_z",
+      "displayName": "1985 Camaro IROC-Z",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1997_camaro_ss",
+      "displayName": "1997 Camaro SS",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2002_camaro_z28_35th",
+      "displayName": "2002 Camaro Z28 35th",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2014_camaro_z_28",
+      "displayName": "2014 Camaro Z/28",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_camaro_zl1_1le",
+      "displayName": "2024 Camaro ZL1 1LE",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1963_corvette_split_window",
+      "displayName": "1963 Corvette Split-Window",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1967_corvette_427_l88",
+      "displayName": "1967 Corvette 427 L88",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_corvette_stingray_427",
+      "displayName": "1969 Corvette Stingray 427",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1982_corvette_collector_edition",
+      "displayName": "1982 Corvette Collector Edition",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1990_corvette_zr_1",
+      "displayName": "1990 Corvette ZR-1",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1996_corvette_grand_sport",
+      "displayName": "1996 Corvette Grand Sport",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2002_corvette_z06",
+      "displayName": "2002 Corvette Z06",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2009_corvette_zr1",
+      "displayName": "2009 Corvette ZR1",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2023_corvette_z06",
+      "displayName": "2023 Corvette Z06",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1965_gto_tri_power",
+      "displayName": "1965 GTO Tri-Power",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_gto_judge",
+      "displayName": "1969 GTO Judge",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1973_firebird_trans_am_sd_455",
+      "displayName": "1973 Firebird Trans Am SD-455",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1977_firebird_trans_am",
+      "displayName": "1977 Firebird Trans Am",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1989_trans_am_20th_anniversary",
+      "displayName": "1989 Trans Am 20th Anniversary",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1996_firebird_formula_ws6",
+      "displayName": "1996 Firebird Formula WS6",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2002_firebird_trans_am_ws6",
+      "displayName": "2002 Firebird Trans Am WS6",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2006_gto",
+      "displayName": "2006 GTO",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2009_g8_gxp",
+      "displayName": "2009 G8 GXP",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1959_eldorado_biarritz",
+      "displayName": "1959 Eldorado Biarritz",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1970_coupe_deville",
+      "displayName": "1970 Coupe DeVille",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1976_eldorado_convertible",
+      "displayName": "1976 Eldorado Convertible",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1982_eldorado_touring_coupe",
+      "displayName": "1982 Eldorado Touring Coupe",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1993_allante",
+      "displayName": "1993 Allante",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2004_cts_v",
+      "displayName": "2004 CTS-V",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2009_cts_v",
+      "displayName": "2009 CTS-V",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2016_cts_v",
+      "displayName": "2016 CTS-V",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_ct5_v_blackwing",
+      "displayName": "2024 CT5-V Blackwing",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1956_continental_mark_ii",
+      "displayName": "1956 Continental Mark II",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_continental_mark_iii",
+      "displayName": "1969 Continental Mark III",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1976_continental_mark_iv",
+      "displayName": "1976 Continental Mark IV",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1980_continental_mark_vi",
+      "displayName": "1980 Continental Mark VI",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1984_mark_vii_turbo_diesel",
+      "displayName": "1984 Mark VII Turbo Diesel",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1990_mark_vii_lsc",
+      "displayName": "1990 Mark VII LSC",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1998_mark_viii_lsc",
+      "displayName": "1998 Mark VIII LSC",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2017_mkz_3_0t_awd",
+      "displayName": "2017 MKZ 3.0T AWD",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2020_continental_black_label",
+      "displayName": "2020 Continental Black Label",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_fairlady_2000",
+      "displayName": "1969 Fairlady 2000",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1971_240z",
+      "displayName": "1971 240Z",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1974_260z",
+      "displayName": "1974 260Z",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1978_280z",
+      "displayName": "1978 280Z",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1979_280zx",
+      "displayName": "1979 280ZX",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1982_280zx_turbo",
+      "displayName": "1982 280ZX Turbo",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1986_300zx_turbo_z31",
+      "displayName": "1986 300ZX Turbo Z31",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1990_300zx_twin_turbo_z32",
+      "displayName": "1990 300ZX Twin Turbo Z32",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_nissan_z_performance",
+      "displayName": "2024 Nissan Z Performance",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_skyline_2000gt_r_sedan",
+      "displayName": "1969 Skyline 2000GT-R Sedan",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1971_skyline_2000gt_r_coupe",
+      "displayName": "1971 Skyline 2000GT-R Coupe",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1973_skyline_2000gt_r_kenmeri",
+      "displayName": "1973 Skyline 2000GT-R Kenmeri",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1983_skyline_2000_turbo_rs_x",
+      "displayName": "1983 Skyline 2000 Turbo RS-X",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1987_skyline_gts_r",
+      "displayName": "1987 Skyline GTS-R",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1994_skyline_gt_r_bnr32",
+      "displayName": "1994 Skyline GT-R BNR32",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1997_skyline_gt_r_v_spec",
+      "displayName": "1997 Skyline GT-R V-Spec",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2002_skyline_gt_r_v_spec_ii",
+      "displayName": "2002 Skyline GT-R V-Spec II",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_gt_r_nismo",
+      "displayName": "2024 GT-R Nismo",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1967_toyota_2000gt",
+      "displayName": "1967 Toyota 2000GT",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1979_celica_supra",
+      "displayName": "1979 Celica Supra",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1985_celica_supra",
+      "displayName": "1985 Celica Supra",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1987_supra_3_0gt_turbo",
+      "displayName": "1987 Supra 3.0GT Turbo",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1990_supra_2_5gt_twin_turbo_r",
+      "displayName": "1990 Supra 2.5GT Twin Turbo R",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1993_supra_twin_turbo",
+      "displayName": "1993 Supra Twin Turbo",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1997_supra_turbo_15th",
+      "displayName": "1997 Supra Turbo 15th",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2020_gr_supra_3_0",
+      "displayName": "2020 GR Supra 3.0",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_gr_supra_3_0_manual",
+      "displayName": "2024 GR Supra 3.0 Manual",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1972_celica_1600gt",
+      "displayName": "1972 Celica 1600GT",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1974_corolla_levin_te27",
+      "displayName": "1974 Corolla Levin TE27",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1980_corolla_levin_te71",
+      "displayName": "1980 Corolla Levin TE71",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1985_sprinter_trueno_ae86",
+      "displayName": "1985 Sprinter Trueno AE86",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1988_corolla_levin_gt_z",
+      "displayName": "1988 Corolla Levin GT-Z",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1995_sprinter_trueno_ae111",
+      "displayName": "1995 Sprinter Trueno AE111",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1999_altezza_rs200",
+      "displayName": "1999 Altezza RS200",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2013_toyota_86",
+      "displayName": "2013 Toyota 86",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_gr86",
+      "displayName": "2024 GR86",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1985_crx_si",
+      "displayName": "1985 CRX Si",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1988_civic_si_ef3",
+      "displayName": "1988 Civic Si EF3",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1991_crx_sir_ef8",
+      "displayName": "1991 CRX SiR EF8",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1995_civic_sir_ii_eg6",
+      "displayName": "1995 Civic SiR II EG6",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1997_integra_type_r_dc2",
+      "displayName": "1997 Integra Type R DC2",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1998_civic_type_r_ek9",
+      "displayName": "1998 Civic Type R EK9",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2004_civic_type_r_ep3",
+      "displayName": "2004 Civic Type R EP3",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2007_civic_type_r_fd2",
+      "displayName": "2007 Civic Type R FD2",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_civic_type_r_fl5",
+      "displayName": "2024 Civic Type R FL5",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1973_bmw_3_0_csl",
+      "displayName": "1973 BMW 3.0 CSL",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1974_bmw_2002_turbo",
+      "displayName": "1974 BMW 2002 Turbo",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1980_bmw_m1",
+      "displayName": "1980 BMW M1",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1988_bmw_m3_e30",
+      "displayName": "1988 BMW M3 E30",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1990_m3_sport_evolution",
+      "displayName": "1990 M3 Sport Evolution",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1995_m3_e36_3_2",
+      "displayName": "1995 M3 E36 3.2",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2003_m3_e46",
+      "displayName": "2003 M3 E46",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2011_1_series_m_coupe",
+      "displayName": "2011 1 Series M Coupe",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_m4_competition",
+      "displayName": "2024 M4 Competition",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1967_911s",
+      "displayName": "1967 911S",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1973_911_carrera_rs_2_7",
+      "displayName": "1973 911 Carrera RS 2.7",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1984_911_carrera_3_2",
+      "displayName": "1984 911 Carrera 3.2",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1989_911_turbo_3_3",
+      "displayName": "1989 911 Turbo 3.3",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1992_911_carrera_rs_964",
+      "displayName": "1992 911 Carrera RS 964",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1996_911_gt2_993",
+      "displayName": "1996 911 GT2 993",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2004_911_gt3_rs_996",
+      "displayName": "2004 911 GT3 RS 996",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2011_911_gt3_rs_4_0",
+      "displayName": "2011 911 GT3 RS 4.0",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_911_gt3_rs_992",
+      "displayName": "2024 911 GT3 RS 992",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1964_galaxie_500_lightweight_427_sohc",
+      "displayName": "1964 Galaxie 500 Lightweight 427 SOHC",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_torino_talladega_428cj",
+      "displayName": "1969 Torino Talladega 428CJ",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1973_falcon_xb_gt_coupe",
+      "displayName": "1973 Falcon XB GT Coupe",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1985_ltd_lx_5_0_sedan",
+      "displayName": "1985 LTD LX 5.0 Sedan",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1991_crown_victoria_p72_interceptor",
+      "displayName": "1991 Crown Victoria P72 Interceptor",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1993_thunderbird_super_coupe",
+      "displayName": "1993 Thunderbird Super Coupe",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2003_marauder_falcon_ba_xr8",
+      "displayName": "2003 Marauder / Falcon BA XR8",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2014_falcon_fg_x_xr8",
+      "displayName": "2014 Falcon FG X XR8",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2023_police_interceptor_utility",
+      "displayName": "2023 Police Interceptor Utility",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1965_lotus_cortina_mk1",
+      "displayName": "1965 Lotus Cortina Mk1",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1970_escort_rs1600_bda",
+      "displayName": "1970 Escort RS1600 BDA",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1973_capri_rs3100_cologne",
+      "displayName": "1973 Capri RS3100 Cologne",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1986_sierra_rs_cosworth_rs500",
+      "displayName": "1986 Sierra RS Cosworth RS500",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1989_taurus_sho",
+      "displayName": "1989 Taurus SHO",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1994_escort_rs_cosworth",
+      "displayName": "1994 Escort RS Cosworth",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2003_focus_rs_mk1",
+      "displayName": "2003 Focus RS Mk1",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2016_focus_rs_mk3",
+      "displayName": "2016 Focus RS Mk3",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_puma_st",
+      "displayName": "2024 Puma ST",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1966_gt40_mk_ii",
+      "displayName": "1966 GT40 Mk II",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1967_gt40_mk_iv",
+      "displayName": "1967 GT40 Mk IV",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1972_de_tomaso_pantera_gts",
+      "displayName": "1972 De Tomaso Pantera GTS",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1986_rs200_evolution",
+      "displayName": "1986 RS200 Evolution",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1990_supervan_3",
+      "displayName": "1990 Supervan 3",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1995_gt90_concept",
+      "displayName": "1995 GT90 Concept",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2005_ford_gt",
+      "displayName": "2005 Ford GT",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2016_ford_gt_gte",
+      "displayName": "2016 Ford GT GTE",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2023_ford_gt_mk_iv",
+      "displayName": "2023 Ford GT Mk IV",
+      "generation": "heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1965_shelby_gt350_reference",
+      "displayName": "1965 Shelby GT350 reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1968_shelby_gt500_kr_reference",
+      "displayName": "1968 Shelby GT500 KR reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1969_boss_302_reference",
+      "displayName": "1969 Boss 302 reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1970_boss_429_reference",
+      "displayName": "1970 Boss 429 reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1986_mustang_svo_reference",
+      "displayName": "1986 Mustang SVO reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "1993_svt_cobra_reference",
+      "displayName": "1993 SVT Cobra reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2000_cobra_r_reference",
+      "displayName": "2000 Cobra R reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2003_svt_cobra_reference",
+      "displayName": "2003 SVT Cobra reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2019_bullitt_reference",
+      "displayName": "2019 Bullitt reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2020_shelby_gt350_reference",
+      "displayName": "2020 Shelby GT350 reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2022_shelby_gt500_reference",
+      "displayName": "2022 Shelby GT500 reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "2024_dark_horse_reference",
+      "displayName": "2024 Dark Horse reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "mustang_gtd_reference",
+      "displayName": "Mustang GTD reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    },
+    {
+      "id": "dark_horse_sc_reference",
+      "displayName": "Dark Horse SC reference",
+      "generation": "mustang_heritage",
+      "profile": {
+        "length": 4.65,
+        "width": 1.82,
+        "height": 1.28,
+        "wheelbase": 2.72,
+        "track": 1.55,
+        "wheelRadius": 0.34
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "Rev20.hero3d.v1",
+  "generationId": "hero_1968_kr",
+  "displayName": "Hero 1968 KR",
+  "nickname": "The King",
+  "years": "1968",
+  "artStatus": "procedural-production-blockout",
+  "dimensionsMeters": [
+    4.78,
+    1.81,
+    1.32
+  ],
+  "wheelbaseMeters": 2.743,
+  "trackMeters": 1.49,
+  "wheelRadiusMeters": 0.345,
+  "wheelWidthMeters": 0.215,
+  "cabinOffsetXMeters": -0.2,
+  "cabinLengthMeters": 2.15,
+  "roofEnvelopeMeters": 0.57,
+  "engine": "428 Cobra Jet",
+  "transmission": "4-speed manual",
+  "rearArchitecture": "leaf-spring live axle",
+  "audioIdentity": "ram-air Cobra Jet / deep exhaust",
+  "visualDirection": "1968 nose/tail, ram-air hood identity, KR high-speed posture",
+  "rev22Encyclopedia": {
+    "schema": "rev22-encyclopedia-1",
+    "folder": "Encyclopedia",
+    "mechanicalIdentity": "Cobra Jet thrust, ram-air character, analog chassis behavior, and stronger high-speed intent than the 1967 car.",
+    "fidelityStatus": "High for KR identity/core powertrain. Individual-car detail stays build-sheet dependent.",
+    "modules": [
+      "architecture.json",
+      "failure_library.json",
+      "service_diagnostics.json",
+      "modification_engineering.json",
+      "authenticity_provenance.json",
+      "fastener_fidelity.json",
+      "fluid_circuits.json",
+      "electrical_diagnostics.json",
+      "thermal_energy_map.json",
+      "vehicle_dynamics.json",
+      "instrumentation_channels.json",
+      "acoustic_identity.json",
+      "research_gates.json",
+      "VEHICLE-ENCYCLOPEDIA.md"
+    ]
+  }
+}

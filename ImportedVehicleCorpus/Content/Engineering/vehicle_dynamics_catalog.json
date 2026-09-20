@@ -1,0 +1,1564 @@
+{
+  "schema": "rev33.vehicle-dynamics.v2",
+  "profileCount": 9,
+  "profiles": [
+    {
+      "generationId": "hero_1967",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.41558399999999995,
+          "y": 0.8200000000000001,
+          "z": -1.4915
+        },
+        "upperInnerRear": {
+          "x": 0.41558399999999995,
+          "y": 0.8200000000000001,
+          "z": -1.2914999999999999
+        },
+        "upperOuter": {
+          "x": 0.725,
+          "y": 0.51,
+          "z": -1.3715
+        },
+        "lowerInnerFront": {
+          "x": 0.38480000000000003,
+          "y": 0.32,
+          "z": -1.5514999999999999
+        },
+        "lowerInnerRear": {
+          "x": 0.38480000000000003,
+          "y": 0.32,
+          "z": -1.1915
+        },
+        "lowerOuter": {
+          "x": 0.74,
+          "y": 0.18000000000000002,
+          "z": -1.3715
+        },
+        "tieInner": {
+          "x": 0.31079999999999997,
+          "y": 0.38,
+          "z": -1.4914999999999998
+        },
+        "tieOuter": {
+          "x": 0.74,
+          "y": 0.31000000000000005,
+          "z": -1.2914999999999999
+        },
+        "springChassis": {
+          "x": 0.5327999999999999,
+          "y": 0.8200000000000001,
+          "z": -1.3915
+        },
+        "springWheel": {
+          "x": 0.74,
+          "y": 0.18000000000000002,
+          "z": -1.3715
+        },
+        "damperChassis": {
+          "x": 0.5327999999999999,
+          "y": 0.8200000000000001,
+          "z": -1.3915
+        },
+        "damperWheel": {
+          "x": 0.74,
+          "y": 0.18000000000000002,
+          "z": -1.3715
+        },
+        "halfTrackM": 0.74,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.22,
+        "camberComplianceDegPerKN": 0.018,
+        "toeComplianceDegPerKN": 0.024,
+        "longitudinalComplianceMmPerKN": 0.14
+      },
+      "rear": {
+        "architecture": 3,
+        "upperInnerFront": {
+          "x": 0.41558399999999995,
+          "y": 0.77,
+          "z": 1.2514999999999998
+        },
+        "upperInnerRear": {
+          "x": 0.41558399999999995,
+          "y": 0.77,
+          "z": 1.4515
+        },
+        "upperOuter": {
+          "x": 0.725,
+          "y": 0.51,
+          "z": 1.3715
+        },
+        "lowerInnerFront": {
+          "x": 0.38480000000000003,
+          "y": 0.32,
+          "z": 1.1915
+        },
+        "lowerInnerRear": {
+          "x": 0.38480000000000003,
+          "y": 0.32,
+          "z": 1.5514999999999999
+        },
+        "lowerOuter": {
+          "x": 0.74,
+          "y": 0.18000000000000002,
+          "z": 1.3715
+        },
+        "tieInner": {
+          "x": 0.31079999999999997,
+          "y": 0.38,
+          "z": 1.3715
+        },
+        "tieOuter": {
+          "x": 0.74,
+          "y": 0.31000000000000005,
+          "z": 1.4515
+        },
+        "springChassis": {
+          "x": 0.5327999999999999,
+          "y": 0.77,
+          "z": 1.3515
+        },
+        "springWheel": {
+          "x": 0.74,
+          "y": 0.18000000000000002,
+          "z": 1.3715
+        },
+        "damperChassis": {
+          "x": 0.5327999999999999,
+          "y": 0.77,
+          "z": 1.3515
+        },
+        "damperWheel": {
+          "x": 0.74,
+          "y": 0.18000000000000002,
+          "z": 1.3715
+        },
+        "halfTrackM": 0.74,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.22,
+        "camberComplianceDegPerKN": 0.018,
+        "toeComplianceDegPerKN": 0.024,
+        "longitudinalComplianceMmPerKN": 0.14
+      },
+      "tire": {
+        "referenceLoadN": 3900,
+        "referencePressureKpa": 205,
+        "optimalTemperatureC": 72,
+        "temperatureWindowC": 45,
+        "peakMu": 1.02,
+        "loadSensitivity": 0.15,
+        "longitudinalB": 8.8,
+        "longitudinalC": 1.55,
+        "longitudinalE": 0.32,
+        "lateralB": 6.8,
+        "lateralC": 1.3,
+        "lateralE": -0.08,
+        "camberThrustPerDeg": 0.009,
+        "pressureSensitivity": 0.25,
+        "wearGripLoss": 0.34,
+        "wetGripLoss": 0.42,
+        "treadWaterResistance": 0.68,
+        "aquaplaningSpeedKphAt220Kpa": 82,
+        "longitudinalRelaxationLengthM": 0.48,
+        "lateralRelaxationLengthM": 0.42,
+        "treadDepthMm": 7.8,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.014,
+        "pneumaticTrailM": 0.052,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 175000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.62
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "hero_1968_kr",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.418392,
+          "y": 0.825,
+          "z": -1.4915
+        },
+        "upperInnerRear": {
+          "x": 0.418392,
+          "y": 0.825,
+          "z": -1.2914999999999999
+        },
+        "upperOuter": {
+          "x": 0.73,
+          "y": 0.515,
+          "z": -1.3715
+        },
+        "lowerInnerFront": {
+          "x": 0.3874,
+          "y": 0.32499999999999996,
+          "z": -1.5514999999999999
+        },
+        "lowerInnerRear": {
+          "x": 0.3874,
+          "y": 0.32499999999999996,
+          "z": -1.1915
+        },
+        "lowerOuter": {
+          "x": 0.745,
+          "y": 0.18499999999999997,
+          "z": -1.3715
+        },
+        "tieInner": {
+          "x": 0.3129,
+          "y": 0.38499999999999995,
+          "z": -1.4914999999999998
+        },
+        "tieOuter": {
+          "x": 0.745,
+          "y": 0.31499999999999995,
+          "z": -1.2914999999999999
+        },
+        "springChassis": {
+          "x": 0.5364,
+          "y": 0.825,
+          "z": -1.3915
+        },
+        "springWheel": {
+          "x": 0.745,
+          "y": 0.18499999999999997,
+          "z": -1.3715
+        },
+        "damperChassis": {
+          "x": 0.5364,
+          "y": 0.825,
+          "z": -1.3915
+        },
+        "damperWheel": {
+          "x": 0.745,
+          "y": 0.18499999999999997,
+          "z": -1.3715
+        },
+        "halfTrackM": 0.745,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.22,
+        "camberComplianceDegPerKN": 0.018,
+        "toeComplianceDegPerKN": 0.024,
+        "longitudinalComplianceMmPerKN": 0.14
+      },
+      "rear": {
+        "architecture": 3,
+        "upperInnerFront": {
+          "x": 0.418392,
+          "y": 0.7749999999999999,
+          "z": 1.2514999999999998
+        },
+        "upperInnerRear": {
+          "x": 0.418392,
+          "y": 0.7749999999999999,
+          "z": 1.4515
+        },
+        "upperOuter": {
+          "x": 0.73,
+          "y": 0.515,
+          "z": 1.3715
+        },
+        "lowerInnerFront": {
+          "x": 0.3874,
+          "y": 0.32499999999999996,
+          "z": 1.1915
+        },
+        "lowerInnerRear": {
+          "x": 0.3874,
+          "y": 0.32499999999999996,
+          "z": 1.5514999999999999
+        },
+        "lowerOuter": {
+          "x": 0.745,
+          "y": 0.18499999999999997,
+          "z": 1.3715
+        },
+        "tieInner": {
+          "x": 0.3129,
+          "y": 0.38499999999999995,
+          "z": 1.3715
+        },
+        "tieOuter": {
+          "x": 0.745,
+          "y": 0.31499999999999995,
+          "z": 1.4515
+        },
+        "springChassis": {
+          "x": 0.5364,
+          "y": 0.7749999999999999,
+          "z": 1.3515
+        },
+        "springWheel": {
+          "x": 0.745,
+          "y": 0.18499999999999997,
+          "z": 1.3715
+        },
+        "damperChassis": {
+          "x": 0.5364,
+          "y": 0.7749999999999999,
+          "z": 1.3515
+        },
+        "damperWheel": {
+          "x": 0.745,
+          "y": 0.18499999999999997,
+          "z": 1.3715
+        },
+        "halfTrackM": 0.745,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.22,
+        "camberComplianceDegPerKN": 0.018,
+        "toeComplianceDegPerKN": 0.024,
+        "longitudinalComplianceMmPerKN": 0.14
+      },
+      "tire": {
+        "referenceLoadN": 3900,
+        "referencePressureKpa": 205,
+        "optimalTemperatureC": 72,
+        "temperatureWindowC": 45,
+        "peakMu": 1.02,
+        "loadSensitivity": 0.15,
+        "longitudinalB": 8.8,
+        "longitudinalC": 1.55,
+        "longitudinalE": 0.32,
+        "lateralB": 6.8,
+        "lateralC": 1.3,
+        "lateralE": -0.08,
+        "camberThrustPerDeg": 0.009,
+        "pressureSensitivity": 0.25,
+        "wearGripLoss": 0.34,
+        "wetGripLoss": 0.42,
+        "treadWaterResistance": 0.68,
+        "aquaplaningSpeedKphAt220Kpa": 82,
+        "longitudinalRelaxationLengthM": 0.48,
+        "lateralRelaxationLengthM": 0.42,
+        "treadDepthMm": 7.8,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.014,
+        "pneumaticTrailM": 0.052,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 175000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.62
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "hero_1969_70",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.424008,
+          "y": 0.83,
+          "z": -1.4915
+        },
+        "upperInnerRear": {
+          "x": 0.424008,
+          "y": 0.83,
+          "z": -1.2914999999999999
+        },
+        "upperOuter": {
+          "x": 0.74,
+          "y": 0.52,
+          "z": -1.3715
+        },
+        "lowerInnerFront": {
+          "x": 0.3926,
+          "y": 0.32999999999999996,
+          "z": -1.5514999999999999
+        },
+        "lowerInnerRear": {
+          "x": 0.3926,
+          "y": 0.32999999999999996,
+          "z": -1.1915
+        },
+        "lowerOuter": {
+          "x": 0.755,
+          "y": 0.18999999999999997,
+          "z": -1.3715
+        },
+        "tieInner": {
+          "x": 0.3171,
+          "y": 0.38999999999999996,
+          "z": -1.4914999999999998
+        },
+        "tieOuter": {
+          "x": 0.755,
+          "y": 0.31999999999999995,
+          "z": -1.2914999999999999
+        },
+        "springChassis": {
+          "x": 0.5436,
+          "y": 0.83,
+          "z": -1.3915
+        },
+        "springWheel": {
+          "x": 0.755,
+          "y": 0.18999999999999997,
+          "z": -1.3715
+        },
+        "damperChassis": {
+          "x": 0.5436,
+          "y": 0.83,
+          "z": -1.3915
+        },
+        "damperWheel": {
+          "x": 0.755,
+          "y": 0.18999999999999997,
+          "z": -1.3715
+        },
+        "halfTrackM": 0.755,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.22,
+        "camberComplianceDegPerKN": 0.018,
+        "toeComplianceDegPerKN": 0.024,
+        "longitudinalComplianceMmPerKN": 0.14
+      },
+      "rear": {
+        "architecture": 3,
+        "upperInnerFront": {
+          "x": 0.424008,
+          "y": 0.78,
+          "z": 1.2514999999999998
+        },
+        "upperInnerRear": {
+          "x": 0.424008,
+          "y": 0.78,
+          "z": 1.4515
+        },
+        "upperOuter": {
+          "x": 0.74,
+          "y": 0.52,
+          "z": 1.3715
+        },
+        "lowerInnerFront": {
+          "x": 0.3926,
+          "y": 0.32999999999999996,
+          "z": 1.1915
+        },
+        "lowerInnerRear": {
+          "x": 0.3926,
+          "y": 0.32999999999999996,
+          "z": 1.5514999999999999
+        },
+        "lowerOuter": {
+          "x": 0.755,
+          "y": 0.18999999999999997,
+          "z": 1.3715
+        },
+        "tieInner": {
+          "x": 0.3171,
+          "y": 0.38999999999999996,
+          "z": 1.3715
+        },
+        "tieOuter": {
+          "x": 0.755,
+          "y": 0.31999999999999995,
+          "z": 1.4515
+        },
+        "springChassis": {
+          "x": 0.5436,
+          "y": 0.78,
+          "z": 1.3515
+        },
+        "springWheel": {
+          "x": 0.755,
+          "y": 0.18999999999999997,
+          "z": 1.3715
+        },
+        "damperChassis": {
+          "x": 0.5436,
+          "y": 0.78,
+          "z": 1.3515
+        },
+        "damperWheel": {
+          "x": 0.755,
+          "y": 0.18999999999999997,
+          "z": 1.3715
+        },
+        "halfTrackM": 0.755,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.22,
+        "camberComplianceDegPerKN": 0.018,
+        "toeComplianceDegPerKN": 0.024,
+        "longitudinalComplianceMmPerKN": 0.14
+      },
+      "tire": {
+        "referenceLoadN": 3900,
+        "referencePressureKpa": 205,
+        "optimalTemperatureC": 72,
+        "temperatureWindowC": 45,
+        "peakMu": 1.02,
+        "loadSensitivity": 0.15,
+        "longitudinalB": 8.8,
+        "longitudinalC": 1.55,
+        "longitudinalE": 0.32,
+        "lateralB": 6.8,
+        "lateralC": 1.3,
+        "lateralE": -0.08,
+        "camberThrustPerDeg": 0.009,
+        "pressureSensitivity": 0.25,
+        "wearGripLoss": 0.34,
+        "wetGripLoss": 0.42,
+        "treadWaterResistance": 0.68,
+        "aquaplaningSpeedKphAt220Kpa": 82,
+        "longitudinalRelaxationLengthM": 0.48,
+        "lateralRelaxationLengthM": 0.42,
+        "treadDepthMm": 7.8,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.014,
+        "pneumaticTrailM": 0.052,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 175000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.62
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "hero_2007_09",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.443664,
+          "y": 0.845,
+          "z": -1.4800000000000002
+        },
+        "upperInnerRear": {
+          "x": 0.443664,
+          "y": 0.845,
+          "z": -1.28
+        },
+        "upperOuter": {
+          "x": 0.775,
+          "y": 0.535,
+          "z": -1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.41080000000000005,
+          "y": 0.345,
+          "z": -1.54
+        },
+        "lowerInnerRear": {
+          "x": 0.41080000000000005,
+          "y": 0.345,
+          "z": -1.1800000000000002
+        },
+        "lowerOuter": {
+          "x": 0.79,
+          "y": 0.205,
+          "z": -1.36
+        },
+        "tieInner": {
+          "x": 0.3318,
+          "y": 0.40499999999999997,
+          "z": -1.48
+        },
+        "tieOuter": {
+          "x": 0.79,
+          "y": 0.33499999999999996,
+          "z": -1.28
+        },
+        "springChassis": {
+          "x": 0.5688,
+          "y": 0.845,
+          "z": -1.3800000000000001
+        },
+        "springWheel": {
+          "x": 0.79,
+          "y": 0.205,
+          "z": -1.36
+        },
+        "damperChassis": {
+          "x": 0.5688,
+          "y": 0.845,
+          "z": -1.3800000000000001
+        },
+        "damperWheel": {
+          "x": 0.79,
+          "y": 0.205,
+          "z": -1.36
+        },
+        "halfTrackM": 0.79,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.14,
+        "camberComplianceDegPerKN": 0.012,
+        "toeComplianceDegPerKN": 0.016,
+        "longitudinalComplianceMmPerKN": 0.09
+      },
+      "rear": {
+        "architecture": 4,
+        "upperInnerFront": {
+          "x": 0.443664,
+          "y": 0.7949999999999999,
+          "z": 1.24
+        },
+        "upperInnerRear": {
+          "x": 0.443664,
+          "y": 0.7949999999999999,
+          "z": 1.4400000000000002
+        },
+        "upperOuter": {
+          "x": 0.775,
+          "y": 0.535,
+          "z": 1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.41080000000000005,
+          "y": 0.345,
+          "z": 1.1800000000000002
+        },
+        "lowerInnerRear": {
+          "x": 0.41080000000000005,
+          "y": 0.345,
+          "z": 1.54
+        },
+        "lowerOuter": {
+          "x": 0.79,
+          "y": 0.205,
+          "z": 1.36
+        },
+        "tieInner": {
+          "x": 0.3318,
+          "y": 0.40499999999999997,
+          "z": 1.36
+        },
+        "tieOuter": {
+          "x": 0.79,
+          "y": 0.33499999999999996,
+          "z": 1.4400000000000002
+        },
+        "springChassis": {
+          "x": 0.5688,
+          "y": 0.7949999999999999,
+          "z": 1.34
+        },
+        "springWheel": {
+          "x": 0.79,
+          "y": 0.205,
+          "z": 1.36
+        },
+        "damperChassis": {
+          "x": 0.5688,
+          "y": 0.7949999999999999,
+          "z": 1.34
+        },
+        "damperWheel": {
+          "x": 0.79,
+          "y": 0.205,
+          "z": 1.36
+        },
+        "halfTrackM": 0.79,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.14,
+        "camberComplianceDegPerKN": 0.012,
+        "toeComplianceDegPerKN": 0.016,
+        "longitudinalComplianceMmPerKN": 0.09
+      },
+      "tire": {
+        "referenceLoadN": 4300,
+        "referencePressureKpa": 225,
+        "optimalTemperatureC": 82,
+        "temperatureWindowC": 38,
+        "peakMu": 1.18,
+        "loadSensitivity": 0.12,
+        "longitudinalB": 10.5,
+        "longitudinalC": 1.62,
+        "longitudinalE": 0.22,
+        "lateralB": 8.2,
+        "lateralC": 1.38,
+        "lateralE": -0.12,
+        "camberThrustPerDeg": 0.011,
+        "pressureSensitivity": 0.21,
+        "wearGripLoss": 0.37,
+        "wetGripLoss": 0.46,
+        "treadWaterResistance": 0.58,
+        "aquaplaningSpeedKphAt220Kpa": 92,
+        "longitudinalRelaxationLengthM": 0.34,
+        "lateralRelaxationLengthM": 0.3,
+        "treadDepthMm": 7.4,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.0125,
+        "pneumaticTrailM": 0.045,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 210000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.7
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "hero_2010_12",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.44647200000000004,
+          "y": 0.855,
+          "z": -1.4800000000000002
+        },
+        "upperInnerRear": {
+          "x": 0.44647200000000004,
+          "y": 0.855,
+          "z": -1.28
+        },
+        "upperOuter": {
+          "x": 0.78,
+          "y": 0.545,
+          "z": -1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.41340000000000005,
+          "y": 0.355,
+          "z": -1.54
+        },
+        "lowerInnerRear": {
+          "x": 0.41340000000000005,
+          "y": 0.355,
+          "z": -1.1800000000000002
+        },
+        "lowerOuter": {
+          "x": 0.795,
+          "y": 0.215,
+          "z": -1.36
+        },
+        "tieInner": {
+          "x": 0.33390000000000003,
+          "y": 0.415,
+          "z": -1.48
+        },
+        "tieOuter": {
+          "x": 0.795,
+          "y": 0.345,
+          "z": -1.28
+        },
+        "springChassis": {
+          "x": 0.5724,
+          "y": 0.855,
+          "z": -1.3800000000000001
+        },
+        "springWheel": {
+          "x": 0.795,
+          "y": 0.215,
+          "z": -1.36
+        },
+        "damperChassis": {
+          "x": 0.5724,
+          "y": 0.855,
+          "z": -1.3800000000000001
+        },
+        "damperWheel": {
+          "x": 0.795,
+          "y": 0.215,
+          "z": -1.36
+        },
+        "halfTrackM": 0.795,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.14,
+        "camberComplianceDegPerKN": 0.012,
+        "toeComplianceDegPerKN": 0.016,
+        "longitudinalComplianceMmPerKN": 0.09
+      },
+      "rear": {
+        "architecture": 4,
+        "upperInnerFront": {
+          "x": 0.44647200000000004,
+          "y": 0.8049999999999999,
+          "z": 1.24
+        },
+        "upperInnerRear": {
+          "x": 0.44647200000000004,
+          "y": 0.8049999999999999,
+          "z": 1.4400000000000002
+        },
+        "upperOuter": {
+          "x": 0.78,
+          "y": 0.545,
+          "z": 1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.41340000000000005,
+          "y": 0.355,
+          "z": 1.1800000000000002
+        },
+        "lowerInnerRear": {
+          "x": 0.41340000000000005,
+          "y": 0.355,
+          "z": 1.54
+        },
+        "lowerOuter": {
+          "x": 0.795,
+          "y": 0.215,
+          "z": 1.36
+        },
+        "tieInner": {
+          "x": 0.33390000000000003,
+          "y": 0.415,
+          "z": 1.36
+        },
+        "tieOuter": {
+          "x": 0.795,
+          "y": 0.345,
+          "z": 1.4400000000000002
+        },
+        "springChassis": {
+          "x": 0.5724,
+          "y": 0.8049999999999999,
+          "z": 1.34
+        },
+        "springWheel": {
+          "x": 0.795,
+          "y": 0.215,
+          "z": 1.36
+        },
+        "damperChassis": {
+          "x": 0.5724,
+          "y": 0.8049999999999999,
+          "z": 1.34
+        },
+        "damperWheel": {
+          "x": 0.795,
+          "y": 0.215,
+          "z": 1.36
+        },
+        "halfTrackM": 0.795,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.14,
+        "camberComplianceDegPerKN": 0.012,
+        "toeComplianceDegPerKN": 0.016,
+        "longitudinalComplianceMmPerKN": 0.09
+      },
+      "tire": {
+        "referenceLoadN": 4300,
+        "referencePressureKpa": 225,
+        "optimalTemperatureC": 82,
+        "temperatureWindowC": 38,
+        "peakMu": 1.18,
+        "loadSensitivity": 0.12,
+        "longitudinalB": 10.5,
+        "longitudinalC": 1.62,
+        "longitudinalE": 0.22,
+        "lateralB": 8.2,
+        "lateralC": 1.38,
+        "lateralE": -0.12,
+        "camberThrustPerDeg": 0.011,
+        "pressureSensitivity": 0.21,
+        "wearGripLoss": 0.37,
+        "wetGripLoss": 0.46,
+        "treadWaterResistance": 0.58,
+        "aquaplaningSpeedKphAt220Kpa": 92,
+        "longitudinalRelaxationLengthM": 0.34,
+        "lateralRelaxationLengthM": 0.3,
+        "treadDepthMm": 7.4,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.0125,
+        "pneumaticTrailM": 0.045,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 210000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.7
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "hero_2013_14",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.44927999999999996,
+          "y": 0.87,
+          "z": -1.4800000000000002
+        },
+        "upperInnerRear": {
+          "x": 0.44927999999999996,
+          "y": 0.87,
+          "z": -1.28
+        },
+        "upperOuter": {
+          "x": 0.785,
+          "y": 0.56,
+          "z": -1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.41600000000000004,
+          "y": 0.37,
+          "z": -1.54
+        },
+        "lowerInnerRear": {
+          "x": 0.41600000000000004,
+          "y": 0.37,
+          "z": -1.1800000000000002
+        },
+        "lowerOuter": {
+          "x": 0.8,
+          "y": 0.23,
+          "z": -1.36
+        },
+        "tieInner": {
+          "x": 0.336,
+          "y": 0.43,
+          "z": -1.48
+        },
+        "tieOuter": {
+          "x": 0.8,
+          "y": 0.36,
+          "z": -1.28
+        },
+        "springChassis": {
+          "x": 0.576,
+          "y": 0.87,
+          "z": -1.3800000000000001
+        },
+        "springWheel": {
+          "x": 0.8,
+          "y": 0.23,
+          "z": -1.36
+        },
+        "damperChassis": {
+          "x": 0.576,
+          "y": 0.87,
+          "z": -1.3800000000000001
+        },
+        "damperWheel": {
+          "x": 0.8,
+          "y": 0.23,
+          "z": -1.36
+        },
+        "halfTrackM": 0.8,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "rear": {
+        "architecture": 4,
+        "upperInnerFront": {
+          "x": 0.44927999999999996,
+          "y": 0.8200000000000001,
+          "z": 1.24
+        },
+        "upperInnerRear": {
+          "x": 0.44927999999999996,
+          "y": 0.8200000000000001,
+          "z": 1.4400000000000002
+        },
+        "upperOuter": {
+          "x": 0.785,
+          "y": 0.56,
+          "z": 1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.41600000000000004,
+          "y": 0.37,
+          "z": 1.1800000000000002
+        },
+        "lowerInnerRear": {
+          "x": 0.41600000000000004,
+          "y": 0.37,
+          "z": 1.54
+        },
+        "lowerOuter": {
+          "x": 0.8,
+          "y": 0.23,
+          "z": 1.36
+        },
+        "tieInner": {
+          "x": 0.336,
+          "y": 0.43,
+          "z": 1.36
+        },
+        "tieOuter": {
+          "x": 0.8,
+          "y": 0.36,
+          "z": 1.4400000000000002
+        },
+        "springChassis": {
+          "x": 0.576,
+          "y": 0.8200000000000001,
+          "z": 1.34
+        },
+        "springWheel": {
+          "x": 0.8,
+          "y": 0.23,
+          "z": 1.36
+        },
+        "damperChassis": {
+          "x": 0.576,
+          "y": 0.8200000000000001,
+          "z": 1.34
+        },
+        "damperWheel": {
+          "x": 0.8,
+          "y": 0.23,
+          "z": 1.36
+        },
+        "halfTrackM": 0.8,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "tire": {
+        "referenceLoadN": 4500,
+        "referencePressureKpa": 230,
+        "optimalTemperatureC": 88,
+        "temperatureWindowC": 34,
+        "peakMu": 1.32,
+        "loadSensitivity": 0.105,
+        "longitudinalB": 12.2,
+        "longitudinalC": 1.66,
+        "longitudinalE": 0.18,
+        "lateralB": 9.7,
+        "lateralC": 1.42,
+        "lateralE": -0.18,
+        "camberThrustPerDeg": 0.014,
+        "pressureSensitivity": 0.18,
+        "wearGripLoss": 0.4,
+        "wetGripLoss": 0.5,
+        "treadWaterResistance": 0.5,
+        "aquaplaningSpeedKphAt220Kpa": 98,
+        "longitudinalRelaxationLengthM": 0.27,
+        "lateralRelaxationLengthM": 0.23,
+        "treadDepthMm": 7.0,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.011,
+        "pneumaticTrailM": 0.038,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 245000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.7
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "hero_2020_22",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.46893599999999996,
+          "y": 0.885,
+          "z": -1.4800000000000002
+        },
+        "upperInnerRear": {
+          "x": 0.46893599999999996,
+          "y": 0.885,
+          "z": -1.28
+        },
+        "upperOuter": {
+          "x": 0.82,
+          "y": 0.5750000000000001,
+          "z": -1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.4342,
+          "y": 0.385,
+          "z": -1.54
+        },
+        "lowerInnerRear": {
+          "x": 0.4342,
+          "y": 0.385,
+          "z": -1.1800000000000002
+        },
+        "lowerOuter": {
+          "x": 0.835,
+          "y": 0.24500000000000002,
+          "z": -1.36
+        },
+        "tieInner": {
+          "x": 0.35069999999999996,
+          "y": 0.445,
+          "z": -1.48
+        },
+        "tieOuter": {
+          "x": 0.835,
+          "y": 0.375,
+          "z": -1.28
+        },
+        "springChassis": {
+          "x": 0.6012,
+          "y": 0.885,
+          "z": -1.3800000000000001
+        },
+        "springWheel": {
+          "x": 0.835,
+          "y": 0.24500000000000002,
+          "z": -1.36
+        },
+        "damperChassis": {
+          "x": 0.6012,
+          "y": 0.885,
+          "z": -1.3800000000000001
+        },
+        "damperWheel": {
+          "x": 0.835,
+          "y": 0.24500000000000002,
+          "z": -1.36
+        },
+        "halfTrackM": 0.835,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "rear": {
+        "architecture": 2,
+        "upperInnerFront": {
+          "x": 0.46893599999999996,
+          "y": 0.835,
+          "z": 1.24
+        },
+        "upperInnerRear": {
+          "x": 0.46893599999999996,
+          "y": 0.835,
+          "z": 1.4400000000000002
+        },
+        "upperOuter": {
+          "x": 0.82,
+          "y": 0.5750000000000001,
+          "z": 1.36
+        },
+        "lowerInnerFront": {
+          "x": 0.4342,
+          "y": 0.385,
+          "z": 1.1800000000000002
+        },
+        "lowerInnerRear": {
+          "x": 0.4342,
+          "y": 0.385,
+          "z": 1.54
+        },
+        "lowerOuter": {
+          "x": 0.835,
+          "y": 0.24500000000000002,
+          "z": 1.36
+        },
+        "tieInner": {
+          "x": 0.35069999999999996,
+          "y": 0.445,
+          "z": 1.36
+        },
+        "tieOuter": {
+          "x": 0.835,
+          "y": 0.375,
+          "z": 1.4400000000000002
+        },
+        "springChassis": {
+          "x": 0.6012,
+          "y": 0.835,
+          "z": 1.34
+        },
+        "springWheel": {
+          "x": 0.835,
+          "y": 0.24500000000000002,
+          "z": 1.36
+        },
+        "damperChassis": {
+          "x": 0.6012,
+          "y": 0.835,
+          "z": 1.34
+        },
+        "damperWheel": {
+          "x": 0.835,
+          "y": 0.24500000000000002,
+          "z": 1.36
+        },
+        "halfTrackM": 0.835,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "tire": {
+        "referenceLoadN": 4500,
+        "referencePressureKpa": 230,
+        "optimalTemperatureC": 88,
+        "temperatureWindowC": 34,
+        "peakMu": 1.32,
+        "loadSensitivity": 0.105,
+        "longitudinalB": 12.2,
+        "longitudinalC": 1.66,
+        "longitudinalE": 0.18,
+        "lateralB": 9.7,
+        "lateralC": 1.42,
+        "lateralE": -0.18,
+        "camberThrustPerDeg": 0.014,
+        "pressureSensitivity": 0.18,
+        "wearGripLoss": 0.4,
+        "wetGripLoss": 0.5,
+        "treadWaterResistance": 0.5,
+        "aquaplaningSpeedKphAt220Kpa": 98,
+        "longitudinalRelaxationLengthM": 0.27,
+        "lateralRelaxationLengthM": 0.23,
+        "treadDepthMm": 7.0,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.011,
+        "pneumaticTrailM": 0.038,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 245000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.7
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "hero_exp",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.480168,
+          "y": 0.8899999999999999,
+          "z": -1.495
+        },
+        "upperInnerRear": {
+          "x": 0.480168,
+          "y": 0.8899999999999999,
+          "z": -1.295
+        },
+        "upperOuter": {
+          "x": 0.84,
+          "y": 0.58,
+          "z": -1.375
+        },
+        "lowerInnerFront": {
+          "x": 0.4446,
+          "y": 0.38999999999999996,
+          "z": -1.555
+        },
+        "lowerInnerRear": {
+          "x": 0.4446,
+          "y": 0.38999999999999996,
+          "z": -1.195
+        },
+        "lowerOuter": {
+          "x": 0.855,
+          "y": 0.24999999999999997,
+          "z": -1.375
+        },
+        "tieInner": {
+          "x": 0.3591,
+          "y": 0.44999999999999996,
+          "z": -1.495
+        },
+        "tieOuter": {
+          "x": 0.855,
+          "y": 0.38,
+          "z": -1.295
+        },
+        "springChassis": {
+          "x": 0.6155999999999999,
+          "y": 0.8899999999999999,
+          "z": -1.395
+        },
+        "springWheel": {
+          "x": 0.855,
+          "y": 0.24999999999999997,
+          "z": -1.375
+        },
+        "damperChassis": {
+          "x": 0.6155999999999999,
+          "y": 0.8899999999999999,
+          "z": -1.395
+        },
+        "damperWheel": {
+          "x": 0.855,
+          "y": 0.24999999999999997,
+          "z": -1.375
+        },
+        "halfTrackM": 0.855,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "rear": {
+        "architecture": 2,
+        "upperInnerFront": {
+          "x": 0.480168,
+          "y": 0.84,
+          "z": 1.255
+        },
+        "upperInnerRear": {
+          "x": 0.480168,
+          "y": 0.84,
+          "z": 1.455
+        },
+        "upperOuter": {
+          "x": 0.84,
+          "y": 0.58,
+          "z": 1.375
+        },
+        "lowerInnerFront": {
+          "x": 0.4446,
+          "y": 0.38999999999999996,
+          "z": 1.195
+        },
+        "lowerInnerRear": {
+          "x": 0.4446,
+          "y": 0.38999999999999996,
+          "z": 1.555
+        },
+        "lowerOuter": {
+          "x": 0.855,
+          "y": 0.24999999999999997,
+          "z": 1.375
+        },
+        "tieInner": {
+          "x": 0.3591,
+          "y": 0.44999999999999996,
+          "z": 1.375
+        },
+        "tieOuter": {
+          "x": 0.855,
+          "y": 0.38,
+          "z": 1.455
+        },
+        "springChassis": {
+          "x": 0.6155999999999999,
+          "y": 0.84,
+          "z": 1.355
+        },
+        "springWheel": {
+          "x": 0.855,
+          "y": 0.24999999999999997,
+          "z": 1.375
+        },
+        "damperChassis": {
+          "x": 0.6155999999999999,
+          "y": 0.84,
+          "z": 1.355
+        },
+        "damperWheel": {
+          "x": 0.855,
+          "y": 0.24999999999999997,
+          "z": 1.375
+        },
+        "halfTrackM": 0.855,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "tire": {
+        "referenceLoadN": 4500,
+        "referencePressureKpa": 230,
+        "optimalTemperatureC": 88,
+        "temperatureWindowC": 34,
+        "peakMu": 1.42,
+        "loadSensitivity": 0.105,
+        "longitudinalB": 12.2,
+        "longitudinalC": 1.66,
+        "longitudinalE": 0.18,
+        "lateralB": 9.7,
+        "lateralC": 1.42,
+        "lateralE": -0.18,
+        "camberThrustPerDeg": 0.014,
+        "pressureSensitivity": 0.18,
+        "wearGripLoss": 0.4,
+        "wetGripLoss": 0.5,
+        "treadWaterResistance": 0.5,
+        "aquaplaningSpeedKphAt220Kpa": 98,
+        "longitudinalRelaxationLengthM": 0.27,
+        "lateralRelaxationLengthM": 0.23,
+        "treadDepthMm": 7.0,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.011,
+        "pneumaticTrailM": 0.038,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 245000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.7
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    },
+    {
+      "generationId": "legend_gtx",
+      "front": {
+        "architecture": 1,
+        "upperInnerFront": {
+          "x": 0.48578400000000005,
+          "y": 0.895,
+          "z": -1.51
+        },
+        "upperInnerRear": {
+          "x": 0.48578400000000005,
+          "y": 0.895,
+          "z": -1.3099999999999998
+        },
+        "upperOuter": {
+          "x": 0.85,
+          "y": 0.585,
+          "z": -1.39
+        },
+        "lowerInnerFront": {
+          "x": 0.44980000000000003,
+          "y": 0.39499999999999996,
+          "z": -1.5699999999999998
+        },
+        "lowerInnerRear": {
+          "x": 0.44980000000000003,
+          "y": 0.39499999999999996,
+          "z": -1.21
+        },
+        "lowerOuter": {
+          "x": 0.865,
+          "y": 0.255,
+          "z": -1.39
+        },
+        "tieInner": {
+          "x": 0.36329999999999996,
+          "y": 0.45499999999999996,
+          "z": -1.5099999999999998
+        },
+        "tieOuter": {
+          "x": 0.865,
+          "y": 0.385,
+          "z": -1.3099999999999998
+        },
+        "springChassis": {
+          "x": 0.6228,
+          "y": 0.895,
+          "z": -1.41
+        },
+        "springWheel": {
+          "x": 0.865,
+          "y": 0.255,
+          "z": -1.39
+        },
+        "damperChassis": {
+          "x": 0.6228,
+          "y": 0.895,
+          "z": -1.41
+        },
+        "damperWheel": {
+          "x": 0.865,
+          "y": 0.255,
+          "z": -1.39
+        },
+        "halfTrackM": 0.865,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "rear": {
+        "architecture": 2,
+        "upperInnerFront": {
+          "x": 0.48578400000000005,
+          "y": 0.845,
+          "z": 1.2699999999999998
+        },
+        "upperInnerRear": {
+          "x": 0.48578400000000005,
+          "y": 0.845,
+          "z": 1.47
+        },
+        "upperOuter": {
+          "x": 0.85,
+          "y": 0.585,
+          "z": 1.39
+        },
+        "lowerInnerFront": {
+          "x": 0.44980000000000003,
+          "y": 0.39499999999999996,
+          "z": 1.21
+        },
+        "lowerInnerRear": {
+          "x": 0.44980000000000003,
+          "y": 0.39499999999999996,
+          "z": 1.5699999999999998
+        },
+        "lowerOuter": {
+          "x": 0.865,
+          "y": 0.255,
+          "z": 1.39
+        },
+        "tieInner": {
+          "x": 0.36329999999999996,
+          "y": 0.45499999999999996,
+          "z": 1.39
+        },
+        "tieOuter": {
+          "x": 0.865,
+          "y": 0.385,
+          "z": 1.47
+        },
+        "springChassis": {
+          "x": 0.6228,
+          "y": 0.845,
+          "z": 1.3699999999999999
+        },
+        "springWheel": {
+          "x": 0.865,
+          "y": 0.255,
+          "z": 1.39
+        },
+        "damperChassis": {
+          "x": 0.6228,
+          "y": 0.845,
+          "z": 1.3699999999999999
+        },
+        "damperWheel": {
+          "x": 0.865,
+          "y": 0.255,
+          "z": 1.39
+        },
+        "halfTrackM": 0.865,
+        "tireRadiusM": 0.34,
+        "bushingComplianceMmPerKN": 0.08,
+        "camberComplianceDegPerKN": 0.008,
+        "toeComplianceDegPerKN": 0.01,
+        "longitudinalComplianceMmPerKN": 0.055
+      },
+      "tire": {
+        "referenceLoadN": 4500,
+        "referencePressureKpa": 230,
+        "optimalTemperatureC": 88,
+        "temperatureWindowC": 34,
+        "peakMu": 1.42,
+        "loadSensitivity": 0.105,
+        "longitudinalB": 12.2,
+        "longitudinalC": 1.66,
+        "longitudinalE": 0.18,
+        "lateralB": 9.7,
+        "lateralC": 1.42,
+        "lateralE": -0.18,
+        "camberThrustPerDeg": 0.014,
+        "pressureSensitivity": 0.18,
+        "wearGripLoss": 0.4,
+        "wetGripLoss": 0.5,
+        "treadWaterResistance": 0.5,
+        "aquaplaningSpeedKphAt220Kpa": 98,
+        "longitudinalRelaxationLengthM": 0.27,
+        "lateralRelaxationLengthM": 0.23,
+        "treadDepthMm": 7.0,
+        "waterDepthAtFull01Mm": 8.0,
+        "hydroplaningPressureScale": 1.0,
+        "rollingResistanceCoefficient": 0.011,
+        "pneumaticTrailM": 0.038,
+        "aligningTorqueScale": 1.0,
+        "verticalStiffnessNPerM": 245000,
+        "calibrationSource": "engineering-derived; FAA/NASA hydroplaning onset relation; Pacejka-style semi-empirical force shape",
+        "calibrationConfidence01": 0.7
+      },
+      "truthBoundary": "Rev33 3D constraint suspension + empirical tire calibration. Force/kinematic architecture is production runtime; coefficients and hardpoints remain engineering-derived unless a future record marks them measured/reference-authoritative."
+    }
+  ],
+  "calibrationPolicy": "Every coefficient carries an explicit engineering-derived truth boundary; measured/reference values may replace individual fields without changing runtime architecture."
+}

@@ -1,0 +1,10 @@
+import Foundation
+import WTRLVehicle
+public enum ServiceConnectionStateRev32:String,Codable,Hashable,Sendable { case connected, loosened, disconnected, capped, drained, verified }
+public struct ServiceConnectionRev32:Codable,Hashable,Sendable,Identifiable { public var id:String; public var interfaceId:String; public var hostComponentInstanceId:String; public var guestComponentInstanceId:String; public var kind:DeepAssemblyInterfaceKindRev31; public var state:ServiceConnectionStateRev32; public var torqueProvenance:String?; public var researchGated:Bool }
+public struct ServiceableVehicleStateRev32:Codable,Hashable,Sendable { public var assembly:DurableVehicleAssemblyRev32; public var connections:[String:ServiceConnectionRev32] }
+public enum ServiceConnectionAuthorityRev32 {
+ public static func seed(vehicleInstanceId:String,platform:HeritageVehicleEngineeringProfile)->ServiceableVehicleStateRev32 { let deep=GenerationSpecificDeepAssemblyAuthorityRev31.assembly(for:platform); let durable=DurableComponentIdentityAuthorityRev32.seed(vehicleInstanceId:vehicleInstanceId,platform:platform); var c: [String: ServiceConnectionRev32] = [:]; for i in deep.interfaces { guard let h=durable.components[i.hostId],let g=durable.components[i.guestId] else{continue}; c[i.id] = .init(id:i.id,interfaceId:i.id,hostComponentInstanceId:h.componentInstanceId,guestComponentInstanceId:g.componentInstanceId,kind:i.kind,state:.connected,torqueProvenance:nil,researchGated:i.researchGated) }; return .init(assembly:durable,connections:c) }
+ public static func disconnect(_ interfaceId:String,state:inout ServiceableVehicleStateRev32){guard var c=state.connections[interfaceId] else{return};c.state = .disconnected;state.connections[interfaceId] = c}
+ public static func canExtract(slot:String,state:ServiceableVehicleStateRev32)->Bool { guard let part=state.assembly.components[slot] else{return false}; return !state.connections.values.contains{$0.state != .disconnected && ($0.hostComponentInstanceId==part.componentInstanceId || $0.guestComponentInstanceId==part.componentInstanceId)} }
+}

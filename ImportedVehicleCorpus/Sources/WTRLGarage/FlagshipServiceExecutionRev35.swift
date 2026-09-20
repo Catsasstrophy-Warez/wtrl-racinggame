@@ -1,0 +1,8 @@
+import Foundation
+import WTRLVehicle
+public struct FlagshipServiceExecutionRev35:Codable,Hashable,Sendable { public var organismId:String; public var completed:Set<String>=[]; public var currentPose:FlagshipServicePoseRev35 = .curb; public var evidence:[String]=[]; public var spillsLiters:Double=0; public init(organismId:String){self.organismId=organismId} }
+public enum FlagshipServiceExecutionAuthorityRev35 {
+ public static func perform(step:AuthoredExtractionStepRev35,execution:inout FlagshipServiceExecutionRev35)->Bool { guard Set(step.requires).isSubset(of:execution.completed) else{return false}; execution.currentPose=step.pose;execution.completed.insert(step.id);execution.evidence.append("completed \(step.id): \(step.instruction)");return true }
+ public static func perform(operation:BenchOperationRev35,execution:inout FlagshipServiceExecutionRev35)->Bool { guard Set(operation.prerequisites).isSubset(of:execution.completed) else{return false};execution.currentPose = .componentBench;execution.completed.insert(operation.id);execution.evidence.append("bench proof \(operation.id): \(operation.verification)");return true }
+ public static func verifyFinal(_ organism:FlagshipMechanicalOrganismRev35,execution:FlagshipServiceExecutionRev35)->[String] { var missing:[String]=[]; if !organism.engineExtraction.allSatisfy({execution.completed.contains($0.id)}) {missing.append("engine extraction choreography incomplete")}; if execution.spillsLiters > 0 {missing.append("unresolved fluid spill evidence")}; if execution.evidence.isEmpty {missing.append("no service evidence")}; return missing }
+}

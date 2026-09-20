@@ -1,0 +1,8 @@
+vehicle,subsystem,publisher,url,timestamp,observation,evidence_note
+2020-2022 Shelby GT500,Brakes,ShelbyFlyer,https://www.youtube.com/watch?v=J6N-hxbU-90,02:02,rotor/caliper dimensions and weights,secondary; verify numbers against Ford/Brembo before canonicalizing
+2020-2022 Shelby GT500,Brakes,ShelbyFlyer,https://www.youtube.com/watch?v=J6N-hxbU-90,08:12,caliper removal,service-interaction reference
+2020-2022 Shelby GT500,Brakes,ShelbyFlyer,https://www.youtube.com/watch?v=J6N-hxbU-90,14:00,pad replacement,service-interaction reference
+2020-2022 Shelby GT500,Brakes,ShelbyFlyer,https://www.youtube.com/watch?v=J6N-hxbU-90,18:26,brake fluid,service reference
+2020-2022 Shelby GT500,Brakes,ShelbyFlyer,https://www.youtube.com/watch?v=J6N-hxbU-90,19:36,brake bleeding,service reference
+2020-2022 Shelby GT500,Brakes,ShelbyFlyer,https://www.youtube.com/watch?v=J6N-hxbU-90,32:35,rear rotor removal,service-interaction reference
+2020-2022 Shelby GT500,Brakes,ShelbyFlyer,https://www.youtube.com/watch?v=J6N-hxbU-90,35:24,pad bedding,thermal/brake validation reference

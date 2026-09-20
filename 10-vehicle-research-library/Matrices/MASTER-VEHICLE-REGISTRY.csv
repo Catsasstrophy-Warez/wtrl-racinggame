@@ -1,0 +1,160 @@
+id,name,category,era,kind,refs,notes
+VEH-001,1965 Restoration,Hero,1960s,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-002,Emissions Transition,Hero,mid-1970s,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-003,EFI Revival,Hero,late-1980s,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-004,Modern Platform,Hero,mid-1990s,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-005,Power Creep,Hero,early-2000s,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-006,Independent Rear,Hero,mid-2010s,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-007,The Legend,Hero,2022,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-008,Reyes Aero GT,Rival,multi-era,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-009,Kade Turbo Six,Rival,multi-era,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-010,Vogel Touring Saloon,Rival,multi-era,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-011,Duquesne Big-Block,Rival,multi-era,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-012,Osei Lightweight,Rival,multi-era,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-013,Marsh Constant,Rival,multi-era,WTRL fictional/canonical,,Keep fiction mechanically grounded but visually/IP-distinct.
+VEH-014,1963 Ford Falcon,Ford heritage,1963,real/reference,SRC-002,
+VEH-015,1965 Ford Mustang,Hero reference,1965,real/reference,SRC-002,
+VEH-016,1965 Shelby GT350,Hero reference,1965,real/reference,SRC-001,
+VEH-017,1966 Shelby GT350,Hero reference,1966,real/reference,SRC-002,
+VEH-018,1967 Ford Mustang,Hero reference,1967,real/reference,SRC-002,
+VEH-019,1967 Shelby GT500,Hero reference,1967,real/reference,SRC-002,
+VEH-020,1968 Ford Mustang GT 390 / Bullitt,Hero/film reference,1968,real/reference,SRC-002;SRC-037,
+VEH-021,1968 Shelby Mustang variants,Hero reference,1968,real/reference,SRC-002,
+VEH-022,1969 Ford Mustang Mach 1,Hero reference,1969,real/reference,SRC-003;SRC-002,
+VEH-023,1969 Ford Mustang Boss 429,Hero/homologation reference,1969,real/reference,SRC-002,
+VEH-024,1971 Ford Mustang SportsRoof/Mach 1,Hero reference,1971,real/reference,SRC-002,
+VEH-025,Mustang II / emissions-era Mustang,Hero reference,1974-1978,real/reference,SRC-002,
+VEH-026,1979-1993 Fox-body Mustang family,Hero reference,1979-1993,real/reference,SRC-009;SRC-010,
+VEH-027,1993 Ford Mustang GT 5.0,Hero reference,1993,real/reference,SRC-010,
+VEH-028,1993 Ford Mustang SVT Cobra,Hero reference,1993,real/reference,SRC-010,
+VEH-029,SN95 Mustang family,Hero reference,1994-2004,real/reference,SRC-002,
+VEH-030,1996-1998 Mustang SVT Cobra 4.6 DOHC,Hero reference,1996-1998,real/reference,SRC-002,
+VEH-031,New Edge Mustang GT,Hero reference,1999-2004,real/reference,SRC-002,
+VEH-032,2005 Mustang GT / S197,Hero reference,2005,real/reference,SRC-002,
+VEH-033,2015 Mustang GT / S550,Hero reference,2015,real/reference,SRC-002,
+VEH-034,2018 Mustang GT,Hero reference,2018,real/reference,SRC-004,
+VEH-035,2016-2020 Shelby GT350/GT350R,Hero engineering reference,2016-2020,real/reference,SRC-005,
+VEH-036,2020 Shelby GT500,Hero halo reference,2020,real/reference,SRC-007;SRC-008,
+VEH-037,2021 Shelby GT500,Hero halo reference,2021,real/reference,SRC-007,
+VEH-038,2022 Shelby GT500,Hero halo reference,2022,real/reference,SRC-006;SRC-007,
+VEH-039,2019 Mustang Bullitt,film/heritage reference,2019,real/reference,SRC-037,
+VEH-040,Shelby GT500E,continuation/restomod reference,,real/reference,,
+VEH-041,Shelby GT500CR,restomod reference,modern continuation,real/reference,SRC-036,
+VEH-042,1967 GT500 'Eleanor'-style car,film/derivation reference,1967-derived,real/reference,,
+VEH-043,1974 Gone in 60 Seconds 1971 Mustang SportsRoof 'Eleanor',film reference,1971/1974,real/reference,,
+VEH-044,2000 Gone in 60 Seconds GT500-based 'Eleanor',film reference,1967-derived,real/reference,,
+VEH-045,John Wick 1969 Mach 1 / Boss 429-styled Mustang,film reference,1969-derived,real/reference,SRC-003;SRC-002,
+VEH-046,Porsche 911 Carrera RS 2.7,Reyes/Vogel/European reference,1973,real/reference,SRC-011,
+VEH-047,Porsche 911 Turbo 3.0 (930),Reyes/Vogel/European reference,1974-1977,real/reference,SRC-012,
+VEH-048,Porsche 911 Turbo 3.3 (930),Reyes/Vogel/European reference,1978-1989,real/reference,SRC-012,
+VEH-049,Porsche 911 air-cooled lineage,Reyes/Vogel/European reference,1964-1998,real/reference,SRC-011;SRC-012,
+VEH-050,Porsche 911 water-cooled lineage,Reyes/Vogel/European reference,1998-present,real/reference,SRC-013,
+VEH-051,Porsche 911 GT3 RS,Reyes/Vogel/European reference,modern,real/reference,SRC-013,
+VEH-052,Porsche 911 GT2 RS,Reyes/Vogel/European reference,modern,real/reference,,
+VEH-053,RUF-modified Porsche lineage,Reyes/Vogel/European reference,multi-era,real/reference,,
+VEH-054,BMW M3 E30,Reyes/Vogel/European reference,1986-1991,real/reference,SRC-017,
+VEH-055,BMW M3 E36,Reyes/Vogel/European reference,1992-1999,real/reference,SRC-017,
+VEH-056,BMW M3 E46,Reyes/Vogel/European reference,2000-2006,real/reference,SRC-017,
+VEH-057,BMW M3 E9x V8,Reyes/Vogel/European reference,2007-2013,real/reference,SRC-017,
+VEH-058,BMW M3 F80,Reyes/Vogel/European reference,2014-2018,real/reference,SRC-017,
+VEH-059,BMW M3 G80,Reyes/Vogel/European reference,2020-present,real/reference,SRC-017,
+VEH-060,BMW M3 GTR,Reyes/Vogel/European reference,2000s,real/reference,SRC-017,
+VEH-061,Nissan Skyline GT-R R32,Kade/Marsh/dynamics reference,1989-1994,real/reference,SRC-015,
+VEH-062,Nissan Skyline GT-R R33 V-Spec,Kade/Marsh/dynamics reference,1995-1998,real/reference,SRC-014,
+VEH-063,Nissan Skyline GT-R R34,Kade/Marsh/dynamics reference,1999-2002,real/reference,SRC-016,
+VEH-064,Toyota Supra A80 / 2JZ-GTE archetype,Kade/Marsh/dynamics reference,1993-2002,real/reference,,
+VEH-065,Honda Civic Si,Kade/Marsh/dynamics reference,multi-era,real/reference,SRC-019,
+VEH-066,Honda Civic EK,Kade/Marsh/dynamics reference,1990s,real/reference,,
+VEH-067,Acura RSX,Kade/Marsh/dynamics reference,2000s,real/reference,,
+VEH-068,Acura NSX first generation,Kade/Marsh/dynamics reference,1991-2005,real/reference,SRC-020;SRC-021,
+VEH-069,Acura NSX second generation,Kade/Marsh/dynamics reference,2017-2022,real/reference,SRC-022,
+VEH-070,Toyota MR2 AW11,Kade/Marsh/dynamics reference,1984-1989,real/reference,SRC-023;SRC-024,
+VEH-071,Toyota MR2 SW20,Kade/Marsh/dynamics reference,1990s,real/reference,SRC-023,
+VEH-072,Toyota MR2 Spyder / MR-S ZZW30,Kade/Marsh/dynamics reference,1999-2007,real/reference,SRC-023;SRC-025,
+VEH-073,Fiat/Bertone X1/9,Kade/Marsh/dynamics reference,1972-1989,real/reference,SRC-035,
+VEH-074,Lotus Elan,Osei/lightweight reference,1962-1973,real/reference/archetype,SRC-018,
+VEH-075,Lotus Esprit Turbo,Osei/lightweight reference,1980s,real/reference/archetype,,
+VEH-076,Lotus/Caterham Seven archetype,Osei/lightweight reference,multi-era,real/reference/archetype,,
+VEH-077,British lightweight roadster archetype,Osei/lightweight reference,1960s,real/reference/archetype,SRC-018,
+VEH-078,cycle-fender lightweight sports car archetype,Osei/lightweight reference,multi-era,real/reference/archetype,SRC-018,
+VEH-079,modern minimalist track roadster archetype,Osei/lightweight reference,modern,real/reference/archetype,,
+VEH-080,1964 Pontiac GTO,US performance reference,1964,real/reference,SRC-026,
+VEH-081,American big-block muscle archetype,US performance reference,1960s-1970s,real/reference,SRC-026,
+VEH-082,period supercharged big-block muscle archetype,US performance reference,1960s-1970s,real/reference,,
+VEH-083,Pontiac Firebird / Trans Am,US performance reference,1998 reference,real/reference,SRC-038,
+VEH-084,Dodge Viper RT/10,US performance reference,1992+,real/reference,,
+VEH-085,Dodge Stealth,US performance reference,1990s,real/reference,,
+VEH-086,Chevrolet Corvette C4,US performance reference,1984-1996,real/reference,SRC-027,
+VEH-087,Chevrolet Corvette C5,US performance reference,1997-2004,real/reference,SRC-027,
+VEH-088,Chevrolet Corvette C6,US performance reference,2005-2013,real/reference,SRC-027,
+VEH-089,Chevrolet Corvette C7,US performance reference,2014-2019,real/reference,SRC-027,
+VEH-090,Chevrolet Corvette Z06 lineage,US performance reference,1963-present,real/reference,SRC-028,
+VEH-091,Ferrari 250 GT California,film/derivation/endurance reference,1950s-1960s,real/reference,,
+VEH-092,Modena GT Spyder replica (Ferris Bueller),film/derivation/endurance reference,1980s replica,real/reference,,
+VEH-093,Ferrari 365 GTB/4 Daytona,film/derivation/endurance reference,1968-1973,real/reference,,
+VEH-094,Ferrari Daytona replica / Miami Vice,film/derivation/endurance reference,1980s replica,real/reference,,
+VEH-095,Ford GT40,film/derivation/endurance reference,1964-1969,real/reference,SRC-029;SRC-030;SRC-031,
+VEH-096,Superformance GT40 MKI,film/derivation/endurance reference,modern continuation,real/reference,SRC-032,
+VEH-097,Ford Falcon XB GT,film/derivation/endurance reference,1970s,real/reference,,
+VEH-098,Mad Max Interceptor,film/derivation/endurance reference,film-derived,real/reference,,
+VEH-099,Lamborghini Diablo,physics/geometry/presentation reference,1990-2001,real/reference,,
+VEH-100,Ferrari 308,physics/geometry/presentation reference,1975-1985,real/reference,,
+VEH-101,Ferrari 328,physics/geometry/presentation reference,1985-1989,real/reference,,
+VEH-102,Toyota S-FR Racing Concept,physics/geometry/presentation reference,concept,real/reference,,
+VEH-103,Vision Gran Turismo concepts,physics/geometry/presentation reference,multi-brand concept,real/reference,,
+VEH-104,AMC Pacer,physics/geometry/presentation reference,1970s,real/reference,,
+VEH-105,Ford Crown Victoria Police Interceptor,enforcement/pursuit,1998-2011,real/reference,SRC-034,
+VEH-106,Dodge Charger Pursuit,enforcement/pursuit,modern,real/reference,,
+VEH-107,Ford Police Interceptor Utility AWD,enforcement/pursuit,modern,real/reference,SRC-033,
+VEH-108,Corvette-type high-performance pursuit reference,enforcement/pursuit,multi-era,real/reference,SRC-027,
+VEH-109,Mustang SSP / Special Service Package,enforcement/pursuit,1982-1993,real/reference,SRC-009;SRC-010,
+VEH-110,Apex pursuit vehicle,enforcement/pursuit,fictional,WTRL fictional,,
+VEH-111,Trans-Am-spec Hero,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-112,Super Stock Drag Pack,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-113,Pro-Touring Restomod,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-114,Apex Aero-R,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-115,Apex Revenant,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-116,Driveway Special,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-117,Full Compression,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-118,Hi-Po Spec,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-119,Homologation Run,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-120,Paxton Special,WTRL special/build recipe,,WTRL fictional/derived,,Research via period-correct component families; not a literal production vehicle.
+VEH-121,early-1970s rear-engine flat-six homologation GT,Reyes archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-122,ducktail rear-engine GT,Reyes archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-123,widebody turbo rear-engine GT,Reyes archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-124,whale-tail turbo GT,Reyes archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-125,modern active-aero rear-engine GT,Reyes archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-126,early Japanese turbo inline-six coupe,Kade archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-127,1980s turbo inline-six GT coupe,Kade archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-128,1990s peak-era Japanese turbo inline-six coupe,Kade archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-129,large-single-turbo modified Japanese coupe,Kade archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-130,late-era Japanese turbo inline-six performance coupe,Kade archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-131,1980s naturally aspirated German performance saloon,Vogel archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-132,1990s refined German performance saloon,Vogel archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-133,high-revving naturally aspirated German sports saloon,Vogel archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-134,late-NA German performance saloon,Vogel archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-135,turbo-transition German sports saloon,Vogel archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-136,modern turbocharged German performance saloon,Vogel archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-137,first-generation American big-block muscle car,Duquesne archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-138,peak-displacement big-block muscle car,Duquesne archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-139,emissions-era big-block/muscle decline car,Duquesne archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-140,1960s lightweight rear-drive economy compact,Marsh archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-141,1970s refined rear-drive economy compact,Marsh archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-142,early front-wheel-drive hot hatch,Marsh archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-143,1990s refined hot hatch,Marsh archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-144,2000s mature hot hatch,Marsh archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-145,2010s turbo hot hatch,Marsh archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-146,present-day restrained turbo hot hatch,Marsh archetype,multi-era,WTRL research archetype,,"Use source vehicles as engineering envelopes, never one-for-one visual copies."
+VEH-147,351-family Mustang/Ford V8 cars,Hero powertrain reference,1970s,real/reference/archetype,,See family sources and lineage dossier.
+VEH-148,Top Loader-equipped classic Mustangs,Hero transmission reference,1960s-1970s,real/reference/archetype,,See family sources and lineage dossier.
+VEH-149,Paxton-supercharged Shelby/Mustang applications,Hero forced-induction reference,1960s,real/reference/archetype,,See family sources and lineage dossier.
+VEH-150,5.0 Mustang LX performance variants,Hero reference,1980s-1990s,real/reference/archetype,,See family sources and lineage dossier.
+VEH-151,Fox-era aftermarket turbo Mustang builds,Hero modified reference,1980s-1990s,real/reference/archetype,,See family sources and lineage dossier.
+VEH-152,PBR-brake-equipped SVT Cobra,Hero brake reference,1990s,real/reference/archetype,,See family sources and lineage dossier.
+VEH-153,TR-3650-equipped Mustang,Hero transmission reference,2000s,real/reference/archetype,,See family sources and lineage dossier.
+VEH-154,4.6L 3-valve Mustang GT,Hero reference,2005-2010,real/reference/archetype,,See family sources and lineage dossier.
+VEH-155,MT82-equipped Mustang GT,Hero transmission reference,2011+,real/reference/archetype,,See family sources and lineage dossier.
+VEH-156,10-speed automatic Mustang GT,Hero transmission reference,2018+,real/reference/archetype,,See family sources and lineage dossier.
+VEH-157,5.0 Coyote / 10-speed modern combination,Hero powertrain reference,2018+,real/reference/archetype,,See family sources and lineage dossier.
+VEH-158,GT350R,Hero track reference,2016-2020,real/reference/archetype,,See family sources and lineage dossier.
+VEH-159,Porsche 911 historical game/lineage reference,Reyes/reference,multi-era,real/reference/archetype,,See family sources and lineage dossier.

@@ -1,0 +1,3401 @@
+{
+  "schema": "rev42_2.hero_deep_profile.v1",
+  "generationId": "hero_1968_kr",
+  "displayName": "Hero 1968 KR",
+  "nickname": "The King",
+  "mechanicalIdentity": "Cobra Jet thrust, ram-air character, analog chassis behavior, and stronger high-speed intent than the 1967 car.",
+  "componentParity": {
+    "discoveredMechanicalIds": [
+      "engine_harness",
+      "body_harness",
+      "charging_starting",
+      "front_brake_main",
+      "rear_brake_main",
+      "fuel_feed",
+      "coolant_upper",
+      "coolant_lower",
+      "engine_remove",
+      "brake_hydraulic_service",
+      "fuel_system_service",
+      "cooling_service",
+      "hood",
+      "front_bumper_cover",
+      "front_fender_L",
+      "front_fender_R",
+      "door_L",
+      "door_R",
+      "quarter_L",
+      "quarter_R",
+      "trunk_or_hatch",
+      "rear_bumper_cover",
+      "rocker_L",
+      "rocker_R",
+      "roof_skin",
+      "front_glass",
+      "rear_glass",
+      "engine",
+      "transmission",
+      "driveshaft",
+      "differential",
+      "fuel_tank",
+      "front_crush",
+      "front_left_corner",
+      "front_right_corner",
+      "left_side",
+      "right_side",
+      "rear_crush",
+      "roof",
+      "underbody",
+      "speedometer",
+      "tachometer",
+      "fuel",
+      "coolant_temp",
+      "oil_pressure_or_warning",
+      "charging",
+      "factory",
+      "modified",
+      "acquisition_documentation",
+      "wash_photograph_tag",
+      "fluids_safeing",
+      "interior_strip",
+      "glass_trim_remove",
+      "front_clip_disassembly",
+      "drivetrain_disconnect",
+      "drivetrain_removal",
+      "suspension_brake_strip",
+      "fuel_cooling_remove",
+      "electrical_harness_label_remove",
+      "body_measurement",
+      "metal_structure_repair",
+      "corrosion_or_damage_treatment",
+      "paint_bodywork",
+      "subassembly_rebuild",
+      "routing_reinstall",
+      "drivetrain_install",
+      "suspension_alignment",
+      "interior_electrical_install",
+      "fluids_prime",
+      "first_start",
+      "static_diagnostics",
+      "road_shakedown",
+      "final_provenance_closeout",
+      "single_stage_paint",
+      "aged_clear_or_repaint",
+      "chrome",
+      "cast_iron",
+      "cast_aluminum",
+      "zinc_fasteners",
+      "rubber_weatherstrip",
+      "vinyl",
+      "carpet",
+      "oxidized_steel",
+      "exhaust_heat",
+      "grease_oil",
+      "surface_rust"
+    ],
+    "discoveredCount": 86,
+    "requiredCapabilities": [
+      "identity",
+      "system ownership",
+      "condition",
+      "inspection",
+      "service classification",
+      "inventory mapping where applicable",
+      "Master Part mapping where applicable",
+      "icon resolution where applicable",
+      "damage/wear where applicable",
+      "persistence"
+    ]
+  },
+  "generationSpecificSystems": [
+    {
+      "systemId": "powertrain",
+      "generationSpecificIdentity": [
+        "428 Cobra Jet V8",
+        "functional ram-air identity",
+        "conservative 335 hp gross factory rating commonly cited for KR",
+        "period 4-speed manual or automatic variants"
+      ],
+      "serviceVisibility": "full where authored",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "chassis",
+      "generationSpecificIdentity": [
+        "short-long-arm independent front suspension",
+        "solid rear axle with leaf springs",
+        "recirculating-ball steering",
+        "front disc/rear drum brake architecture"
+      ],
+      "serviceVisibility": "full where authored",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "engine",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "transmission",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "driveline",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "suspension",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "steering",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "brakes",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "fuel",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "cooling",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "electrical",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "exhaust",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "body",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    },
+    {
+      "systemId": "interior",
+      "conditionAuthority": "MechanicalWorld/Part Physics",
+      "persistenceRequired": true
+    }
+  ],
+  "serviceDisassemblyGraph": {
+    "procedures": [
+      {
+        "id": "engine_remove",
+        "steps": [
+          "battery isolate",
+          "drain fluids",
+          "label/disconnect harness",
+          "fuel safe",
+          "cooling disconnect",
+          "exhaust disconnect",
+          "driveline disconnect",
+          "mount support",
+          "lift/remove"
+        ]
+      },
+      {
+        "id": "brake_hydraulic_service",
+        "steps": [
+          "inspect",
+          "contain fluid",
+          "open circuit",
+          "replace component",
+          "bleed",
+          "leak check",
+          "pedal proof"
+        ]
+      },
+      {
+        "id": "fuel_system_service",
+        "steps": [
+          "depressurize",
+          "ventilate",
+          "disconnect power",
+          "contain fuel",
+          "service",
+          "prime",
+          "leak test"
+        ]
+      },
+      {
+        "id": "cooling_service",
+        "steps": [
+          "cool system",
+          "drain",
+          "disconnect",
+          "service",
+          "vacuum/bleed fill",
+          "pressure test",
+          "thermal proof"
+        ]
+      }
+    ],
+    "requiredLifecycle": [
+      "identify",
+      "inspect",
+      "isolate",
+      "gain_access",
+      "remove_or_open",
+      "bench_inspect",
+      "repair_rebuild_replace",
+      "reinstall",
+      "adjust_fill_bleed_or_calibrate",
+      "static_verify",
+      "loaded_verify"
+    ],
+    "dependencyPolicy": "prerequisites and access must resolve before mutation",
+    "componentCoverageCandidates": [
+      "engine_harness",
+      "body_harness",
+      "charging_starting",
+      "front_brake_main",
+      "rear_brake_main",
+      "fuel_feed",
+      "coolant_upper",
+      "coolant_lower",
+      "engine_remove",
+      "brake_hydraulic_service",
+      "fuel_system_service",
+      "cooling_service",
+      "hood",
+      "front_bumper_cover",
+      "front_fender_L",
+      "front_fender_R",
+      "door_L",
+      "door_R",
+      "quarter_L",
+      "quarter_R",
+      "trunk_or_hatch",
+      "rear_bumper_cover",
+      "rocker_L",
+      "rocker_R",
+      "roof_skin",
+      "front_glass",
+      "rear_glass",
+      "engine",
+      "transmission",
+      "driveshaft",
+      "differential",
+      "fuel_tank",
+      "front_crush",
+      "front_left_corner",
+      "front_right_corner",
+      "left_side",
+      "right_side",
+      "rear_crush",
+      "roof",
+      "underbody",
+      "speedometer",
+      "tachometer",
+      "fuel",
+      "coolant_temp",
+      "oil_pressure_or_warning",
+      "charging",
+      "factory",
+      "modified",
+      "acquisition_documentation",
+      "wash_photograph_tag",
+      "fluids_safeing",
+      "interior_strip",
+      "glass_trim_remove",
+      "front_clip_disassembly",
+      "drivetrain_disconnect",
+      "drivetrain_removal",
+      "suspension_brake_strip",
+      "fuel_cooling_remove",
+      "electrical_harness_label_remove",
+      "body_measurement",
+      "metal_structure_repair",
+      "corrosion_or_damage_treatment",
+      "paint_bodywork",
+      "subassembly_rebuild",
+      "routing_reinstall",
+      "drivetrain_install",
+      "suspension_alignment",
+      "interior_electrical_install",
+      "fluids_prime",
+      "first_start",
+      "static_diagnostics",
+      "road_shakedown",
+      "final_provenance_closeout",
+      "single_stage_paint",
+      "aged_clear_or_repaint",
+      "chrome",
+      "cast_iron",
+      "cast_aluminum",
+      "zinc_fasteners",
+      "rubber_weatherstrip",
+      "vinyl",
+      "carpet",
+      "oxidized_steel",
+      "exhaust_heat",
+      "grease_oil",
+      "surface_rust"
+    ],
+    "componentNodes": [
+      {
+        "nodeId": "svc-engine-harness",
+        "componentId": "engine_harness",
+        "systemId": "engine",
+        "sequenceIndex": 0,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-body-harness",
+        "componentId": "body_harness",
+        "systemId": "electrical",
+        "sequenceIndex": 1,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-charging-starting",
+        "componentId": "charging_starting",
+        "systemId": "general",
+        "sequenceIndex": 2,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-brake-main",
+        "componentId": "front_brake_main",
+        "systemId": "brakes",
+        "sequenceIndex": 3,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-rear-brake-main",
+        "componentId": "rear_brake_main",
+        "systemId": "brakes",
+        "sequenceIndex": 4,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-fuel-feed",
+        "componentId": "fuel_feed",
+        "systemId": "fuel",
+        "sequenceIndex": 5,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-coolant-upper",
+        "componentId": "coolant_upper",
+        "systemId": "cooling",
+        "sequenceIndex": 6,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-coolant-lower",
+        "componentId": "coolant_lower",
+        "systemId": "cooling",
+        "sequenceIndex": 7,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-engine-remove",
+        "componentId": "engine_remove",
+        "systemId": "engine",
+        "sequenceIndex": 8,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-brake-hydraulic-service",
+        "componentId": "brake_hydraulic_service",
+        "systemId": "brakes",
+        "sequenceIndex": 9,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-fuel-system-service",
+        "componentId": "fuel_system_service",
+        "systemId": "fuel",
+        "sequenceIndex": 10,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-cooling-service",
+        "componentId": "cooling_service",
+        "systemId": "cooling",
+        "sequenceIndex": 11,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-hood",
+        "componentId": "hood",
+        "systemId": "body",
+        "sequenceIndex": 12,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-bumper-cover",
+        "componentId": "front_bumper_cover",
+        "systemId": "body",
+        "sequenceIndex": 13,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-fender-l",
+        "componentId": "front_fender_L",
+        "systemId": "body",
+        "sequenceIndex": 14,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-fender-r",
+        "componentId": "front_fender_R",
+        "systemId": "body",
+        "sequenceIndex": 15,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-door-l",
+        "componentId": "door_L",
+        "systemId": "body",
+        "sequenceIndex": 16,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-door-r",
+        "componentId": "door_R",
+        "systemId": "body",
+        "sequenceIndex": 17,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-quarter-l",
+        "componentId": "quarter_L",
+        "systemId": "body",
+        "sequenceIndex": 18,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-quarter-r",
+        "componentId": "quarter_R",
+        "systemId": "body",
+        "sequenceIndex": 19,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-trunk-or-hatch",
+        "componentId": "trunk_or_hatch",
+        "systemId": "general",
+        "sequenceIndex": 20,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-rear-bumper-cover",
+        "componentId": "rear_bumper_cover",
+        "systemId": "body",
+        "sequenceIndex": 21,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-rocker-l",
+        "componentId": "rocker_L",
+        "systemId": "general",
+        "sequenceIndex": 22,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-rocker-r",
+        "componentId": "rocker_R",
+        "systemId": "general",
+        "sequenceIndex": 23,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-roof-skin",
+        "componentId": "roof_skin",
+        "systemId": "body",
+        "sequenceIndex": 24,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-glass",
+        "componentId": "front_glass",
+        "systemId": "body",
+        "sequenceIndex": 25,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-rear-glass",
+        "componentId": "rear_glass",
+        "systemId": "body",
+        "sequenceIndex": 26,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-engine",
+        "componentId": "engine",
+        "systemId": "engine",
+        "sequenceIndex": 27,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-transmission",
+        "componentId": "transmission",
+        "systemId": "transmission",
+        "sequenceIndex": 28,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-driveshaft",
+        "componentId": "driveshaft",
+        "systemId": "driveline",
+        "sequenceIndex": 29,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-differential",
+        "componentId": "differential",
+        "systemId": "driveline",
+        "sequenceIndex": 30,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-fuel-tank",
+        "componentId": "fuel_tank",
+        "systemId": "fuel",
+        "sequenceIndex": 31,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-crush",
+        "componentId": "front_crush",
+        "systemId": "general",
+        "sequenceIndex": 32,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-left-corner",
+        "componentId": "front_left_corner",
+        "systemId": "general",
+        "sequenceIndex": 33,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-right-corner",
+        "componentId": "front_right_corner",
+        "systemId": "general",
+        "sequenceIndex": 34,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-left-side",
+        "componentId": "left_side",
+        "systemId": "general",
+        "sequenceIndex": 35,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-right-side",
+        "componentId": "right_side",
+        "systemId": "general",
+        "sequenceIndex": 36,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-rear-crush",
+        "componentId": "rear_crush",
+        "systemId": "general",
+        "sequenceIndex": 37,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-roof",
+        "componentId": "roof",
+        "systemId": "body",
+        "sequenceIndex": 38,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-underbody",
+        "componentId": "underbody",
+        "systemId": "body",
+        "sequenceIndex": 39,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-speedometer",
+        "componentId": "speedometer",
+        "systemId": "general",
+        "sequenceIndex": 40,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-tachometer",
+        "componentId": "tachometer",
+        "systemId": "general",
+        "sequenceIndex": 41,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-fuel",
+        "componentId": "fuel",
+        "systemId": "fuel",
+        "sequenceIndex": 42,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-coolant-temp",
+        "componentId": "coolant_temp",
+        "systemId": "cooling",
+        "sequenceIndex": 43,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-oil-pressure-or-warning",
+        "componentId": "oil_pressure_or_warning",
+        "systemId": "engine",
+        "sequenceIndex": 44,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-charging",
+        "componentId": "charging",
+        "systemId": "general",
+        "sequenceIndex": 45,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-factory",
+        "componentId": "factory",
+        "systemId": "general",
+        "sequenceIndex": 46,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-modified",
+        "componentId": "modified",
+        "systemId": "general",
+        "sequenceIndex": 47,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-acquisition-documentation",
+        "componentId": "acquisition_documentation",
+        "systemId": "general",
+        "sequenceIndex": 48,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-wash-photograph-tag",
+        "componentId": "wash_photograph_tag",
+        "systemId": "general",
+        "sequenceIndex": 49,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-fluids-safeing",
+        "componentId": "fluids_safeing",
+        "systemId": "general",
+        "sequenceIndex": 50,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-interior-strip",
+        "componentId": "interior_strip",
+        "systemId": "general",
+        "sequenceIndex": 51,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-glass-trim-remove",
+        "componentId": "glass_trim_remove",
+        "systemId": "body",
+        "sequenceIndex": 52,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-front-clip-disassembly",
+        "componentId": "front_clip_disassembly",
+        "systemId": "general",
+        "sequenceIndex": 53,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-drivetrain-disconnect",
+        "componentId": "drivetrain_disconnect",
+        "systemId": "driveline",
+        "sequenceIndex": 54,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-drivetrain-removal",
+        "componentId": "drivetrain_removal",
+        "systemId": "driveline",
+        "sequenceIndex": 55,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-suspension-brake-strip",
+        "componentId": "suspension_brake_strip",
+        "systemId": "suspension",
+        "sequenceIndex": 56,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-fuel-cooling-remove",
+        "componentId": "fuel_cooling_remove",
+        "systemId": "fuel",
+        "sequenceIndex": 57,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-electrical-harness-label-remove",
+        "componentId": "electrical_harness_label_remove",
+        "systemId": "electrical",
+        "sequenceIndex": 58,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-body-measurement",
+        "componentId": "body_measurement",
+        "systemId": "body",
+        "sequenceIndex": 59,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-metal-structure-repair",
+        "componentId": "metal_structure_repair",
+        "systemId": "general",
+        "sequenceIndex": 60,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-corrosion-or-damage-treatment",
+        "componentId": "corrosion_or_damage_treatment",
+        "systemId": "general",
+        "sequenceIndex": 61,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-paint-bodywork",
+        "componentId": "paint_bodywork",
+        "systemId": "body",
+        "sequenceIndex": 62,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-subassembly-rebuild",
+        "componentId": "subassembly_rebuild",
+        "systemId": "general",
+        "sequenceIndex": 63,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-routing-reinstall",
+        "componentId": "routing_reinstall",
+        "systemId": "general",
+        "sequenceIndex": 64,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-drivetrain-install",
+        "componentId": "drivetrain_install",
+        "systemId": "driveline",
+        "sequenceIndex": 65,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-suspension-alignment",
+        "componentId": "suspension_alignment",
+        "systemId": "suspension",
+        "sequenceIndex": 66,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-interior-electrical-install",
+        "componentId": "interior_electrical_install",
+        "systemId": "general",
+        "sequenceIndex": 67,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-fluids-prime",
+        "componentId": "fluids_prime",
+        "systemId": "general",
+        "sequenceIndex": 68,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-first-start",
+        "componentId": "first_start",
+        "systemId": "general",
+        "sequenceIndex": 69,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-static-diagnostics",
+        "componentId": "static_diagnostics",
+        "systemId": "general",
+        "sequenceIndex": 70,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-road-shakedown",
+        "componentId": "road_shakedown",
+        "systemId": "general",
+        "sequenceIndex": 71,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-final-provenance-closeout",
+        "componentId": "final_provenance_closeout",
+        "systemId": "general",
+        "sequenceIndex": 72,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-single-stage-paint",
+        "componentId": "single_stage_paint",
+        "systemId": "general",
+        "sequenceIndex": 73,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-aged-clear-or-repaint",
+        "componentId": "aged_clear_or_repaint",
+        "systemId": "general",
+        "sequenceIndex": 74,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-chrome",
+        "componentId": "chrome",
+        "systemId": "general",
+        "sequenceIndex": 75,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-cast-iron",
+        "componentId": "cast_iron",
+        "systemId": "general",
+        "sequenceIndex": 76,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-cast-aluminum",
+        "componentId": "cast_aluminum",
+        "systemId": "general",
+        "sequenceIndex": 77,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-zinc-fasteners",
+        "componentId": "zinc_fasteners",
+        "systemId": "general",
+        "sequenceIndex": 78,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-rubber-weatherstrip",
+        "componentId": "rubber_weatherstrip",
+        "systemId": "general",
+        "sequenceIndex": 79,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-vinyl",
+        "componentId": "vinyl",
+        "systemId": "general",
+        "sequenceIndex": 80,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-carpet",
+        "componentId": "carpet",
+        "systemId": "general",
+        "sequenceIndex": 81,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-oxidized-steel",
+        "componentId": "oxidized_steel",
+        "systemId": "general",
+        "sequenceIndex": 82,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-exhaust-heat",
+        "componentId": "exhaust_heat",
+        "systemId": "exhaust",
+        "sequenceIndex": 83,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-grease-oil",
+        "componentId": "grease_oil",
+        "systemId": "engine",
+        "sequenceIndex": 84,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      },
+      {
+        "nodeId": "svc-surface-rust",
+        "componentId": "surface_rust",
+        "systemId": "general",
+        "sequenceIndex": 85,
+        "requires": [
+          "identify",
+          "inspect",
+          "safe_isolation",
+          "access"
+        ],
+        "operations": [
+          "remove_or_open",
+          "bench_inspect",
+          "repair_rebuild_replace",
+          "reinstall"
+        ],
+        "verification": [
+          "static_verify",
+          "loaded_verify"
+        ],
+        "persistenceRequired": true
+      }
+    ],
+    "componentNodeCount": 86
+  },
+  "failureLibrary": {
+    "authoredMechanisms": [
+      {
+        "id": "carb-fuel-starvation-under-sustained-load",
+        "mechanism": "carb fuel starvation under sustained load",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "engine",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "ram-air-seal-duct-leakage",
+        "mechanism": "ram-air seal/duct leakage",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "general",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "ignition-timing-scatter",
+        "mechanism": "ignition timing scatter",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "engine",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "fuel-vaporization",
+        "mechanism": "fuel vaporization",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "fuel",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "cooling-pressure-loss",
+        "mechanism": "cooling pressure loss",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "cooling",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "rear-spring-shackle-wear",
+        "mechanism": "rear spring/shackle wear",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "suspension",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "axle-hop-under-torque",
+        "mechanism": "axle hop under torque",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "driveline",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "brake-fade-or-pull",
+        "mechanism": "brake fade or pull",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "brakes",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "steering-linkage-wear",
+        "mechanism": "steering-linkage wear",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "steering",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      },
+      {
+        "id": "fiberglass-hood-nose-fit-deterioration",
+        "mechanism": "fiberglass hood/nose fit deterioration",
+        "progression": [
+          "incipient",
+          "intermittent",
+          "repeatable",
+          "performance-limiting",
+          "hard/protective failure"
+        ],
+        "evidenceClasses": [
+          "driver symptom",
+          "visual/physical evidence",
+          "instrument measurement",
+          "secondary-system consequence"
+        ],
+        "repairProof": [
+          "root cause corrected",
+          "related damage inspected",
+          "static verification",
+          "loaded verification",
+          "post-repair trend normal"
+        ],
+        "systemId": "body",
+        "interactsThrough": [
+          "component condition",
+          "thermal/load state",
+          "shared vehicle physics",
+          "diagnostic evidence"
+        ]
+      }
+    ],
+    "minimumEvidenceContract": [
+      "driver symptom",
+      "visual/physical evidence",
+      "instrument measurement",
+      "secondary-system consequence"
+    ],
+    "progressionContract": [
+      "incipient",
+      "intermittent",
+      "repeatable",
+      "performance-limiting",
+      "hard/protective failure"
+    ],
+    "interactionContract": "multi-fault cases combine through shared physical primitives rather than scripted symptom stacking"
+  },
+  "factoryOptionConfigurationTree": {
+    "factoryConfiguration": {
+      "id": "factory",
+      "powertrain": "428 Cobra Jet",
+      "transmission": "4-speed manual",
+      "rear": "leaf-spring live axle",
+      "body": "factory panels",
+      "electronics": "period-correct architecture",
+      "serviceState": "complete"
+    },
+    "modifiedConfiguration": {
+      "id": "modified",
+      "choices": [
+        "street_restomod",
+        "drag",
+        "circuit",
+        "touge",
+        "high_speed",
+        "endurance"
+      ],
+      "fabricationCanChange": [
+        "mounts",
+        "cooling",
+        "fuel",
+        "brakes",
+        "suspension",
+        "wiring",
+        "exhaust",
+        "aero"
+      ],
+      "mustPreserve": [
+        "physical provenance",
+        "compatibility evidence",
+        "installed component identities"
+      ]
+    },
+    "modelYearVariants": {
+      "generationId": "hero_1968_kr",
+      "variants": []
+    },
+    "rule": "options change physical components/calibration/appearance only through canonical compatibility and component authorities"
+  },
+  "modificationEras": [
+    {
+      "eraId": "period_or_factory_adjacent",
+      "paths": [
+        "period Cobra Jet calibration",
+        "headers/exhaust",
+        "rear gearing"
+      ],
+      "doctrine": "period-correct or factory-adjacent engineering"
+    },
+    {
+      "eraId": "restomod",
+      "paths": [
+        "traction devices",
+        "modern cooling",
+        "electronic ignition"
+      ],
+      "doctrine": "modern reliability, braking, cooling and drivability while retaining generation identity"
+    },
+    {
+      "eraId": "competition_or_experimental",
+      "paths": [
+        "EFI conversion",
+        "overdrive transmission",
+        "modern brakes"
+      ],
+      "doctrine": "performance changes require capacity, heat, driveline, chassis and homologation cross-checks"
+    }
+  ],
+  "damageRestorationStates": {
+    "damage": {
+      "schema": "Rev21.damageZones.v1",
+      "zones": [
+        {
+          "id": "front_crush",
+          "center": [
+            -1.9120000000000001,
+            0,
+            0.725
+          ],
+          "energyScale": 1.0,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        },
+        {
+          "id": "front_left_corner",
+          "center": [
+            -1.6252000000000002,
+            -0.6697,
+            0.695
+          ],
+          "energyScale": 0.65,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        },
+        {
+          "id": "front_right_corner",
+          "center": [
+            -1.6252000000000002,
+            0.6697,
+            0.695
+          ],
+          "energyScale": 0.65,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        },
+        {
+          "id": "left_side",
+          "center": [
+            0,
+            -0.8145,
+            0.845
+          ],
+          "energyScale": 0.75,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        },
+        {
+          "id": "right_side",
+          "center": [
+            0,
+            0.8145,
+            0.845
+          ],
+          "energyScale": 0.75,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        },
+        {
+          "id": "rear_crush",
+          "center": [
+            1.9120000000000001,
+            0,
+            0.725
+          ],
+          "energyScale": 0.8,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        },
+        {
+          "id": "roof",
+          "center": [
+            0.05,
+            0,
+            1.335
+          ],
+          "energyScale": 0.55,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        },
+        {
+          "id": "underbody",
+          "center": [
+            0,
+            0,
+            0.1311
+          ],
+          "energyScale": 0.7,
+          "propagatesTo": [
+            "alignment",
+            "cooling",
+            "wiring",
+            "panel_fit",
+            "fluid_routing"
+          ]
+        }
+      ]
+    },
+    "restoration": {
+      "schema": "Rev21.restoration.v1",
+      "stages": [
+        {
+          "order": 1,
+          "id": "acquisition_documentation",
+          "evidenceRequired": [
+            "photos",
+            "identity"
+          ]
+        },
+        {
+          "order": 2,
+          "id": "wash_photograph_tag",
+          "evidenceRequired": [
+            "photos",
+            "identity"
+          ]
+        },
+        {
+          "order": 3,
+          "id": "fluids_safeing",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 4,
+          "id": "interior_strip",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 5,
+          "id": "glass_trim_remove",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 6,
+          "id": "front_clip_disassembly",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 7,
+          "id": "drivetrain_disconnect",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 8,
+          "id": "drivetrain_removal",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 9,
+          "id": "suspension_brake_strip",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 10,
+          "id": "fuel_cooling_remove",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 11,
+          "id": "electrical_harness_label_remove",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 12,
+          "id": "body_measurement",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 13,
+          "id": "metal_structure_repair",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 14,
+          "id": "corrosion_or_damage_treatment",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 15,
+          "id": "paint_bodywork",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 16,
+          "id": "subassembly_rebuild",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 17,
+          "id": "routing_reinstall",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 18,
+          "id": "drivetrain_install",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 19,
+          "id": "suspension_alignment",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 20,
+          "id": "interior_electrical_install",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 21,
+          "id": "fluids_prime",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 22,
+          "id": "first_start",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 23,
+          "id": "static_diagnostics",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 24,
+          "id": "road_shakedown",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        },
+        {
+          "order": 25,
+          "id": "final_provenance_closeout",
+          "evidenceRequired": [
+            "photos",
+            "measurements",
+            "parts provenance",
+            "torque/fit verification"
+          ]
+        }
+      ]
+    },
+    "requiredVisualMechanicalStates": [
+      "factory",
+      "survivor",
+      "project",
+      "damaged",
+      "disassembled",
+      "restoring",
+      "reassembled",
+      "modified",
+      "race_prepared",
+      "dirty",
+      "corroded",
+      "heat_affected"
+    ],
+    "persistence": "component condition and restoration state survive save/reload"
+  },
+  "audioIdentity": {
+    "identity": "ram-air Cobra Jet / deep exhaust",
+    "stems": [
+      "combustion",
+      "intake",
+      "exhaust",
+      "forced_induction",
+      "valvetrain_accessories",
+      "gearbox",
+      "differential",
+      "tire_road",
+      "brakes",
+      "wind_body",
+      "cooling_fuel",
+      "fault_sweeteners"
+    ],
+    "parameters": [
+      "rpm",
+      "normalizedLoad",
+      "boostKpa",
+      "vehicleSpeed",
+      "gear",
+      "throttle",
+      "clutchSlip",
+      "engineTemp",
+      "transTemp",
+      "wear",
+      "misfireSeverity",
+      "exhaustLeakSeverity"
+    ],
+    "conditionModulators": [
+      "wear",
+      "misfireSeverity",
+      "exhaustLeakSeverity",
+      "temperature",
+      "load"
+    ],
+    "serviceAudioStates": [
+      "hood_open",
+      "underbody",
+      "component_removed",
+      "dyno_loaded",
+      "road_loaded"
+    ],
+    "rule": "audio consumes canonical physical state; it does not generate performance state"
+  },
+  "renderMechanicalMapping": {
+    "renderObjectCount": 136,
+    "requiredMappingStates": [
+      "simulated_component",
+      "assembly_visual",
+      "presentation_only"
+    ],
+    "rule": "Every render object must map to a MechanicalWorld component/assembly or be explicitly presentation-only. Presentation objects never become simulation authorities.",
+    "truthBoundary": "procedural high-detail render-production geometry generated from authored dimensions and generation-specific design cues; not scan-accurate OEM final art",
+    "fidelityGates": [
+      "silhouette",
+      "wheelbase_track",
+      "greenhouse",
+      "lamp_signature",
+      "grille_signature",
+      "wheel_tire_fitment",
+      "panel_breaks",
+      "underbody",
+      "engine_bay",
+      "interior",
+      "generation_specific_trim"
+    ],
+    "prefabNamedObjects": [
+      {
+        "renderObject": "FrontAxleDatum",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "driveline",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "Cooling",
+        "mappingState": "simulated_component",
+        "mechanicalId": "cooling_service",
+        "ownerSystem": "cooling",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "LiftPoint_RR",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "RearAxleDatum",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "driveline",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "ServiceDatums",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "LiftPoint_FR",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "Damage",
+        "mappingState": "simulated_component",
+        "mechanicalId": "corrosion_or_damage_treatment",
+        "ownerSystem": "general",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "Interior",
+        "mappingState": "simulated_component",
+        "mechanicalId": "interior_strip",
+        "ownerSystem": "general",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "Body",
+        "mappingState": "simulated_component",
+        "mechanicalId": "body_harness",
+        "ownerSystem": "electrical",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "DriverEyeDatum",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "driveline",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "Drivetrain",
+        "mappingState": "simulated_component",
+        "mechanicalId": "drivetrain_disconnect",
+        "ownerSystem": "driveline",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "EngineBay",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "engine",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "Hero_1968_KR_King_Rev21_MechanicalWorld",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "m_EditorClassIdentifier: WTRL.Runtime::WTRL.Runtime.Rev21MechanicalWorldMetadata",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "m_EditorClassIdentifier: WTRL.Runtime::WTRL.Runtime.MechanicalWorldStateBinder",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "Suspension",
+        "mappingState": "simulated_component",
+        "mechanicalId": "suspension_brake_strip",
+        "ownerSystem": "suspension",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "Electrical",
+        "mappingState": "simulated_component",
+        "mechanicalId": "electrical_harness_label_remove",
+        "ownerSystem": "electrical",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "Materials",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "LiftPoint_FL",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "LiftPoint_RL",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "Brakes",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "brakes",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "Fuel",
+        "mappingState": "simulated_component",
+        "mechanicalId": "fuel_feed",
+        "ownerSystem": "fuel",
+        "matchEvidence": "token overlap"
+      },
+      {
+        "renderObject": "Restoration",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "VehicleDatum",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "FirewallDatum",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "EngineCenterDatum",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "engine",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      },
+      {
+        "renderObject": "m_EditorClassIdentifier: WTRL.Runtime::WTRL.Runtime.MechanicalWorldPartView",
+        "mappingState": "assembly_visual",
+        "mechanicalId": null,
+        "ownerSystem": "general",
+        "matchEvidence": "assembly ownership; refine in Unity/Blender authoring"
+      }
+    ],
+    "prefabNamedObjectCount": 27,
+    "directMappedCount": 8
+  },
+  "acceptance": {
+    "noClonedMechanics": true,
+    "noPresentationAuthority": true,
+    "generationSpecificBehaviorRequired": true,
+    "goldenReferenceParityTarget": "hero_1968_kr"
+  }
+}

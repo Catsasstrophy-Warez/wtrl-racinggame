@@ -1,0 +1,407 @@
+[
+  {
+    "id": "SRC-001",
+    "publisher": "Shelby American Collection",
+    "title": "1965 Shelby Mustang GT350",
+    "url": "https://www.shelbyamericancollection.org/shelby-mustangs/1965-shelby-mustang-gt350",
+    "type": "heritage/museum",
+    "grade": "A",
+    "use": "306 hp, 289 ci, 108-in wheelbase, ~2,800 lb; historical overview"
+  },
+  {
+    "id": "SRC-002",
+    "publisher": "Ford Media",
+    "title": "50 Years of Mustang Milestones",
+    "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/2013/12/05/Mustang_Milestones.pdf",
+    "type": "OEM",
+    "grade": "A",
+    "use": "Mustang chronology, 1967 GT500 355 hp, Bullitt, Boss 302/429, 1971 changes"
+  },
+  {
+    "id": "SRC-003",
+    "publisher": "Car and Driver",
+    "title": "1969 Ford Mustang Mach I road test",
+    "url": "https://www.caranddriver.com/reviews/a15141962/1969-ford-mustang-mach-i-review/",
+    "type": "period test",
+    "grade": "A-",
+    "use": "428 ci, 335 hp, 440 lb-ft, 3607 lb, 108-in wheelbase, test results"
+  },
+  {
+    "id": "SRC-004",
+    "publisher": "Ford Media",
+    "title": "2018 Mustang vehicle guide",
+    "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2018/mustang/18-mustang.pdf",
+    "type": "OEM",
+    "grade": "A",
+    "use": "2018 GT 5.0: 460 hp @ 7000, 420 lb-ft @ 4600"
+  },
+  {
+    "id": "SRC-005",
+    "publisher": "Ford Media",
+    "title": "Shelby GT350 5.2L Voodoo",
+    "url": "https://media.ford.com/content/fordmedia-mobile/fna/ca/en/news/2015/06/02/526-horsepower-ford-shelby-gt350-mustang.html",
+    "type": "OEM",
+    "grade": "A",
+    "use": "526 hp, 429 lb-ft, 8250 rpm, 12.0:1, TR-3160"
+  },
+  {
+    "id": "SRC-006",
+    "publisher": "Ford Media",
+    "title": "2022 Mustang Technical Specifications",
+    "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2022/mustang/2022-Mustang-Tech-Specs.pdf",
+    "type": "OEM",
+    "grade": "A",
+    "use": "2022 Mustang/GT500 dimensions and mass data"
+  },
+  {
+    "id": "SRC-007",
+    "publisher": "Ford Media",
+    "title": "2021 Shelby GT500 Order Guide",
+    "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2021/mustang/2021-Shelby-GT500-Order-Guide.pdf",
+    "type": "OEM",
+    "grade": "A",
+    "use": "5.2 supercharged V8, Tremec 7-speed DCT, Brembo, cooling hardware"
+  },
+  {
+    "id": "SRC-008",
+    "publisher": "Engineering Explained",
+    "title": "2020 Shelby GT500 technical review",
+    "url": "https://www.youtube.com/watch?v=CGOl8iu7dZo",
+    "type": "video",
+    "grade": "B+",
+    "use": "760 hp/625 lb-ft; engine, blower, cooling and chassis engineering discussion"
+  },
+  {
+    "id": "SRC-009",
+    "publisher": "Late Model Restoration",
+    "title": "Fox Body Mustang History",
+    "url": "https://www.youtube.com/watch?v=5DnUDRAylw4",
+    "type": "video",
+    "grade": "B+",
+    "use": "Fox platform timeline, SSP, EFI, SVO, Cobra; chaptered video"
+  },
+  {
+    "id": "SRC-010",
+    "publisher": "Foxbody Archive",
+    "title": "Fox Mustang Technical Specifications",
+    "url": "https://www.thefoxbodyarchive.com/specs",
+    "type": "specialist archive",
+    "grade": "B+",
+    "use": "5.0 HO, T5, axle, production and option references"
+  },
+  {
+    "id": "SRC-011",
+    "publisher": "Porsche Newsroom",
+    "title": "911 Carrera RS 2.7",
+    "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-911-Carrera-RS-2.7.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "2687 cc flat-six, 210 hp, 245 km/h; gallery"
+  },
+  {
+    "id": "SRC-012",
+    "publisher": "Porsche Newsroom",
+    "title": "911 Turbo generations",
+    "url": "https://newsroom.porsche.com/en/press-kits/50-years-porsche-turbo/The-911-Turbo-generations.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "930 3.3: 300 PS, 412 Nm, 260 km/h; generation history"
+  },
+  {
+    "id": "SRC-013",
+    "publisher": "Porsche Newsroom",
+    "title": "911 GT3 RS model page",
+    "url": "https://newsroom.porsche.com/en_US/model-range/911/911-GT3-RS.html",
+    "type": "OEM media",
+    "grade": "A",
+    "use": "518 hp modern GT3 RS; photo/video/tech-spec media index"
+  },
+  {
+    "id": "SRC-014",
+    "publisher": "Nissan Heritage Collection",
+    "title": "1997 Skyline GT-R V-Spec",
+    "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/skyline_gt-r_1997.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "R33: 2.568L RB26DETT, 280 PS, 368 Nm, 1540 kg, ATTESA E-TS PRO"
+  },
+  {
+    "id": "SRC-015",
+    "publisher": "Nissan Heritage Collection",
+    "title": "1991 Skyline GT-R",
+    "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/skyline_gt-r_1991.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "R32 road/race context; RB26DETT and chassis"
+  },
+  {
+    "id": "SRC-016",
+    "publisher": "Nissan Heritage Collection",
+    "title": "2002 Skyline GT-R",
+    "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/skyline_gt-r_2002.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "R34 competition reference; RB26DETT, 6-speed sequential on displayed race replica"
+  },
+  {
+    "id": "SRC-017",
+    "publisher": "BMW M",
+    "title": "BMW M3 generations",
+    "url": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m3-generationen.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "E30-E36-E46-E9x-F80-G80 chronology and output ranges"
+  },
+  {
+    "id": "SRC-018",
+    "publisher": "Lotus Cars",
+    "title": "Lotus Elan heritage",
+    "url": "https://www.lotuscars.com/lotus-story/road-cars/elan",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "1558 cc DOHC, backbone chassis, composite body, independent suspension"
+  },
+  {
+    "id": "SRC-019",
+    "publisher": "Honda",
+    "title": "2026 Civic Si specifications",
+    "url": "https://automobiles.honda.com/civic-si-sedan/specs-features-trim-comparison",
+    "type": "OEM",
+    "grade": "A",
+    "use": "200 hp, 192 lb-ft, 6MT ratios, helical LSD, suspension, 2952 lb"
+  },
+  {
+    "id": "SRC-020",
+    "publisher": "Acura",
+    "title": "NSX chronology",
+    "url": "https://www.acura.com/news-and-press/press-release-detail?article=2653-en",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "1991 NSX: aluminum chassis/body, 3.0 V6, 270 hp, 210 lb-ft, 5MT"
+  },
+  {
+    "id": "SRC-021",
+    "publisher": "Acura",
+    "title": "2002 NSX specifications",
+    "url": "https://www.acura.com/news-and-press/press-release-detail?article=614-en",
+    "type": "OEM",
+    "grade": "A",
+    "use": "3.2 V6 manual: 290 hp, 224 lb-ft, 8000 rpm; 3.0 automatic specs"
+  },
+  {
+    "id": "SRC-022",
+    "publisher": "Acura",
+    "title": "2017 NSX specifications",
+    "url": "https://www.acura.com/news-and-press/press-release-detail?article=8893-en",
+    "type": "OEM",
+    "grade": "A",
+    "use": "573 hp hybrid system; 3.5 twin-turbo V6; 9DCT; SH-AWD"
+  },
+  {
+    "id": "SRC-023",
+    "publisher": "Toyota USA Newsroom",
+    "title": "MR2 historical archive",
+    "url": "https://pressroom.toyota.com/historic-vehicles/mr2/",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "Three-generation MR2 historical index with photos"
+  },
+  {
+    "id": "SRC-024",
+    "publisher": "Toyota Global",
+    "title": "1st-generation MR2 specification",
+    "url": "https://www.toyota.co.jp/jpn/company/history/75years/vehicle_lineage/car/id60000661/index.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "AW11: 4A-GE 1.6, 130 PS JDM reference, 950 kg, 2320 mm wheelbase"
+  },
+  {
+    "id": "SRC-025",
+    "publisher": "Toyota Global",
+    "title": "MR-S / 3rd-generation MR2 specification",
+    "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60000647/",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "ZZW30: 1.8 1ZZ-FE 140 PS, ~970 kg, 2450 mm wheelbase"
+  },
+  {
+    "id": "SRC-026",
+    "publisher": "GM Heritage",
+    "title": "1964 Pontiac GTO",
+    "url": "https://www.gm.com/heritage/collection/pontiac/1964-pontiac-gto",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "389 V8 325 hp; Tri-Power 348 hp optional; period context"
+  },
+  {
+    "id": "SRC-027",
+    "publisher": "Chevrolet",
+    "title": "Corvette Legacy",
+    "url": "https://www.chevrolet.com/legacy/corvette",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "C1-C8 history, Z06/Grand Sport milestones, engines and technology"
+  },
+  {
+    "id": "SRC-028",
+    "publisher": "Chevrolet News",
+    "title": "Corvette Z06 generations",
+    "url": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2021/oct/1026-corvette-z06.html",
+    "type": "OEM",
+    "grade": "A",
+    "use": "Z06 generation table from C2 through C8"
+  },
+  {
+    "id": "SRC-029",
+    "publisher": "Ford Corporate",
+    "title": "GT40 origins",
+    "url": "https://corporate.ford.com/articles/history/ford-gt40-origins/",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "GT40 development history and engineering objectives"
+  },
+  {
+    "id": "SRC-030",
+    "publisher": "Ford Corporate",
+    "title": "GT40 427 / 1965 development",
+    "url": "https://corporate.ford.com/articles/history/ford-gt40-origins-427-gt40x.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "427 integration, aero, cooling, chassis development"
+  },
+  {
+    "id": "SRC-031",
+    "publisher": "Ford Corporate",
+    "title": "GT40 1966 Le Mans victory",
+    "url": "https://corporate.ford.com/articles/history/ford-gt40-origins-le-mans-committee-victory.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "Mk II development, 427 and 4-speed trans, endurance engineering"
+  },
+  {
+    "id": "SRC-032",
+    "publisher": "Superformance",
+    "title": "GT40 MKI specifications",
+    "url": "https://www.superformance.com/vehicles/gt40",
+    "type": "manufacturer",
+    "grade": "A-",
+    "use": "Continuation-car dimensions and chassis/suspension details"
+  },
+  {
+    "id": "SRC-033",
+    "publisher": "Ford Media",
+    "title": "2025 Police Interceptor Utility technical specs",
+    "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/2024/08/06/Ford%20PRO%20Explorer_PIU_Tech%20Specs%20June%202024.pdf",
+    "type": "OEM",
+    "grade": "A",
+    "use": "PIU powertrains, ratios, brakes, 255/60R18 tires, dimensions"
+  },
+  {
+    "id": "SRC-034",
+    "publisher": "J.D. Power",
+    "title": "2011 Crown Victoria Police Interceptor specs",
+    "url": "https://www.jdpower.com/cars/2011/ford/police-interceptor/sedan-4d-police-interceptor/specs",
+    "type": "reference",
+    "grade": "B",
+    "use": "4.6 V8 250 hp, 297 lb-ft, 4AT"
+  },
+  {
+    "id": "SRC-035",
+    "publisher": "MotorTrend",
+    "title": "Fiat X1/9 history",
+    "url": "https://www.motortrend.com/features/fiat-x19-history-generations-specifications",
+    "type": "secondary",
+    "grade": "B+",
+    "use": "mid-engine, 1.3 SOHC, 4MT, four-wheel discs, suspension context"
+  },
+  {
+    "id": "SRC-036",
+    "publisher": "Classic Recreations",
+    "title": "Shelby GT500CR Classic",
+    "url": "https://classic-recreations.com/models/shelby-gt500-classic/",
+    "type": "manufacturer",
+    "grade": "A-",
+    "use": "427/5.0 crate engines, 545/490/770 hp options, Tremec, 3.70 rear"
+  },
+  {
+    "id": "SRC-037",
+    "publisher": "Ford Media",
+    "title": "Bullitt 50th Anniversary article",
+    "url": "https://media.ford.com/content/fordmedia/fna/ca/en/news/2018/01/14/50th-anniversary-mustang-bullitt.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "1968 Bullitt movie-car provenance plus modern tribute context"
+  },
+  {
+    "id": "SRC-038",
+    "publisher": "Cars.com",
+    "title": "1998 Pontiac Firebird specifications",
+    "url": "https://www.cars.com/research/pontiac-firebird-1998/specs/",
+    "type": "secondary",
+    "grade": "B",
+    "use": "trim, dimensions, base V6; Formula/Trans Am LS1 context on related page"
+  },
+  {
+    "id": "SRC-039",
+    "publisher": "Ferrari",
+    "title": "250 California history/specification",
+    "url": "https://www.ferrari.com/en-PA/history/garage/1957/250-california",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "2.953L 60\u00b0 V12, 240 hp @ 7000, 252 km/h"
+  },
+  {
+    "id": "SRC-040",
+    "publisher": "Ferrari",
+    "title": "365 GTB4 Daytona history/specification",
+    "url": "https://www.ferrari.com/en-TD/history/garage/1968/365-gtb4",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "4.390L 60\u00b0 V12, 352 hp @ 7500, 280 km/h; front-engine/transaxle context"
+  },
+  {
+    "id": "SRC-041",
+    "publisher": "Toyota",
+    "title": "1993 all-new Supra launch",
+    "url": "https://global.toyota/en/detail/7868203",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "2JZ-GTE 3.0 twin-turbo 280 PS/44.0 kg-m JDM; Getrag 6MT; ETCS"
+  },
+  {
+    "id": "SRC-042",
+    "publisher": "Toyota",
+    "title": "2JZ-GTE engine media asset",
+    "url": "https://global.toyota/en/download/41120967",
+    "type": "OEM media",
+    "grade": "A",
+    "use": "official engine imagery and launch context"
+  },
+  {
+    "id": "SRC-043",
+    "publisher": "Nissan Heritage",
+    "title": "2000 Skyline GT-R V-Spec II",
+    "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/280_skyline_gt-r_v-spec_ii.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "R34: 280 PS, 392 Nm, 1560 kg, 245/40ZR18, multilink"
+  },
+  {
+    "id": "SRC-044",
+    "publisher": "BMW M",
+    "title": "M3 GTR Street",
+    "url": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m3-gtr-strassenversion.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "4.0 V8, 350 hp, 365 Nm, 1350 kg, 295 km/h"
+  },
+  {
+    "id": "SRC-045",
+    "publisher": "BMW M",
+    "title": "Legendary M engines",
+    "url": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m-engines.html",
+    "type": "OEM heritage",
+    "grade": "A",
+    "use": "S54 and P60 specifications; M3 GTR engine details"
+  }
+]

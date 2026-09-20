@@ -1,0 +1,10 @@
+{
+ "schema":1,
+ "entries":[
+  {"id":"kr_vehicle","resource":"Hero_1968_KR.usdz","fallback":"KR_Proxy.usdz","criticality":"gameplay"},
+  {"id":"icehouse","resource":"Icehouse_Garage.usdz","fallback":"Icehouse_Proxy.usdz","criticality":"gameplay"},
+  {"id":"dyno","resource":"Icehouse_Dyno.usdz","fallback":"Dyno_Proxy.usdz","criticality":"gameplay"},
+  {"id":"engine_audio","resource":"kr_engine_mechanical.wav","fallback":"engine_generic.wav","criticality":"cosmetic"},
+  {"id":"exhaust_audio","resource":"kr_exhaust.wav","fallback":"exhaust_generic.wav","criticality":"cosmetic"}
+ ]
+}

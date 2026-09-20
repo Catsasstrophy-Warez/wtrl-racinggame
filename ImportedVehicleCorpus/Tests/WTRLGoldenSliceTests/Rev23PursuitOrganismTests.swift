@@ -1,0 +1,10 @@
+import Testing
+@testable import WTRLWorld
+@testable import WTRLVehicle
+
+@Test func tetherLoadsThenBreaks() { var s=PursuitTetherState();s.attached=true;s.restLengthM=10;s.stiffnessNPerM=20_000;s.dampingNsPerM=0;s.breakForceN=40_000;s.lastLengthM=10;let a=PursuitTetherAuthority.step(state:&s,playerX:0,playerZ:0,anchorX:0,anchorZ:-11.5,dt:0.016);#expect(a.tensionN > 29_900 && a.tensionN < 30_100);#expect(s.attached);let b=PursuitTetherAuthority.step(state:&s,playerX:0,playerZ:0,anchorX:0,anchorZ:-13.2,dt:0.016);#expect(b.snapped);#expect(!s.attached) }
+@Test func punctureDeflatesProgressively() {var p=TirePunctureState();TirePunctureAuthority.puncture(3,state:&p);for _ in 0..<120 {TirePunctureAuthority.step(state:&p,dt:0.02)};#expect(p.pressureKPa[3] < 70);#expect(TirePunctureAuthority.gripMultiplier(pressureKPa:p.pressureKPa[3]) < 0.55)}
+@Test func lineOfSightCanBeOccluded() {let o=PursuitObserver(id:"u",x:0,z:0,headingRad:0);#expect(PursuitVisibilityAuthority.canSee(observer:o,targetX:0,targetZ:100,occluders:[]));let wall=OcclusionSegment(ax:-10,az:50,bx:10,bz:50);#expect(!PursuitVisibilityAuthority.canSee(observer:o,targetX:0,targetZ:100,occluders:[wall]))}
+@Test func cooldownRewardsConcealment() {var a=PursuitLifecycleState();a.heat = .interceptor;a.phase = .active;PursuitLifecycleAuthority.step(state:&a,observed:false,concealment01:1,vehiclePowered:false,dt:10);#expect(a.phase == .escaped)}
+@Test func fleetEscalatesWithoutRubberBanding() {let low=EnforcementFleetAuthority.eligible(heat:.patrol,zone:.crest);let high=EnforcementFleetAuthority.eligible(heat:.critical,zone:.crest);#expect(low.count==1);#expect(high.count==5);#expect(high.allSatisfy{$0.powerKW>0})}
+@Test func organismPropagatesCombustionAndTireHeat() {var s=MechanicalOrganismState();var i=MechanicalOrganismInput();i.base.throttle=1;i.combustion.rpm=4500;i.combustion.manifoldPressureKPa=110;i.combustion.afr=12.5;for _ in 0..<100 {MechanicalOrganismAuthority.step(state:&s,input:i,setup:.init(),dt:0.01)};#expect(s.combustion.indicatedTorqueNm>0);#expect(s.coolantC>82);#expect(s.tireThermals.count==4)}

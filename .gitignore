@@ -1,0 +1,9 @@
+# Self-export snapshots of this same repository — redundant with the
+# tracked content and far too large to version (~82MB each). If you need
+# a point-in-time archive, tag a commit instead of zipping the folder.
+racinggame-complete.zip
+racinggame-complete-deep-catalog.zip
+*.zip
+
+.DS_Store
+Thumbs.db

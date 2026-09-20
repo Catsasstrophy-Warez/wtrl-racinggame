@@ -1,0 +1,109 @@
+vehicle,engine,power,torque,transmission,drive,wheelbase,curb_weight,sources
+1965 Shelby GT350,289 ci / 4.7L V8,306 hp,,4-speed manual,RWD,108 in,"~2,800 lb",SRC-001
+1967 Shelby GT500,428 ci V8,355 bhp,420 lb-ft,4-speed manual or C6 auto,RWD,108 in,"~3,370 lb",SRC-002
+1969 Ford Mustang Mach 1,428 ci / 7.0L V8,335 hp,440 lb-ft,3-speed automatic tested,RWD,108 in,"3,607 lb",SRC-003
+2018 Mustang GT,5.0L Ti-VCT V8,460 hp @ 7000,420 lb-ft @ 4600,6MT / 10AT,RWD,,,SRC-004
+Shelby GT350/GT350R,5.2L flat-plane V8,526 hp @ 7500,429 lb-ft @ 4750,Tremec TR-3160 6MT,RWD,,,SRC-005
+2020-2022 Shelby GT500,5.2L supercharged cross-plane V8,760 hp,625 lb-ft,Tremec 7-speed DCT,RWD,107.1 in,see MY tech sheet,SRC-006;SRC-007;SRC-008
+Porsche 911 Carrera RS 2.7,2.687L flat-six,210 hp,,5MT-era reference,RWD,,960 kg Sport,SRC-011
+Porsche 911 Turbo 3.3 (930),3.3L turbo flat-six,300 PS,412 Nm,manual,RWD,,,SRC-012
+Porsche 911 GT3 RS (992),4.0L NA flat-six,518 hp,,PDK,RWD,,,SRC-013
+Nissan Skyline GT-R R33 V-Spec,2.568L RB26DETT I6,280 PS @ 6800,368 Nm @ 4400,5MT,ATTESA AWD,2720 mm,1540 kg,SRC-014
+Honda Civic Si (2026 reference),1.5L turbo I4,200 hp @ 6000,192 lb-ft @ 1800-5000,"6MT, 4.350 final",FWD,107.7 in,"2,952 lb",SRC-019
+Acura NSX (1991),3.0L DOHC VTEC V6,270 hp,210 lb-ft,5MT,RWD,,,SRC-020
+Acura NSX (2002 manual),3.2L DOHC VTEC V6,290 hp @ 7100,224 lb-ft @ 5500,6MT,RWD,,,SRC-021
+Acura NSX (2017),3.5L twin-turbo V6 + hybrid,573 hp system,476 lb-ft system,9DCT,Sport Hybrid SH-AWD,,,SRC-022
+Toyota MR2 AW11 (JDM reference),1.587L 4A-GE I4,130 PS @ 6600,,5MT,RWD/mid-engine,2320 mm,950 kg,SRC-024
+Toyota MR2 Spyder/MR-S,1.794L 1ZZ-FE I4,140 PS @ 6400,,manual/SMT,RWD/mid-engine,2450 mm,960-970 kg,SRC-025
+Lotus Elan,1.558L DOHC I4,,,manual,RWD,,,SRC-018
+1964 Pontiac GTO,389 ci V8,325 hp (348 hp Tri-Power option),,3MT/4MT options,RWD,,,SRC-026
+Ford Crown Victoria Police Interceptor (2011),4.6L V8,250 hp @ 5000,297 lb-ft @ 4000,4AT,RWD,,,SRC-034
+Ford Police Interceptor Utility (2025),3.3 V6 / 3.0 EcoBoost V6 / 3.3 hybrid,,,10AT,AWD,119.1 in,,SRC-033
+Superformance GT40 MKI,customer engine installation,varies,varies,manual,RWD,95 in,~2400 lb,SRC-032
+Ferrari 250 California,2.953L front longitudinal 60° V12,240 hp @ 7000,,manual,RWD,,,SRC-039
+Ferrari 365 GTB/4 Daytona,4.390L front longitudinal 60° V12,352 hp @ 7500,,rear transaxle manual,RWD,,,SRC-040
+Toyota Supra A80 2JZ-GTE (JDM launch),3.0L twin-turbo inline-six,280 PS @ 5600,44.0 kg-m @ 3600,Getrag 6MT / ECT-iS auto,RWD,,,SRC-041
+Nissan Skyline GT-R R34 V-Spec II,2.568L RB26DETT twin-turbo I6,280 PS @ 6800,392 Nm @ 4400,6MT-era road car,ATTESA AWD,2665 mm,1560 kg,SRC-043
+BMW M3 GTR Strassenversion,3.997L P60 V8,350 hp,365 Nm @ 5000,manual,RWD,,1350 kg,SRC-044;SRC-045
+Nissan Skyline GT-R R32 (BNR32),2.568L RB26DETT twin-turbo I6,280 PS (206 kW) @ 6800,353 Nm (36 kgm) @ 4400,5MT,ATTESA E-TS AWD,2615 mm,1430 kg,SRC-070
+Nissan Skyline GT-R R34 V-Spec II,2.568L RB26DETT twin-turbo I6,280 PS (206 kW) @ 6800,392 Nm (40.0 kgm) @ 4400,6MT,ATTESA E-TS AWD,2665 mm,1560 kg,SRC-043;SRC-071
+Toyota Supra A80 Turbo (US spec 1993),3.0L twin-turbo 2JZ-GTE I6,320 hp @ 5600,315 lb-ft @ 4000,6-speed manual,RWD,,"~3450-3600 lb",SRC-072
+Honda Civic Si (current-gen reference),1.5L turbo I4 (L15CA),200 hp @ 6000,192 lb-ft @ 1800-5000,"6MT, 4.350 final",FWD,107.7 in,2952 lb,SRC-019
+Acura NSX first-gen (1991 launch),3.0L C30A DOHC VTEC V6,270 hp,210 lb-ft,5MT/4AT,RWD mid-engine,99.6 in,,SRC-020;SRC-073
+Acura NSX first-gen (2002 manual),3.2L C32B DOHC VTEC V6,290 hp @ 7100,224 lb-ft @ 5500,6MT,RWD mid-engine,99.6 in,,SRC-021;SRC-073
+Acura NSX second-gen (2017 NC1),3.5L twin-turbo V6 + hybrid,573 hp system,476 lb-ft system,9DCT,Sport Hybrid SH-AWD,103.5 in,3803 lb,SRC-022;SRC-074
+Chevrolet Corvette C4 ZR-1 (1990-92),5.7L LT5 DOHC V8,375 hp @ 5800,370 lb-ft,6-speed manual (ZF),RWD,96.2 in,3465 lb,SRC-027;SRC-075
+Chevrolet Corvette C4 ZR-1 (1993-95),5.7L LT5 DOHC V8,405 hp,385 lb-ft,6-speed manual (ZF),RWD,96.2 in,3465 lb,SRC-027;SRC-075
+Chevrolet Corvette C5 (1997-2000 base),5.7L LS1 V8,345 hp @ 5600,350 lb-ft @ 4400,6MT (T-56) / 4AT,RWD,104.5 in,3245 lb,SRC-027;SRC-076
+Chevrolet Corvette C6 (2005-07 base),6.0L LS2 V8,400 hp @ 6000,400 lb-ft @ 4400,6MT (T-56) / 4AT,RWD,105.7 in,3179 lb,SRC-027;SRC-077
+BMW M3 E36 (US 1995),3.0L S50B30US I6,240 hp @ 6000,225 lb-ft @ 4250,5MT,RWD,106.7 in,"3,384 lb",SRC-017;SRC-050
+BMW M3 E46,3.2L S54 I6,338 hp @ 7900,269 lb-ft @ 4900,6MT / SMG-II,RWD,107.1 in,"3,450 lb",SRC-017;SRC-051
+BMW M3 E9x,4.0L S65 V8,414 hp @ 8300,295 lb-ft @ 3900,6MT / 7-speed M-DCT,RWD,108.7 in,"3,483-3,990 lb",SRC-017;SRC-052
+BMW M3 F80,3.0L S55 twin-turbo I6,425 hp @ 5500-7300,406 lb-ft @ 1850-5500,6MT / 7-speed M-DCT,RWD,110.7 in,"3,549 lb",SRC-017;SRC-053
+BMW M3 G80 (base),3.0L S58 twin-turbo I6,473 hp,405 lb-ft @ 2650-6130,6MT / 8AT,RWD,,,SRC-017;SRC-054
+BMW M3 GTR ALMS race car,4.0L P60B40 V8 (restrictor-limited),444-500 hp,,sequential racing gearbox,RWD,,1350 kg (Strassenversion reference),SRC-044;SRC-055
+Pontiac Firebird Trans Am (LS1, 1998-2002),5.7L LS1 V8,305 hp,335 lb-ft @ 4000,6MT (T56) / 4AT,RWD,101.1 in,"3,284 lb",SRC-038;SRC-056;SRC-057
+Dodge Viper RT/10 (1992),8.0L V10,400 hp @ 4600,450-465 lb-ft @ 3600,6-speed manual (T56),RWD,96.3 in,"3,285 lb",SRC-058;SRC-059
+Ford Falcon XB GT (1973-1976),351 cu in (5.8L) Cleveland V8,~260 hp (period AU test),,4-speed manual / 3AT,RWD,111.0 in,"3,073 lb",SRC-060;SRC-061
+Lotus Esprit Turbo (1987 HC),2.174L turbo I4,215 bhp @ 6000,220 lb-ft @ 4250,5MT,RWD/mid-engine,,,SRC-090
+Ford GT40 Mk I (1966 street version),4.7L (289 ci) V8,335 hp @ 6000,~329 lb-ft,manual (ZF 5-speed transaxle),RWD/mid-engine,95 in,"~1,800-2,300 lb",SRC-029;SRC-095
+Lamborghini Diablo (1990),5.7L DOHC 48v V12,492 hp,428 lb-ft,5MT,RWD,2650 mm,"1,576 kg",SRC-096;SRC-097
+Ferrari 308 GTB (1975),2.926L V8,255 bhp @ 7500,~210 lb-ft @ 5000,5MT,RWD/mid-engine,2340 mm,"1,100 kg",SRC-098;SRC-099
+Ferrari 328 GTB (1985),3.2L V8,270 hp,~231 lb-ft,5MT,RWD/mid-engine,2350 mm,"1,263 kg",SRC-100;SRC-101
+Dodge Charger Pursuit (2020),5.7L HEMI V8 / 3.6L Pentastar V6,370 hp (HEMI) / 292 hp (V6),395 lb-ft (HEMI) / 260 lb-ft (V6),5-speed automatic,RWD/AWD,,,SRC-103
+1963 Ford Falcon,260 ci / 4.3L V8 (top option),164 bhp @ 4400 rpm,,3-speed manual / Ford-O-Matic,RWD,109.5 in,,SRC-110
+1965 Ford Mustang (base),200 ci I6 / 289 ci V8 range,120-271 hp,,3MT/4MT/3AT,RWD,108 in,"~2,562 lb (hardtop)",SRC-111
+1967 Ford Mustang,200 ci I6 / 289 / 390 ci V8 range,120-320 hp,,3MT/4MT/Cruise-O-Matic,RWD,108 in,"2,758-3,704 lb",SRC-112
+1968 Ford Mustang GT 390 (Bullitt),390 ci / 6.4L FE V8,325 hp,427 lb-ft @ 3200 rpm,4-speed manual,RWD,108 in,"~2,800 lb",SRC-113;SRC-114
+1969 Ford Mustang Boss 429,429 ci / 7.0L semi-hemi V8,375 hp (advertised),450 lb-ft @ 3400 rpm,4-speed manual,RWD,,"3,870 lb",SRC-115;SRC-116
+Mustang II King Cobra (1978),302 ci / 4.9L V8,139 hp (SAE net),250 lb-ft,4-speed manual,RWD,96.2 in,"3,153 lb",SRC-117;SRC-118
+1993 Ford Mustang GT 5.0,302 ci / 5.0L HO V8,205 hp,275 lb-ft,5MT (T5) / 4AT (AOD),RWD,100.5 in,"~3,142 lb",SRC-119;SRC-010
+1993 Ford Mustang SVT Cobra,302 ci / 4.9L Windsor V8 (SVT tune),235-240 hp,280 lb-ft @ 4000 rpm,5-speed manual (T5),RWD,100.5 in,,SRC-120;SRC-121
+1996-1998 Ford Mustang SVT Cobra,4.6L DOHC 32V modular V8,305 hp @ 5800 rpm,300 lb-ft @ 4800 rpm,5-speed manual (T-45),RWD,,"3,391 lb (coupe) / 3,531 lb (convertible)",SRC-122
+2005 Ford Mustang GT (S197),4.6L 3-valve SOHC modular V8,300 hp @ 5750 rpm,320 lb-ft @ 4500 rpm,5MT / 5AT,RWD,,"~3,450 lb",SRC-123
+2015 Ford Mustang GT (S550),5.0L Coyote V8 (Gen 2),435 hp @ 6500 rpm,400 lb-ft @ 4250 rpm,6MT / 6AT,RWD,107.1 in,"3,705 lb",SRC-124;SRC-125
+Porsche 911 Turbo 3.0 (930),3.0L turbo flat-6,260 PS (191 kW),343 Nm @ 4000 rpm,4-speed manual,RWD,2272 mm,"1,195 kg",SRC-012;SRC-140
+Porsche 911 GT3 RS 4.0 (997),4.0L NA flat-6,500 PS @ 8250 rpm,460 Nm @ 5750 rpm,6-speed manual,RWD,,"1,360 kg (with fluids)",SRC-013;SRC-141;SRC-142
+Porsche 911 GT2 RS (991.2),3.8L twin-turbo flat-6,700 PS/700 hp (515 kW),750 Nm,7-speed PDK,RWD,2450 mm,"1,470 kg (full tank)",SRC-143
+RUF CTR "Yellowbird" (1987),3.4L twin-turbo flat-6,469 PS (463 hp),553 Nm,5-speed manual,RWD,2273 mm,"1,150 kg",SRC-144
+BMW M3 E30 (S14B23),2.3L DOHC I4,200 PS @ 6750 rpm,240 Nm @ 4750 rpm,5-speed manual,RWD,~2565 mm,"~1,165-1,200 kg",SRC-017;SRC-145
+Honda Civic Type R (EK9),1.6L B16B DOHC VTEC I4,185 PS @ 8200 rpm,160 Nm @ 7500 rpm,5-speed manual,FWD,2620 mm,"~1,090 kg",SRC-146
+Acura RSX Type-S (K20A2),2.0L K20A2 DOHC i-VTEC I4,200 hp @ 7400 rpm,142 lb-ft @ 6000 rpm,6-speed manual,FWD,2570 mm,"~2,840 lb",SRC-147
+Toyota MR2 AW11,1.6L 4A-GE DOHC I4,130 PS (JDM) / ~122 bhp (export),105 lb-ft @ 5000 rpm (export),5-speed manual,RWD (mid-engine),2320 mm,950 kg (JDM) / ~975 kg (export),SRC-023;SRC-024;SRC-148
+Toyota MR2 Turbo SW20 (3S-GTE),2.0L 3S-GTE turbo DOHC I4,245 PS @ 6000 rpm,304 Nm @ 4000 rpm,5-speed manual,RWD (mid-engine),2400 mm,"~1,270 kg",SRC-023;SRC-149
+Toyota MR2 Spyder/MR-S (ZZW30),1.8L 1ZZ-FE DOHC I4,140 PS / 138 hp @ 6400 rpm,170 Nm @ 4400 rpm,5-speed manual,RWD (mid-engine),2450 mm,"~970-995 kg",SRC-023;SRC-025;SRC-150
+Fiat X1/9 Bertone (US 1.5L),1.5L SOHC I4,76 PS/75 hp @ 6000 rpm (US),108 Nm/80 lb-ft (US),5-speed manual,RWD (mid-engine),2202 mm,880-920 kg,SRC-035;SRC-151
+Dodge Stealth R/T Twin Turbo,3.0L DOHC twin-turbo V6,300 hp (91-93) / 320 hp (94-95) @ 5500 rpm,307 lb-ft (91-93) / 315 lb-ft (94-95),5-speed manual / 4-speed automatic,AWD,2470 mm,"~1,690 kg",SRC-152
+2016-2020 Shelby GT350,5.2L Voodoo flat-plane V8,526 hp,429 lb-ft,6-speed manual (TR-3160),RWD,107.1 in,"~3,760 lb",SRC-005;SRC-170
+2016-2020 Shelby GT350R,5.2L Voodoo flat-plane V8,526 hp,429 lb-ft,6-speed manual (TR-3160),RWD,107.1 in,"3,650 lb",SRC-171;SRC-172
+2019 Mustang Bullitt,5.0L Coyote V8,480 hp,420 lb-ft,6-speed manual (MT-82),RWD,107.1 in,,SRC-037;SRC-173
+2014 Corvette Stingray (C7),6.2L LT1 V8,455 hp (460 hp w/NPP),460 lb-ft (465 lb-ft w/NPP),7-speed manual or 6-speed automatic,RWD,106.7 in,"3,347 lb",SRC-027;SRC-174
+2015 Corvette Z06 (C7),6.2L LT4 supercharged V8,650 hp,650 lb-ft,7-speed manual or 8-speed automatic,RWD,106.7 in,"3,524 lb",SRC-028;SRC-175;SRC-176
+1975 AMC Pacer,258 cu in AMC I6,110 hp,,3-speed manual or automatic,RWD,100.0 in,"~3,000 lb",SRC-177
+2020 Ford Police Interceptor Utility AWD,3.3L PFDI V6 hybrid or 3.0L EcoBoost V6,318 hp (hybrid) / 400 hp (EcoBoost),322 lb-ft (hybrid) / 416 lb-ft (EcoBoost),10-speed automatic,AWD,,,SRC-033;SRC-178
+Mustang SSP (late-production 1989-1993),302 cu in 5.0L HO V8,225 hp,~300 lb-ft,5-speed manual (T5),RWD,,,SRC-009;SRC-010;SRC-179
+2000 Gone in 60 Seconds Eleanor (film car),351 Windsor V8 crate engine,~400 hp (builder-reported),,4-speed manual,RWD,,,SRC-230;SRC-231
+1974 Gone in 60 Seconds Eleanor (film car; 1971 Mustang SportsRoof base),351 cu in (5.8L) Windsor V8 4bbl,,,Ford C6 3-speed automatic ("Cruisamatic"),RWD,,,SRC-232;SRC-233
+John Wick 1969 Mustang (real donor: Mach 1),428 cu in (7.0L) V8 (per real 1969 Mach 1 reference test),335 hp,440 lb-ft,automatic (as shown on screen),RWD,108 in,"3,607 lb (Mach 1 reference)",SRC-234;SRC-235;SRC-003
+Miami Vice Ferrari Daytona replica (Corvette C3 donor),Corvette C3-based V8,~350 hp (reported),,3-speed automatic,RWD,,,SRC-236;SRC-237
+Mercedes-AMG Vision Gran Turismo (2013 concept),5.5L twin-turbo V8,577 hp,590 lb-ft,7-speed automatic,RWD,,"~3,053 lb",SRC-241;SRC-242
+BMW Vision Gran Turismo (2014 concept),3.0L turbo I6 (M TwinPower Turbo),541 hp,499 lb-ft,6-speed sequential paddle-shift,RWD,,"~2,601 lb (1,180 kg)",SRC-243
+Porsche 911 Carrera RS 2.7 (1973),2.7L (2687cc) air-cooled flat-six,210 hp,,manual,RWD,,,SRC-011
+Porsche 911 (964) Carrera,3.6L air-cooled flat-six,250 PS,,manual,RWD,,,SRC-244
+Porsche 911 (964) Turbo 3.3,3.3L turbo air-cooled flat-six,320 PS,,manual,RWD,,,SRC-244
+Porsche 911 (993) Carrera (range),3.6L air-cooled flat-six (range),272-450 PS (range across 993 variants),,manual,RWD/AWD (Carrera 4),,,SRC-245
+Porsche 911 (996),water-cooled flat-six (first water-cooled 911),,,manual/Tiptronic,RWD/AWD (Carrera 4),,,SRC-246
+1966 Shelby GT350,289 ci / 4.7L K-code V8,306 hp @ 6000,329 lb-ft @ 4200,4-speed manual (auto optional),RWD,108 in,,SRC-200;SRC-201
+1968 Shelby GT500KR,428 ci / 7.0L Cobra Jet V8,335 hp @ 5200 (factory rating),440 lb-ft @ 3400,4-speed manual or C6 automatic,RWD,108 in,,SRC-202
+1968 Shelby GT350,302 ci / 4.9L V8,250 hp,,4-speed manual or automatic,RWD,108 in,,SRC-203
+1971 Ford Mustang Mach 1 (429 CJ),429 ci / 7.0L Cobra Jet V8,370 hp,,4-speed manual or automatic,RWD,,,SRC-204;SRC-205
+1971 Ford Mustang Mach 1 (429 SCJ),429 ci / 7.0L Super Cobra Jet V8,375 hp,,4-speed manual or automatic,RWD,,,SRC-204;SRC-205
+Fox-body Mustang GT 5.0 HO (1987-1992),5.0L / 302 ci HO V8,225 hp,300 lb-ft,5-speed manual (T5) or 4-speed automatic (AOD),RWD,,,SRC-206;SRC-207
+Fox-body Mustang GT 5.0 HO (1993),5.0L / 302 ci HO V8,205 hp,275 lb-ft,5-speed manual (T5) or 4-speed automatic (AOD),RWD,,,SRC-206
+SN95 Mustang GT (1996-1997),4.6L SOHC 2V modular V8,215 hp,285 lb-ft,5-speed manual or 4-speed automatic,RWD,,,SRC-208;SRC-209
+SN95 Mustang GT (1998),4.6L SOHC 2V modular V8,225 hp,290 lb-ft,5-speed manual or 4-speed automatic,RWD,,,SRC-208
+New Edge Mustang GT (1999-2004),4.6L SOHC 2V PI-head modular V8,260 hp,302 lb-ft,5-speed manual (Tremec 3650) or 4-speed automatic,RWD,,,SRC-210;SRC-211
+2021 Shelby GT500,5.2L supercharged Predator V8,760 hp,625 lb-ft,Tremec 7-speed dual-clutch automatic,RWD,,,SRC-007;SRC-212
+2022 Shelby GT500,5.2L supercharged Predator V8,760 hp,625 lb-ft,Tremec 7-speed dual-clutch automatic,RWD,,,SRC-006;SRC-007;SRC-213
+Shelby GT500E (Unique Performance),Shelby-tuned V8 (1967 Mustang-based),325 hp,,6-speed manual,RWD,,,SRC-216;SRC-217
+Shelby GT500CR Carbon Fiber Edition (Classic Recreations),5.2L Coyote + 2.9L Whipple supercharger,810 hp,600 lb-ft,10R80 10-speed automatic or Tremec T-56 6-speed manual,RWD,,,SRC-214;SRC-215

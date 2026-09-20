@@ -1,0 +1,1 @@
+{"status":"engineering_calibration_not_oem_truth","world":"Blackridge County","surfaces":[{"id":"marine_concrete","dry_mu":0.82,"wet_mu":0.51},{"id":"urban_asphalt","dry_mu":0.94,"wet_mu":0.68},{"id":"tar_chip","dry_mu":1.08,"wet_mu":0.76},{"id":"road_paint","dry_mu":0.65,"wet_mu":0.28},{"id":"packed_gravel","dry_mu":0.58,"wet_mu":0.42}]}

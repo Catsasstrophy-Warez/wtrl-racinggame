@@ -1,0 +1,2507 @@
+{
+  "generationId": "hero_1968_kr",
+  "count": 211,
+  "hardware": [
+    {
+      "hardwareId": "hood-assembly",
+      "name": "hood assembly",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "hood-hinges",
+      "name": "hood hinges",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "hood-latch-locks",
+      "name": "hood latch/locks",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-fascia-nose",
+      "name": "front fascia/nose",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-bumper",
+      "name": "front bumper",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-grille",
+      "name": "front grille",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-splitter-valance",
+      "name": "front splitter/valance",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "left-front-fender",
+      "name": "left front fender",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "right-front-fender",
+      "name": "right front fender",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "left-door-shell",
+      "name": "left door shell",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "right-door-shell",
+      "name": "right door shell",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "door-hinges",
+      "name": "door hinges",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "door-latches",
+      "name": "door latches",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "roof-panel",
+      "name": "roof panel",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "decklid-trunk-lid",
+      "name": "decklid/trunk lid",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-spoiler-wing",
+      "name": "rear spoiler/wing",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-fascia-valance",
+      "name": "rear fascia/valance",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-bumper",
+      "name": "rear bumper",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "left-quarter-panel",
+      "name": "left quarter panel",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "right-quarter-panel",
+      "name": "right quarter panel",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rocker-structures",
+      "name": "rocker structures",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "windshield",
+      "name": "windshield",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-glass",
+      "name": "rear glass",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "door-glass",
+      "name": "door glass",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "quarter-glass",
+      "name": "quarter glass",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "weatherstrip-set",
+      "name": "weatherstrip set",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "body-seals",
+      "name": "body seals",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "underbody-shields",
+      "name": "underbody shields",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "wheelhouse-liners",
+      "name": "wheelhouse liners",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "chassis-braces",
+      "name": "chassis braces",
+      "category": "body",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "engine-block",
+      "name": "engine block",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "crankshaft",
+      "name": "crankshaft",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "main-bearings",
+      "name": "main bearings",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "connecting-rods",
+      "name": "connecting rods",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rod-bearings",
+      "name": "rod bearings",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "pistons",
+      "name": "pistons",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "piston-rings",
+      "name": "piston rings",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "cylinder-heads",
+      "name": "cylinder heads",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "head-gaskets",
+      "name": "head gaskets",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "camshaft-camshafts",
+      "name": "camshaft/camshafts",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "timing-drive",
+      "name": "timing drive",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "valves",
+      "name": "valves",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "valve-springs",
+      "name": "valve springs",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rocker-finger-followers",
+      "name": "rocker/finger followers",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "lifters-lash-adjusters",
+      "name": "lifters/lash adjusters",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "intake-manifold",
+      "name": "intake manifold",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "throttle-carburetor-assembly",
+      "name": "throttle/carburetor assembly",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "air-cleaner-intake",
+      "name": "air cleaner/intake",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "fuel-injectors-carburetor-metering",
+      "name": "fuel injectors/carburetor metering",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "fuel-pump",
+      "name": "fuel pump",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "fuel-filter",
+      "name": "fuel filter",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "fuel-rail-lines",
+      "name": "fuel rail/lines",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "ignition-distributor-coils",
+      "name": "ignition distributor/coils",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "spark-plugs",
+      "name": "spark plugs",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "exhaust-manifolds",
+      "name": "exhaust manifolds",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "engine-mounts",
+      "name": "engine mounts",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "accessory-drive",
+      "name": "accessory drive",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "alternator",
+      "name": "alternator",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "starter-motor",
+      "name": "starter motor",
+      "category": "engine",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "radiator",
+      "name": "radiator",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "radiator-fan",
+      "name": "radiator fan",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "water-pump",
+      "name": "water pump",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "thermostat",
+      "name": "thermostat",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "coolant-expansion-recovery-tank",
+      "name": "coolant expansion/recovery tank",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "engine-oil-cooler",
+      "name": "engine oil cooler",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "supercharger-intercooler-core",
+      "name": "supercharger/intercooler core",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "intercooler-pump",
+      "name": "intercooler pump",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "intercooler-heat-exchanger",
+      "name": "intercooler heat exchanger",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "transmission-cooler",
+      "name": "transmission cooler",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "differential-cooler",
+      "name": "differential cooler",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "coolant-hoses",
+      "name": "coolant hoses",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "oil-filter",
+      "name": "oil filter",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "oil-pan",
+      "name": "oil pan",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "oil-pump",
+      "name": "oil pump",
+      "category": "thermal",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "clutch-flywheel-or-torque-converter",
+      "name": "clutch/flywheel or torque converter",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "transmission",
+      "name": "transmission",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "shifter-select-mechanism",
+      "name": "shifter/select mechanism",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "transmission-mount",
+      "name": "transmission mount",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "driveshaft",
+      "name": "driveshaft",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "universal-cv-joints",
+      "name": "universal/CV joints",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-axle-differential",
+      "name": "rear axle/differential",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "differential-carrier",
+      "name": "differential carrier",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "ring-and-pinion",
+      "name": "ring and pinion",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "axle-shafts-halfshafts",
+      "name": "axle shafts/halfshafts",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "wheel-hubs-bearings",
+      "name": "wheel hubs/bearings",
+      "category": "drivetrain",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-subframe-crossmember",
+      "name": "front subframe/crossmember",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-springs",
+      "name": "front springs",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-dampers-struts",
+      "name": "front dampers/struts",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-upper-arms-mounts",
+      "name": "front upper arms/mounts",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-lower-control-arms",
+      "name": "front lower control arms",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-ball-joints",
+      "name": "front ball joints",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-stabilizer-bar",
+      "name": "front stabilizer bar",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-stabilizer-links",
+      "name": "front stabilizer links",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-springs",
+      "name": "rear springs",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-dampers",
+      "name": "rear dampers",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-control-links-leaf-springs",
+      "name": "rear control links/leaf springs",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-stabilizer-bar",
+      "name": "rear stabilizer bar",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "panhard-toe-camber-links",
+      "name": "panhard/toe/camber links",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "bump-stops",
+      "name": "bump stops",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "strut-shock-mounts",
+      "name": "strut/shock mounts",
+      "category": "suspension",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "steering-wheel",
+      "name": "steering wheel",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "steering-column",
+      "name": "steering column",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "steering-gear-rack",
+      "name": "steering gear/rack",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "power-steering-assist",
+      "name": "power steering assist",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "tie-rods",
+      "name": "tie rods",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "brake-pedal-booster",
+      "name": "brake pedal/booster",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "master-cylinder",
+      "name": "master cylinder",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "abs-hydraulic-control-unit",
+      "name": "ABS/hydraulic control unit",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "front-calipers",
+      "name": "front calipers",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-rotors-discs",
+      "name": "front rotors/discs",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-calipers-drums",
+      "name": "rear calipers/drums",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-rotors-drums",
+      "name": "rear rotors/drums",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "parking-brake",
+      "name": "parking brake",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "brake-hoses-lines",
+      "name": "brake hoses/lines",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "brake-cooling-ducts",
+      "name": "brake cooling ducts",
+      "category": "steering_brakes",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-wheels",
+      "name": "front wheels",
+      "category": "rolling",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-wheels",
+      "name": "rear wheels",
+      "category": "rolling",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "front-tires",
+      "name": "front tires",
+      "category": "rolling",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-tires",
+      "name": "rear tires",
+      "category": "rolling",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "wheel-studs-nuts",
+      "name": "wheel studs/nuts",
+      "category": "rolling",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "tpms-sensors",
+      "name": "TPMS sensors",
+      "category": "rolling",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "battery",
+      "name": "battery",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "battery-cables",
+      "name": "battery cables",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "primary-fuse-power-distribution",
+      "name": "primary fuse/power distribution",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "engine-control-module",
+      "name": "engine control module",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "body-control-module",
+      "name": "body control module",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "instrument-cluster",
+      "name": "instrument cluster",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "main-wiring-harness",
+      "name": "main wiring harness",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "engine-harness",
+      "name": "engine harness",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "grounds",
+      "name": "grounds",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "headlamps",
+      "name": "headlamps",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "tail-lamps",
+      "name": "tail lamps",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "turn-signals",
+      "name": "turn signals",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "fog-driving-lamps",
+      "name": "fog/driving lamps",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "wiper-motor-linkage",
+      "name": "wiper motor/linkage",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "washer-system",
+      "name": "washer system",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "horns",
+      "name": "horns",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "sensors-package",
+      "name": "sensors package",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "obd-diagnostic-connector",
+      "name": "OBD/diagnostic connector",
+      "category": "electrical",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "driver-seat",
+      "name": "driver seat",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "passenger-seat",
+      "name": "passenger seat",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "rear-seat",
+      "name": "rear seat",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "seat-tracks",
+      "name": "seat tracks",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "seat-belts-harnesses",
+      "name": "seat belts/harnesses",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "roll-bar-brace",
+      "name": "roll bar/brace",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "dashboard-instrument-panel",
+      "name": "dashboard/instrument panel",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "center-console",
+      "name": "center console",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "pedal-box",
+      "name": "pedal box",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "carpet-insulation",
+      "name": "carpet/insulation",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "door-trim-panels",
+      "name": "door trim panels",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "headliner",
+      "name": "headliner",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "hvac-heater-box",
+      "name": "HVAC/heater box",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "blower-motor",
+      "name": "blower motor",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "a-c-compressor",
+      "name": "A/C compressor",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "audio-head-unit",
+      "name": "audio/head unit",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "speakers",
+      "name": "speakers",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "interior-lighting",
+      "name": "interior lighting",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "source-supported-architecture",
+      "confidence": 0.8,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "mirrors",
+      "name": "mirrors",
+      "category": "interior",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "airbags",
+      "name": "airbags",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "stability-traction-control",
+      "name": "stability/traction control",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "launch-control-hardware",
+      "name": "launch-control hardware",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "active-damper-controller",
+      "name": "active damper controller",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "aero-control-hardware",
+      "name": "aero control hardware",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "not-applicable",
+      "confidence": 0.99,
+      "sourceRefs": [
+        "S68_BROCHURE",
+        "S68_GUIDE"
+      ],
+      "notes": "Not part of factory architecture for this historical Hero."
+    },
+    {
+      "hardwareId": "undertray-diffuser",
+      "name": "undertray/diffuser",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "tow-recovery-points",
+      "name": "tow/recovery points",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "fire-extinguisher-provision",
+      "name": "fire extinguisher provision",
+      "category": "safety_aero",
+      "quantity": null,
+      "fitment": "factory architecture",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.45,
+      "sourceRefs": [],
+      "notes": "Indexed for service/compatibility research; exact part number, dimensions and fasteners require model-year evidence unless separately authored."
+    },
+    {
+      "hardwareId": "engine-identification-data-plate",
+      "name": "engine identification/data plate",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "vin-data-tag",
+      "name": "VIN/data tag",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "body-buck-datums",
+      "name": "body buck/datums",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "front-frame-rail-datum",
+      "name": "front frame rail datum",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "rear-rail-datum",
+      "name": "rear rail datum",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "rocker-pinch-weld-datum",
+      "name": "rocker pinch weld datum",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "suspension-hardpoint-datum-set",
+      "name": "suspension hardpoint datum set",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "alignment-reference-points",
+      "name": "alignment reference points",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "engine-oil-drain-plug",
+      "name": "engine oil drain plug",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "engine-oil-fill-cap",
+      "name": "engine oil fill cap",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "coolant-drain-fill-points",
+      "name": "coolant drain/fill points",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "brake-bleeder-screws",
+      "name": "brake bleeder screws",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "differential-fill-drain-plugs",
+      "name": "differential fill/drain plugs",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "transmission-fill-drain-plugs",
+      "name": "transmission fill/drain plugs",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "wheel-alignment-adjusters",
+      "name": "wheel alignment adjusters",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "jacking-points",
+      "name": "jacking points",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "tow-recovery-points",
+      "name": "tow/recovery points",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "fuel-filler-neck-cap",
+      "name": "fuel filler/neck/cap",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "fuel-tank-straps-mounts",
+      "name": "fuel tank straps/mounts",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "parking-brake-cables-actuators",
+      "name": "parking brake cables/actuators",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "exhaust-hangers",
+      "name": "exhaust hangers",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "heat-shields",
+      "name": "heat shields",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "engine-undertray",
+      "name": "engine undertray",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "hood-insulation",
+      "name": "hood insulation",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "sound-deadening",
+      "name": "sound deadening",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "seat-mounting-bolts",
+      "name": "seat mounting bolts",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "steering-intermediate-shaft",
+      "name": "steering intermediate shaft",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "column-coupler",
+      "name": "column coupler",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "pedal-position-sensors-switches",
+      "name": "pedal position sensors/switches",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "brake-light-switch",
+      "name": "brake light switch",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "clutch-switch-pedal-sensor",
+      "name": "clutch switch/pedal sensor",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "reverse-lamp-switch-control",
+      "name": "reverse lamp switch/control",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "vehicle-speed-sensing-hardware",
+      "name": "vehicle speed sensing hardware",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "oxygen-sensors",
+      "name": "oxygen sensors",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "maf-map-sensors",
+      "name": "MAF/MAP sensors",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "coolant-temperature-sensor",
+      "name": "coolant temperature sensor",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "oil-pressure-sensing",
+      "name": "oil pressure sensing",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "fuel-pressure-sensing",
+      "name": "fuel pressure sensing",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "wheel-speed-sensors",
+      "name": "wheel speed sensors",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "ride-height-position-sensors",
+      "name": "ride-height/position sensors",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "yaw-acceleration-sensors",
+      "name": "yaw/acceleration sensors",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "ambient-air-sensor",
+      "name": "ambient air sensor",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "hvac-pressure-sensor",
+      "name": "HVAC pressure sensor",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "not-applicable",
+      "confidence": 0.95,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "door-ajar-switches",
+      "name": "door ajar switches",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    },
+    {
+      "hardwareId": "hood-decklid-ajar-switches",
+      "name": "hood/decklid ajar switches",
+      "category": "service_detail",
+      "quantity": null,
+      "fitment": "architecture/service index",
+      "status": "architecture-index-research-gated",
+      "confidence": 0.4,
+      "sourceRefs": [],
+      "notes": "Deep service/hardware research slot. Exact part number, quantity, size, fastener and torque remain gated unless separately verified."
+    }
+  ]
+}

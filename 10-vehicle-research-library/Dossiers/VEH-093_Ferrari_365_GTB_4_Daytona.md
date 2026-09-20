@@ -1,0 +1,51 @@
+# VEH-093 — Ferrari 365 GTB/4 Daytona
+
+**Category:** film/derivation/endurance reference  
+**Era:** 1968-1973  
+**Research type:** real/reference  
+
+## WTRL research role
+Use as an engineering, historical, packaging, handling, visual-language, or career-reference input. Real specifications are research evidence, not automatic WTRL canonical truth.
+
+## Verified specification snapshot
+- Engine: 4.390L front-longitudinal 60° V12 (type 251), dry sump, six twin-choke Weber 40 DCN carburetors
+- Power: 352 hp
+- Torque: approx. 318 lb-ft (431 Nm) @ 5,500 rpm (secondary-source figure)
+- Transmission: 5-speed transaxle manual (rear-mounted)
+- Drive layout: RWD, front-engine/rear-transaxle
+- Wheelbase: 2,400 mm (94.5 in)
+- Curb weight: approx. 1,200 kg (secondary-source figure)
+- Evidence: SRC-093; SRC-094
+
+## Primary sources
+- **SRC-093 · Ferrari S.p.A. (Ferrari.com) · grade A** — 365 GTB4 (1968) model page
+  - https://www.ferrari.com/en-EN/auto/365-gtb4
+  - Research use: OEM heritage confirmation of model identity, V12 architecture, 352 hp rating
+- **SRC-094 · encycarpedia · grade B** — Ferrari 365 GTB/4 Daytona specs (1968-1973)
+  - https://www.encycarpedia.com/us/ferrari/68-daytona-365-gtb4-coupe
+  - Research use: corroborating torque, wheelbase, weight, transaxle/driveline detail
+
+## Images
+Use OEM heritage/media galleries first for shape, stance, suspension layout, cockpit, engine bay, brakes, wheels, and period-correct details. Images are **reference links only** in this library; no copyrighted image files are redistributed.
+
+## Video research
+Preferred capture targets: cold start/idle, engine bay, underbody/suspension, steering lock, braking, acceleration, shift behavior, body motion, track/road dynamics, service access, and cockpit ergonomics. See `Media/VIDEO-SOURCE-LEDGER.csv` for indexed videos and continue vehicle-specific capture where no video has yet been verified.
+
+## WTRL extraction checklist
+- Engine architecture and usable RPM band
+- Transmission type, ratios/final drive where verified
+- Differential/driven axle strategy
+- Suspension architecture and wheel travel behavior
+- Brake size/type/bias cues
+- Tire/wheel sizing and sidewall behavior
+- Wheelbase, track, mass and weight-distribution cues
+- Aero devices and their functional intent
+- Cooling/thermal strategy
+- Service packaging and component accessibility
+- Driver ergonomics and instrument layout
+- Period-correct modification culture
+- Failure/wear modes worth simulating
+- Distinctive interaction ideas that can be transformed without copying trade dress
+
+## Evidence policy
+OEM/heritage sources are preferred. Period road tests and high-quality engineering sources are secondary. Community/forum claims require corroboration before becoming canonical WTRL data.

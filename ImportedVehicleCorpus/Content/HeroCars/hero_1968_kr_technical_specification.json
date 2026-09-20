@@ -1,0 +1,831 @@
+{
+  "generationId": "hero_1968_kr",
+  "researchSchema": 1,
+  "researchScope": "maximum-practical-public-source technical dossier",
+  "measurementMap": {
+    "wheelbase": {
+      "value": 108,
+      "unit": "in",
+      "status": "verified",
+      "confidence": 0.75,
+      "authority": "research",
+      "sourceRefs": [
+        "S68_GUIDE"
+      ],
+      "notes": ""
+    },
+    "frontTrack": {
+      "value": 58.1,
+      "unit": "in",
+      "status": "verified",
+      "confidence": 0.65,
+      "authority": "research",
+      "sourceRefs": [
+        "S68_GUIDE"
+      ],
+      "notes": ""
+    },
+    "rearTrack": {
+      "value": 58.1,
+      "unit": "in",
+      "status": "verified",
+      "confidence": 0.65,
+      "authority": "research",
+      "sourceRefs": [
+        "S68_GUIDE"
+      ],
+      "notes": ""
+    },
+    "overallLength": {
+      "value": 183.6,
+      "unit": "in",
+      "status": "verified",
+      "confidence": 0.7,
+      "authority": "research",
+      "sourceRefs": [
+        "S68_GUIDE"
+      ],
+      "notes": ""
+    },
+    "overallWidthBody": {
+      "value": 70.9,
+      "unit": "in",
+      "status": "verified",
+      "confidence": 0.7,
+      "authority": "research",
+      "sourceRefs": [
+        "S68_GUIDE"
+      ],
+      "notes": ""
+    },
+    "overallWidthMirrors": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "overallHeight": {
+      "value": 51.8,
+      "unit": "in",
+      "status": "verified",
+      "confidence": 0.7,
+      "authority": "research",
+      "sourceRefs": [
+        "S68_GUIDE"
+      ],
+      "notes": ""
+    },
+    "groundClearance": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontOverhang": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearOverhang": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "hoodLength": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "hoodWidth": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "roofLength": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "roofWidth": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "doorLength": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "doorHeight": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "windshieldWidth": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "windshieldHeight": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearGlassWidth": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearGlassHeight": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontFenderWidth": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearQuarterWidth": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rockerHeight": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontBumperHeight": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearBumperHeight": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontSplitterProjection": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearWingSpan": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearWingChord": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "underbodyRideHeightFront": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "underbodyRideHeightRear": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontWheelArchDiameter": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearWheelArchDiameter": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontHeadroom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearHeadroom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontLegroom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearLegroom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontShoulderRoom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearShoulderRoom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "frontHipRoom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearHipRoom": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "cargoVolume": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "passengerVolume": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "fuelTankCapacity": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "curbWeight": {
+      "value": 3570,
+      "unit": "lb",
+      "status": "verified",
+      "confidence": 0.65,
+      "authority": "research",
+      "sourceRefs": [
+        "S68_GUIDE"
+      ],
+      "notes": "Secondary compiled figure; preserve as non-factory until factory measurement located."
+    },
+    "frontWeightDistribution": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    },
+    "rearWeightDistribution": {
+      "value": null,
+      "unit": null,
+      "status": "research-gate",
+      "confidence": 0.0,
+      "authority": "unverified",
+      "sourceRefs": [],
+      "notes": "Exact public factory measurement not yet verified for this field.",
+      "gateCategory": "exact-dimension"
+    }
+  },
+  "sections": {
+    "identity": {
+      "model": "Shelby GT500KR",
+      "modelYear": 1968,
+      "bodyStyles": [
+        "fastback",
+        "convertible"
+      ],
+      "nickname": "King of the Road",
+      "drivetrainLayout": "front-engine, rear-wheel drive"
+    },
+    "engine": {
+      "family": "Ford FE 428 Cobra Jet",
+      "displacement": {
+        "value": 428,
+        "unit": "cu_in",
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "configuration": {
+        "value": "90-degree OHV V8",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.85,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "bore": {
+        "value": 4.13,
+        "unit": "in",
+        "status": "verified",
+        "confidence": 0.8,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "stroke": {
+        "value": 3.98,
+        "unit": "in",
+        "status": "verified",
+        "confidence": 0.8,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "compressionRatio": {
+        "value": 10.6,
+        "unit": ":1",
+        "status": "verified",
+        "confidence": 0.8,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "officialPower": {
+        "value": 335,
+        "unit": "SAE gross hp",
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "torque": {
+        "value": 440,
+        "unit": "lb_ft",
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "carburetion": {
+        "value": "Holley 4-barrel, approximately 735 cfm, ram-air-fed Cobra Jet configuration",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.8,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "cylinderHeads": {
+        "value": "Cobra Jet high-flow heads derived from Ford FE performance architecture",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.8,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "exhaustManifolds": {
+        "value": "larger less-restrictive / header-style Cobra Jet manifolds",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.8,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      }
+    },
+    "drivetrain": {
+      "manualTransmission": {
+        "value": "Ford Toploader 4-speed",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.75,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "automaticTransmission": {
+        "value": "Ford C6 3-speed automatic",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.7,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "typicalRearAxle": {
+        "value": "3.50 Traction-Lok on documented examples; axle ratio/options varied",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.65,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      }
+    },
+    "suspension": {
+      "front": {
+        "value": "Mustang SLA/coil-spring independent front with Shelby tuning",
+        "unit": null,
+        "status": "architectural-inference",
+        "confidence": 0.65,
+        "authority": "inference",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": "Underlying Mustang/Shelby architecture; exact KR spring/damper rates require factory engineering sheet."
+      },
+      "rear": {
+        "value": "live axle with leaf springs; staggered rear shocks identified as KR performance hardware",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.75,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "bracing": {
+        "value": "underhood bracing",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.75,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      }
+    },
+    "brakes": {
+      "front": {
+        "value": "power-assisted front disc brakes",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.75,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "rear": {
+        "value": "rear drums",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.75,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "exactDimensions": {
+        "value": null,
+        "unit": null,
+        "status": "research-gate",
+        "confidence": 0.0,
+        "authority": "unverified",
+        "sourceRefs": [],
+        "notes": "Need a primary 1968 KR brake engineering/spec sheet before promoting secondary diameter/width values.",
+        "gateCategory": "exact-dimension"
+      }
+    },
+    "bodyHardware": {
+      "frontBody": {
+        "value": "Shelby-specific extended fiberglass front styling",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.8,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_BROCHURE",
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "hood": {
+        "value": "fiberglass hood with twin scoops/louvers; ram-air function associated with Cobra Jet KR",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "decklidSpoiler": {
+        "value": "integrated Shelby rear decklid/spoiler treatment",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "drivingLamps": {
+        "value": "rectangular driving/fog lamps",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "sequentialTailLamps": {
+        "value": true,
+        "unit": "bool",
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "quarterScoops": {
+        "value": "Shelby side/quarter intake styling",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      }
+    },
+    "interior": {
+      "trim": {
+        "value": "Ford Deluxe interior with woodgrain/wood-rim appointments",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "rollBar": {
+        "value": "2-point roll bar",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "harnesses": {
+        "value": "inertia-reel shoulder harnesses",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.95,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      }
+    },
+    "wheelsTires": {
+      "factoryWheelFamily": {
+        "value": "15-in Shelby/10-spoke alloy and steel-wheel configurations documented across examples",
+        "unit": null,
+        "status": "verified",
+        "confidence": 0.65,
+        "authority": "research",
+        "sourceRefs": [
+          "S68_GUIDE"
+        ],
+        "notes": ""
+      },
+      "tire": {
+        "value": null,
+        "unit": null,
+        "status": "research-gate",
+        "confidence": 0.0,
+        "authority": "unverified",
+        "sourceRefs": [],
+        "notes": "Factory tire size/brand varies by source and production timing; exact KR assembly-date fitment requires build-sheet/source reconciliation.",
+        "gateCategory": "exact-dimension"
+      }
+    }
+  },
+  "modelYearVariants": []
+}

@@ -1,0 +1,4334 @@
+{
+  "schema": "WTRL.Rev42_3.HeroMechanicalExecution.v1",
+  "generationId": "hero_1968_kr",
+  "displayName": "Hero 1968 KR",
+  "executionNodes": [
+    {
+      "nodeId": "heroexec-eff6bb3b41b148b3",
+      "mechanicalId": "engine_harness",
+      "nodeKind": "component",
+      "systemId": "engineblockbottomend",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.engine-harness",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.engineblockbottomend.factory",
+        "family": "EngineBlockBottomEnd",
+        "subtype": "factory",
+        "iconResolutionKey": "EngineBlockBottomEnd:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.engineblockbottomend.factory",
+        "primitiveIds": [
+          "hero_1968_kr.engineblockbottomend.factory.physics.bearing.1",
+          "hero_1968_kr.engineblockbottomend.factory.physics.shaft.2",
+          "hero_1968_kr.engineblockbottomend.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-c40c88a35d366503",
+      "mechanicalId": "body_harness",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.body-harness",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-84aeb145a8ebea04",
+      "mechanicalId": "charging_starting",
+      "nodeKind": "component",
+      "systemId": "electrical",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.charging-starting",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.electrical.factory",
+        "family": "Electrical",
+        "subtype": "factory",
+        "iconResolutionKey": "Electrical:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.electrical.factory",
+        "primitiveIds": [
+          "hero_1968_kr.electrical.factory.physics.conductor.1",
+          "hero_1968_kr.electrical.factory.physics.connector.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-16e2f61a48b7427f",
+      "mechanicalId": "front_brake_main",
+      "nodeKind": "component",
+      "systemId": "brakes",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-brake-main",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.brakes.factory",
+        "family": "Brakes",
+        "subtype": "factory",
+        "iconResolutionKey": "Brakes:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.brakes.factory",
+        "primitiveIds": [
+          "hero_1968_kr.brakes.factory.physics.frictionsurface.1",
+          "hero_1968_kr.brakes.factory.physics.hose.2",
+          "hero_1968_kr.brakes.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-c74e29506b3560ef",
+      "mechanicalId": "rear_brake_main",
+      "nodeKind": "component",
+      "systemId": "brakes",
+      "dependencies": [
+        "front_brake_main"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.rear-brake-main",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.brakes.factory",
+        "family": "Brakes",
+        "subtype": "factory",
+        "iconResolutionKey": "Brakes:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.brakes.factory",
+        "primitiveIds": [
+          "hero_1968_kr.brakes.factory.physics.frictionsurface.1",
+          "hero_1968_kr.brakes.factory.physics.hose.2",
+          "hero_1968_kr.brakes.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-cb92bb6a697e5bf7",
+      "mechanicalId": "fuel_feed",
+      "nodeKind": "component",
+      "systemId": "fueldelivery",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.fuel-feed",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "family": "FuelDelivery",
+        "subtype": "factory",
+        "iconResolutionKey": "FuelDelivery:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "primitiveIds": [
+          "hero_1968_kr.fueldelivery.factory.physics.pump.1",
+          "hero_1968_kr.fueldelivery.factory.physics.filter.2",
+          "hero_1968_kr.fueldelivery.factory.physics.hose.3",
+          "hero_1968_kr.fueldelivery.factory.physics.connector.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-e5fa98156c500300",
+      "mechanicalId": "coolant_upper",
+      "nodeKind": "component",
+      "systemId": "cooling",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.coolant-upper",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "family": "Cooling",
+        "subtype": "factory",
+        "iconResolutionKey": "Cooling:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "primitiveIds": [
+          "hero_1968_kr.cooling.factory.physics.pump.1",
+          "hero_1968_kr.cooling.factory.physics.hose.2",
+          "hero_1968_kr.cooling.factory.physics.heatexchanger.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-09ea8c1ee24de1e3",
+      "mechanicalId": "coolant_lower",
+      "nodeKind": "component",
+      "systemId": "cooling",
+      "dependencies": [
+        "coolant_upper"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.coolant-lower",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "family": "Cooling",
+        "subtype": "factory",
+        "iconResolutionKey": "Cooling:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "primitiveIds": [
+          "hero_1968_kr.cooling.factory.physics.pump.1",
+          "hero_1968_kr.cooling.factory.physics.hose.2",
+          "hero_1968_kr.cooling.factory.physics.heatexchanger.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-498fb8b0fd2d75fd",
+      "mechanicalId": "engine_remove",
+      "nodeKind": "component",
+      "systemId": "engineblockbottomend",
+      "dependencies": [
+        "engine_harness"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.engine-remove",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.engineblockbottomend.factory",
+        "family": "EngineBlockBottomEnd",
+        "subtype": "factory",
+        "iconResolutionKey": "EngineBlockBottomEnd:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.engineblockbottomend.factory",
+        "primitiveIds": [
+          "hero_1968_kr.engineblockbottomend.factory.physics.bearing.1",
+          "hero_1968_kr.engineblockbottomend.factory.physics.shaft.2",
+          "hero_1968_kr.engineblockbottomend.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-b7ce6466bbe83985",
+      "mechanicalId": "brake_hydraulic_service",
+      "nodeKind": "component",
+      "systemId": "brakes",
+      "dependencies": [
+        "rear_brake_main"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.brake-hydraulic-service",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.brakes.factory",
+        "family": "Brakes",
+        "subtype": "factory",
+        "iconResolutionKey": "Brakes:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.brakes.factory",
+        "primitiveIds": [
+          "hero_1968_kr.brakes.factory.physics.frictionsurface.1",
+          "hero_1968_kr.brakes.factory.physics.hose.2",
+          "hero_1968_kr.brakes.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-96c91ba8bb5d509c",
+      "mechanicalId": "fuel_system_service",
+      "nodeKind": "component",
+      "systemId": "fueldelivery",
+      "dependencies": [
+        "fuel_feed"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.fuel-system-service",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "family": "FuelDelivery",
+        "subtype": "factory",
+        "iconResolutionKey": "FuelDelivery:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "primitiveIds": [
+          "hero_1968_kr.fueldelivery.factory.physics.pump.1",
+          "hero_1968_kr.fueldelivery.factory.physics.filter.2",
+          "hero_1968_kr.fueldelivery.factory.physics.hose.3",
+          "hero_1968_kr.fueldelivery.factory.physics.connector.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-6dbcad7df5881ec8",
+      "mechanicalId": "cooling_service",
+      "nodeKind": "component",
+      "systemId": "cooling",
+      "dependencies": [
+        "coolant_lower"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.cooling-service",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "family": "Cooling",
+        "subtype": "factory",
+        "iconResolutionKey": "Cooling:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "primitiveIds": [
+          "hero_1968_kr.cooling.factory.physics.pump.1",
+          "hero_1968_kr.cooling.factory.physics.hose.2",
+          "hero_1968_kr.cooling.factory.physics.heatexchanger.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-254991516e572a51",
+      "mechanicalId": "hood",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "body_harness"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.hood",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-4cedc5f1d8209b7f",
+      "mechanicalId": "front_bumper_cover",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "hood"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-bumper-cover",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-0543c9edf6f583cb",
+      "mechanicalId": "front_fender_L",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "front_bumper_cover"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-fender-l",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-e88c312cfa0cfe74",
+      "mechanicalId": "front_fender_R",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "front_fender_L"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-fender-r",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-20071a2fefbb127e",
+      "mechanicalId": "door_L",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "front_fender_R"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.door-l",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-1f418bad058836dd",
+      "mechanicalId": "door_R",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "door_L"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.door-r",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-1b151c3c003d864b",
+      "mechanicalId": "quarter_L",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "door_R"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.quarter-l",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-15bd5bb3804436b7",
+      "mechanicalId": "quarter_R",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "quarter_L"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.quarter-r",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-1afce6ea7049626f",
+      "mechanicalId": "trunk_or_hatch",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "quarter_R"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.trunk-or-hatch",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-bf190c80e2ea45f7",
+      "mechanicalId": "rear_bumper_cover",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "trunk_or_hatch"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.rear-bumper-cover",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-6a871a8360604c54",
+      "mechanicalId": "rocker_L",
+      "nodeKind": "component",
+      "systemId": "cylinderheadvalvetrain",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.rocker-l",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.cylinderheadvalvetrain.factory",
+        "family": "CylinderHeadValvetrain",
+        "subtype": "factory",
+        "iconResolutionKey": "CylinderHeadValvetrain:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.cylinderheadvalvetrain.factory",
+        "primitiveIds": [
+          "hero_1968_kr.cylinderheadvalvetrain.factory.physics.bearing.1",
+          "hero_1968_kr.cylinderheadvalvetrain.factory.physics.spring.2",
+          "hero_1968_kr.cylinderheadvalvetrain.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-ae00580dd339b257",
+      "mechanicalId": "rocker_R",
+      "nodeKind": "component",
+      "systemId": "cylinderheadvalvetrain",
+      "dependencies": [
+        "rocker_L"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.rocker-r",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.cylinderheadvalvetrain.factory",
+        "family": "CylinderHeadValvetrain",
+        "subtype": "factory",
+        "iconResolutionKey": "CylinderHeadValvetrain:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.cylinderheadvalvetrain.factory",
+        "primitiveIds": [
+          "hero_1968_kr.cylinderheadvalvetrain.factory.physics.bearing.1",
+          "hero_1968_kr.cylinderheadvalvetrain.factory.physics.spring.2",
+          "hero_1968_kr.cylinderheadvalvetrain.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-58cda37b87a4b4fe",
+      "mechanicalId": "roof_skin",
+      "nodeKind": "component",
+      "systemId": "chassisstructure",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.roof-skin",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "family": "ChassisStructure",
+        "subtype": "factory",
+        "iconResolutionKey": "ChassisStructure:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "primitiveIds": [
+          "hero_1968_kr.chassisstructure.factory.physics.fastener.1",
+          "hero_1968_kr.chassisstructure.factory.physics.spring.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-801806752a618cd8",
+      "mechanicalId": "front_glass",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "rear_bumper_cover"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-glass",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-3d55aa5bec91153f",
+      "mechanicalId": "rear_glass",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "front_glass"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.rear-glass",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-c787676bde052bab",
+      "mechanicalId": "engine",
+      "nodeKind": "component",
+      "systemId": "engineblockbottomend",
+      "dependencies": [
+        "engine_remove"
+      ],
+      "requiresLift": true,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.engine",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.engineblockbottomend.factory",
+        "family": "EngineBlockBottomEnd",
+        "subtype": "factory",
+        "iconResolutionKey": "EngineBlockBottomEnd:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.engineblockbottomend.factory",
+        "primitiveIds": [
+          "hero_1968_kr.engineblockbottomend.factory.physics.bearing.1",
+          "hero_1968_kr.engineblockbottomend.factory.physics.shaft.2",
+          "hero_1968_kr.engineblockbottomend.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-c49f867993052d10",
+      "mechanicalId": "transmission",
+      "nodeKind": "component",
+      "systemId": "transmission",
+      "dependencies": [],
+      "requiresLift": true,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.transmission",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.transmission.factory",
+        "family": "Transmission",
+        "subtype": "factory",
+        "iconResolutionKey": "Transmission:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.transmission.factory",
+        "primitiveIds": [
+          "hero_1968_kr.transmission.factory.physics.bearing.1",
+          "hero_1968_kr.transmission.factory.physics.shaft.2",
+          "hero_1968_kr.transmission.factory.physics.gear.3",
+          "hero_1968_kr.transmission.factory.physics.frictionsurface.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-b8ae3ed56b193edf",
+      "mechanicalId": "driveshaft",
+      "nodeKind": "component",
+      "systemId": "driveshaftaxles",
+      "dependencies": [],
+      "requiresLift": true,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.driveshaft",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.driveshaftaxles.factory",
+        "family": "DriveshaftAxles",
+        "subtype": "factory",
+        "iconResolutionKey": "DriveshaftAxles:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.driveshaftaxles.factory",
+        "primitiveIds": [
+          "hero_1968_kr.driveshaftaxles.factory.physics.bearing.1",
+          "hero_1968_kr.driveshaftaxles.factory.physics.shaft.2",
+          "hero_1968_kr.driveshaftaxles.factory.physics.fastener.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-ac522014105d371a",
+      "mechanicalId": "differential",
+      "nodeKind": "component",
+      "systemId": "differential",
+      "dependencies": [],
+      "requiresLift": true,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.differential",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.differential.factory",
+        "family": "Differential",
+        "subtype": "factory",
+        "iconResolutionKey": "Differential:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.differential.factory",
+        "primitiveIds": [
+          "hero_1968_kr.differential.factory.physics.bearing.1",
+          "hero_1968_kr.differential.factory.physics.gear.2",
+          "hero_1968_kr.differential.factory.physics.frictionsurface.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-dab38c00aac11815",
+      "mechanicalId": "fuel_tank",
+      "nodeKind": "component",
+      "systemId": "fueldelivery",
+      "dependencies": [
+        "fuel_system_service"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.fuel-tank",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "family": "FuelDelivery",
+        "subtype": "factory",
+        "iconResolutionKey": "FuelDelivery:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "primitiveIds": [
+          "hero_1968_kr.fueldelivery.factory.physics.pump.1",
+          "hero_1968_kr.fueldelivery.factory.physics.filter.2",
+          "hero_1968_kr.fueldelivery.factory.physics.hose.3",
+          "hero_1968_kr.fueldelivery.factory.physics.connector.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-ff5afd32bbbe6afa",
+      "mechanicalId": "front_crush",
+      "nodeKind": "component",
+      "systemId": "chassisstructure",
+      "dependencies": [
+        "roof_skin"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-crush",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "family": "ChassisStructure",
+        "subtype": "factory",
+        "iconResolutionKey": "ChassisStructure:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "primitiveIds": [
+          "hero_1968_kr.chassisstructure.factory.physics.fastener.1",
+          "hero_1968_kr.chassisstructure.factory.physics.spring.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-f8510a906074f9ea",
+      "mechanicalId": "front_left_corner",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-left-corner",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-b2cfffcfe67cd631",
+      "mechanicalId": "front_right_corner",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-right-corner",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-aa36a5f623a624e9",
+      "mechanicalId": "left_side",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.left-side",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-512079a62aa67e86",
+      "mechanicalId": "right_side",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.right-side",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-a058c73e3e7d816d",
+      "mechanicalId": "rear_crush",
+      "nodeKind": "component",
+      "systemId": "chassisstructure",
+      "dependencies": [
+        "front_crush"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.rear-crush",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "family": "ChassisStructure",
+        "subtype": "factory",
+        "iconResolutionKey": "ChassisStructure:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "primitiveIds": [
+          "hero_1968_kr.chassisstructure.factory.physics.fastener.1",
+          "hero_1968_kr.chassisstructure.factory.physics.spring.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-2f1aa44ea867b1d5",
+      "mechanicalId": "roof",
+      "nodeKind": "component",
+      "systemId": "chassisstructure",
+      "dependencies": [
+        "rear_crush"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.roof",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "family": "ChassisStructure",
+        "subtype": "factory",
+        "iconResolutionKey": "ChassisStructure:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "primitiveIds": [
+          "hero_1968_kr.chassisstructure.factory.physics.fastener.1",
+          "hero_1968_kr.chassisstructure.factory.physics.spring.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-c0b084a7c447dcca",
+      "mechanicalId": "underbody",
+      "nodeKind": "component",
+      "systemId": "chassisstructure",
+      "dependencies": [
+        "roof"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.underbody",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "family": "ChassisStructure",
+        "subtype": "factory",
+        "iconResolutionKey": "ChassisStructure:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "primitiveIds": [
+          "hero_1968_kr.chassisstructure.factory.physics.fastener.1",
+          "hero_1968_kr.chassisstructure.factory.physics.spring.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-de6921c1f707ffd1",
+      "mechanicalId": "speedometer",
+      "nodeKind": "component",
+      "systemId": "interiordriverinterface",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.speedometer",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "family": "InteriorDriverInterface",
+        "subtype": "factory",
+        "iconResolutionKey": "InteriorDriverInterface:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "primitiveIds": [
+          "hero_1968_kr.interiordriverinterface.factory.physics.fastener.1",
+          "hero_1968_kr.interiordriverinterface.factory.physics.connector.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-73156ff609b7c66b",
+      "mechanicalId": "tachometer",
+      "nodeKind": "component",
+      "systemId": "interiordriverinterface",
+      "dependencies": [
+        "speedometer"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.tachometer",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "family": "InteriorDriverInterface",
+        "subtype": "factory",
+        "iconResolutionKey": "InteriorDriverInterface:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "primitiveIds": [
+          "hero_1968_kr.interiordriverinterface.factory.physics.fastener.1",
+          "hero_1968_kr.interiordriverinterface.factory.physics.connector.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-56960fec69539005",
+      "mechanicalId": "fuel",
+      "nodeKind": "component",
+      "systemId": "fueldelivery",
+      "dependencies": [
+        "fuel_tank"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.fuel",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "family": "FuelDelivery",
+        "subtype": "factory",
+        "iconResolutionKey": "FuelDelivery:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "primitiveIds": [
+          "hero_1968_kr.fueldelivery.factory.physics.pump.1",
+          "hero_1968_kr.fueldelivery.factory.physics.filter.2",
+          "hero_1968_kr.fueldelivery.factory.physics.hose.3",
+          "hero_1968_kr.fueldelivery.factory.physics.connector.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-e95d3bc46a427837",
+      "mechanicalId": "coolant_temp",
+      "nodeKind": "component",
+      "systemId": "cooling",
+      "dependencies": [
+        "cooling_service"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.coolant-temp",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "family": "Cooling",
+        "subtype": "factory",
+        "iconResolutionKey": "Cooling:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.cooling.factory",
+        "primitiveIds": [
+          "hero_1968_kr.cooling.factory.physics.pump.1",
+          "hero_1968_kr.cooling.factory.physics.hose.2",
+          "hero_1968_kr.cooling.factory.physics.heatexchanger.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-8dd8c3fbdb988f69",
+      "mechanicalId": "oil_pressure_or_warning",
+      "nodeKind": "component",
+      "systemId": "lubrication",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.oil-pressure-or-warning",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.lubrication.factory",
+        "family": "Lubrication",
+        "subtype": "factory",
+        "iconResolutionKey": "Lubrication:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.lubrication.factory",
+        "primitiveIds": [
+          "hero_1968_kr.lubrication.factory.physics.pump.1",
+          "hero_1968_kr.lubrication.factory.physics.filter.2",
+          "hero_1968_kr.lubrication.factory.physics.hose.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-f0e0832df3480f1f",
+      "mechanicalId": "charging",
+      "nodeKind": "component",
+      "systemId": "electrical",
+      "dependencies": [
+        "charging_starting"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.charging",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.electrical.factory",
+        "family": "Electrical",
+        "subtype": "factory",
+        "iconResolutionKey": "Electrical:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.electrical.factory",
+        "primitiveIds": [
+          "hero_1968_kr.electrical.factory.physics.conductor.1",
+          "hero_1968_kr.electrical.factory.physics.connector.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-4f6d1584f17ee494",
+      "mechanicalId": "factory",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.factory",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-1009754d21889c8b",
+      "mechanicalId": "modified",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.modified",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-9f0c6eb77fed4848",
+      "mechanicalId": "acquisition_documentation",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.acquisition-documentation",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-d11d3c35acd501ac",
+      "mechanicalId": "wash_photograph_tag",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.wash-photograph-tag",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-d6fb0e3ff234fc58",
+      "mechanicalId": "fluids_safeing",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.fluids-safeing",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-04525a927d9068e8",
+      "mechanicalId": "interior_strip",
+      "nodeKind": "component",
+      "systemId": "interiordriverinterface",
+      "dependencies": [
+        "tachometer"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.interior-strip",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "family": "InteriorDriverInterface",
+        "subtype": "factory",
+        "iconResolutionKey": "InteriorDriverInterface:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "primitiveIds": [
+          "hero_1968_kr.interiordriverinterface.factory.physics.fastener.1",
+          "hero_1968_kr.interiordriverinterface.factory.physics.connector.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-4bf22994fa9bcd48",
+      "mechanicalId": "glass_trim_remove",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "rear_glass"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.glass-trim-remove",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-eebacf79ff36fb88",
+      "mechanicalId": "front_clip_disassembly",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.front-clip-disassembly",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-dc884a3d847b2d31",
+      "mechanicalId": "drivetrain_disconnect",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.drivetrain-disconnect",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-0deadd25a5ffd00a",
+      "mechanicalId": "drivetrain_removal",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.drivetrain-removal",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-2a1542da014eeac0",
+      "mechanicalId": "suspension_brake_strip",
+      "nodeKind": "component",
+      "systemId": "suspension",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.suspension-brake-strip",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.suspension.factory",
+        "family": "Suspension",
+        "subtype": "factory",
+        "iconResolutionKey": "Suspension:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.suspension.factory",
+        "primitiveIds": [
+          "hero_1968_kr.suspension.factory.physics.spring.1",
+          "hero_1968_kr.suspension.factory.physics.damper.2",
+          "hero_1968_kr.suspension.factory.physics.bearing.3",
+          "hero_1968_kr.suspension.factory.physics.fastener.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-12d83a1f5023e5f0",
+      "mechanicalId": "fuel_cooling_remove",
+      "nodeKind": "component",
+      "systemId": "fueldelivery",
+      "dependencies": [
+        "fuel"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.fuel-cooling-remove",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "family": "FuelDelivery",
+        "subtype": "factory",
+        "iconResolutionKey": "FuelDelivery:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.fueldelivery.factory",
+        "primitiveIds": [
+          "hero_1968_kr.fueldelivery.factory.physics.pump.1",
+          "hero_1968_kr.fueldelivery.factory.physics.filter.2",
+          "hero_1968_kr.fueldelivery.factory.physics.hose.3",
+          "hero_1968_kr.fueldelivery.factory.physics.connector.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-b2380ba55702db87",
+      "mechanicalId": "electrical_harness_label_remove",
+      "nodeKind": "component",
+      "systemId": "electrical",
+      "dependencies": [
+        "charging"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.electrical-harness-label-remove",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.electrical.factory",
+        "family": "Electrical",
+        "subtype": "factory",
+        "iconResolutionKey": "Electrical:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.electrical.factory",
+        "primitiveIds": [
+          "hero_1968_kr.electrical.factory.physics.conductor.1",
+          "hero_1968_kr.electrical.factory.physics.connector.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-c4a426ce8f35aae3",
+      "mechanicalId": "body_measurement",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "glass_trim_remove"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.body-measurement",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-8a01cf0c4e565b6d",
+      "mechanicalId": "metal_structure_repair",
+      "nodeKind": "component",
+      "systemId": "chassisstructure",
+      "dependencies": [
+        "underbody"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.metal-structure-repair",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "family": "ChassisStructure",
+        "subtype": "factory",
+        "iconResolutionKey": "ChassisStructure:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.chassisstructure.factory",
+        "primitiveIds": [
+          "hero_1968_kr.chassisstructure.factory.physics.fastener.1",
+          "hero_1968_kr.chassisstructure.factory.physics.spring.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-56a640114393ef9c",
+      "mechanicalId": "corrosion_or_damage_treatment",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.corrosion-or-damage-treatment",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-d70e189a052f7d65",
+      "mechanicalId": "paint_bodywork",
+      "nodeKind": "component",
+      "systemId": "body",
+      "dependencies": [
+        "body_measurement"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.paint-bodywork",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "family": "Body",
+        "subtype": "factory",
+        "iconResolutionKey": "Body:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.body.factory",
+        "primitiveIds": [
+          "hero_1968_kr.body.factory.physics.fastener.1"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-5d7712fc96510c85",
+      "mechanicalId": "subassembly_rebuild",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.subassembly-rebuild",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-b32681ce0498fc14",
+      "mechanicalId": "routing_reinstall",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.routing-reinstall",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-9cd037242d30813b",
+      "mechanicalId": "drivetrain_install",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.drivetrain-install",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-7f614c2702578978",
+      "mechanicalId": "suspension_alignment",
+      "nodeKind": "component",
+      "systemId": "suspension",
+      "dependencies": [
+        "suspension_brake_strip"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.suspension-alignment",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.suspension.factory",
+        "family": "Suspension",
+        "subtype": "factory",
+        "iconResolutionKey": "Suspension:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.suspension.factory",
+        "primitiveIds": [
+          "hero_1968_kr.suspension.factory.physics.spring.1",
+          "hero_1968_kr.suspension.factory.physics.damper.2",
+          "hero_1968_kr.suspension.factory.physics.bearing.3",
+          "hero_1968_kr.suspension.factory.physics.fastener.4"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-af4dd8e88f1bee37",
+      "mechanicalId": "interior_electrical_install",
+      "nodeKind": "component",
+      "systemId": "interiordriverinterface",
+      "dependencies": [
+        "interior_strip"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.interior-electrical-install",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "family": "InteriorDriverInterface",
+        "subtype": "factory",
+        "iconResolutionKey": "InteriorDriverInterface:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.interiordriverinterface.factory",
+        "primitiveIds": [
+          "hero_1968_kr.interiordriverinterface.factory.physics.fastener.1",
+          "hero_1968_kr.interiordriverinterface.factory.physics.connector.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-bef92f0f5e2abef9",
+      "mechanicalId": "fluids_prime",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.fluids-prime",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-0d3ae84621a84962",
+      "mechanicalId": "first_start",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.first-start",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-35c200d0074be79f",
+      "mechanicalId": "static_diagnostics",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.static-diagnostics",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-dbca7d825832fc35",
+      "mechanicalId": "road_shakedown",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.road-shakedown",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-d13ea8c7e5f7f627",
+      "mechanicalId": "final_provenance_closeout",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.final-provenance-closeout",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-fdecef8f708fef5c",
+      "mechanicalId": "single_stage_paint",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.single-stage-paint",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-f24a277ce7f315aa",
+      "mechanicalId": "aged_clear_or_repaint",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.aged-clear-or-repaint",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-be8e1e95733e5ab4",
+      "mechanicalId": "chrome",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.chrome",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-692b965d0b3c8541",
+      "mechanicalId": "cast_iron",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.cast-iron",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-dfb65ea5b35f0cb6",
+      "mechanicalId": "cast_aluminum",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.cast-aluminum",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-f992b7ab14f84367",
+      "mechanicalId": "zinc_fasteners",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.zinc-fasteners",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-f0bad57f1faf9948",
+      "mechanicalId": "rubber_weatherstrip",
+      "nodeKind": "procedure",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.rubber-weatherstrip",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-d162db242c5cbd80",
+      "mechanicalId": "vinyl",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.vinyl",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-43aa5b7b12e5d6c4",
+      "mechanicalId": "carpet",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.carpet",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-37f4ea4225f40528",
+      "mechanicalId": "oxidized_steel",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.oxidized-steel",
+      "masterPart": null,
+      "partPhysics": null
+    },
+    {
+      "nodeId": "heroexec-cafe4beab6ec09f2",
+      "mechanicalId": "exhaust_heat",
+      "nodeKind": "component",
+      "systemId": "exhaust",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.exhaust-heat",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.exhaust.factory",
+        "family": "Exhaust",
+        "subtype": "factory",
+        "iconResolutionKey": "Exhaust:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.exhaust.factory",
+        "primitiveIds": [
+          "hero_1968_kr.exhaust.factory.physics.hose.1",
+          "hero_1968_kr.exhaust.factory.physics.fastener.2"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-97b496ce80ad740e",
+      "mechanicalId": "grease_oil",
+      "nodeKind": "component",
+      "systemId": "lubrication",
+      "dependencies": [
+        "oil_pressure_or_warning"
+      ],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "inspect",
+        "isolate",
+        "gain_access",
+        "remove_or_open",
+        "bench_inspect",
+        "repair_rebuild_replace",
+        "reinstall",
+        "adjust_fill_bleed_or_calibrate",
+        "static_verify",
+        "loaded_verify"
+      ],
+      "mutationAuthority": "Garage/MechanicalWorld",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.grease-oil",
+      "masterPart": {
+        "specificationId": "hero_1968_kr.lubrication.factory",
+        "family": "Lubrication",
+        "subtype": "factory",
+        "iconResolutionKey": "Lubrication:factory"
+      },
+      "partPhysics": {
+        "specificationId": "hero_1968_kr.lubrication.factory",
+        "primitiveIds": [
+          "hero_1968_kr.lubrication.factory.physics.pump.1",
+          "hero_1968_kr.lubrication.factory.physics.filter.2",
+          "hero_1968_kr.lubrication.factory.physics.hose.3"
+        ]
+      }
+    },
+    {
+      "nodeId": "heroexec-28f00d82843dab13",
+      "mechanicalId": "surface_rust",
+      "nodeKind": "presentation_or_process",
+      "systemId": "general",
+      "dependencies": [],
+      "requiresLift": false,
+      "lifecycle": [
+        "identify",
+        "verify"
+      ],
+      "mutationAuthority": "none",
+      "persistentStateKey": "hero.hero_1968_kr.mechanical.surface-rust",
+      "masterPart": null,
+      "partPhysics": null
+    }
+  ],
+  "failureExecution": [
+    {
+      "failureId": "carb-fuel-starvation-under-sustained-load",
+      "mechanism": "carb fuel starvation under sustained load",
+      "systemId": "engine",
+      "targetSpecificationId": "hero_1968_kr.engineblockbottomend.factory",
+      "primitiveIds": [
+        "hero_1968_kr.engineblockbottomend.factory.physics.bearing.1",
+        "hero_1968_kr.engineblockbottomend.factory.physics.shaft.2",
+        "hero_1968_kr.engineblockbottomend.factory.physics.fastener.3"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "ram-air-seal-duct-leakage",
+      "mechanism": "ram-air seal/duct leakage",
+      "systemId": "general",
+      "targetSpecificationId": null,
+      "primitiveIds": [],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "evidence_only_research_gate"
+    },
+    {
+      "failureId": "ignition-timing-scatter",
+      "mechanism": "ignition timing scatter",
+      "systemId": "engine",
+      "targetSpecificationId": "hero_1968_kr.engineblockbottomend.factory",
+      "primitiveIds": [
+        "hero_1968_kr.engineblockbottomend.factory.physics.bearing.1",
+        "hero_1968_kr.engineblockbottomend.factory.physics.shaft.2",
+        "hero_1968_kr.engineblockbottomend.factory.physics.fastener.3"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "fuel-vaporization",
+      "mechanism": "fuel vaporization",
+      "systemId": "fuel",
+      "targetSpecificationId": "hero_1968_kr.fueldelivery.factory",
+      "primitiveIds": [
+        "hero_1968_kr.fueldelivery.factory.physics.pump.1",
+        "hero_1968_kr.fueldelivery.factory.physics.filter.2",
+        "hero_1968_kr.fueldelivery.factory.physics.hose.3",
+        "hero_1968_kr.fueldelivery.factory.physics.connector.4"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "cooling-pressure-loss",
+      "mechanism": "cooling pressure loss",
+      "systemId": "cooling",
+      "targetSpecificationId": "hero_1968_kr.cooling.factory",
+      "primitiveIds": [
+        "hero_1968_kr.cooling.factory.physics.pump.1",
+        "hero_1968_kr.cooling.factory.physics.hose.2",
+        "hero_1968_kr.cooling.factory.physics.heatexchanger.3"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "rear-spring-shackle-wear",
+      "mechanism": "rear spring/shackle wear",
+      "systemId": "suspension",
+      "targetSpecificationId": "hero_1968_kr.suspension.factory",
+      "primitiveIds": [
+        "hero_1968_kr.suspension.factory.physics.spring.1",
+        "hero_1968_kr.suspension.factory.physics.damper.2",
+        "hero_1968_kr.suspension.factory.physics.bearing.3",
+        "hero_1968_kr.suspension.factory.physics.fastener.4"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "axle-hop-under-torque",
+      "mechanism": "axle hop under torque",
+      "systemId": "driveline",
+      "targetSpecificationId": "hero_1968_kr.driveshaftaxles.factory",
+      "primitiveIds": [
+        "hero_1968_kr.driveshaftaxles.factory.physics.bearing.1",
+        "hero_1968_kr.driveshaftaxles.factory.physics.shaft.2",
+        "hero_1968_kr.driveshaftaxles.factory.physics.fastener.3"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "brake-fade-or-pull",
+      "mechanism": "brake fade or pull",
+      "systemId": "brakes",
+      "targetSpecificationId": "hero_1968_kr.brakes.factory",
+      "primitiveIds": [
+        "hero_1968_kr.brakes.factory.physics.frictionsurface.1",
+        "hero_1968_kr.brakes.factory.physics.hose.2",
+        "hero_1968_kr.brakes.factory.physics.fastener.3"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "steering-linkage-wear",
+      "mechanism": "steering-linkage wear",
+      "systemId": "steering",
+      "targetSpecificationId": "hero_1968_kr.steering.factory",
+      "primitiveIds": [
+        "hero_1968_kr.steering.factory.physics.bearing.1",
+        "hero_1968_kr.steering.factory.physics.shaft.2",
+        "hero_1968_kr.steering.factory.physics.connector.3"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    },
+    {
+      "failureId": "fiberglass-hood-nose-fit-deterioration",
+      "mechanism": "fiberglass hood/nose fit deterioration",
+      "systemId": "body",
+      "targetSpecificationId": "hero_1968_kr.body.factory",
+      "primitiveIds": [
+        "hero_1968_kr.body.factory.physics.fastener.1"
+      ],
+      "progression": [
+        "incipient",
+        "intermittent",
+        "repeatable",
+        "performance-limiting",
+        "hard/protective failure"
+      ],
+      "evidenceClasses": [
+        "driver symptom",
+        "visual/physical evidence",
+        "instrument measurement",
+        "secondary-system consequence"
+      ],
+      "repairProof": [
+        "root cause corrected",
+        "related damage inspected",
+        "static verification",
+        "loaded verification",
+        "post-repair trend normal"
+      ],
+      "executionPolicy": "primitive_driven"
+    }
+  ],
+  "configurationCompatibility": [
+    {
+      "family": "Aero",
+      "baselineSpecificationId": "hero_1968_kr.aero.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.aero.factory",
+        "hero_1968_kr.aero.service",
+        "hero_1968_kr.aero.period",
+        "hero_1968_kr.aero.street",
+        "hero_1968_kr.aero.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Body",
+      "baselineSpecificationId": "hero_1968_kr.body.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.body.factory",
+        "hero_1968_kr.body.service",
+        "hero_1968_kr.body.period",
+        "hero_1968_kr.body.street",
+        "hero_1968_kr.body.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Brakes",
+      "baselineSpecificationId": "hero_1968_kr.brakes.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.brakes.factory",
+        "hero_1968_kr.brakes.service",
+        "hero_1968_kr.brakes.period",
+        "hero_1968_kr.brakes.street",
+        "hero_1968_kr.brakes.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Carburetion",
+      "baselineSpecificationId": "hero_1968_kr.carburetion.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.carburetion.factory",
+        "hero_1968_kr.carburetion.service",
+        "hero_1968_kr.carburetion.period",
+        "hero_1968_kr.carburetion.street",
+        "hero_1968_kr.carburetion.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "ChassisStructure",
+      "baselineSpecificationId": "hero_1968_kr.chassisstructure.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.chassisstructure.factory",
+        "hero_1968_kr.chassisstructure.service",
+        "hero_1968_kr.chassisstructure.period",
+        "hero_1968_kr.chassisstructure.street",
+        "hero_1968_kr.chassisstructure.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "ClutchLaunch",
+      "baselineSpecificationId": "hero_1968_kr.clutchlaunch.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.clutchlaunch.factory",
+        "hero_1968_kr.clutchlaunch.service",
+        "hero_1968_kr.clutchlaunch.period",
+        "hero_1968_kr.clutchlaunch.street",
+        "hero_1968_kr.clutchlaunch.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Cooling",
+      "baselineSpecificationId": "hero_1968_kr.cooling.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.cooling.factory",
+        "hero_1968_kr.cooling.service",
+        "hero_1968_kr.cooling.period",
+        "hero_1968_kr.cooling.street",
+        "hero_1968_kr.cooling.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "CylinderHeadValvetrain",
+      "baselineSpecificationId": "hero_1968_kr.cylinderheadvalvetrain.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.cylinderheadvalvetrain.factory",
+        "hero_1968_kr.cylinderheadvalvetrain.service",
+        "hero_1968_kr.cylinderheadvalvetrain.period",
+        "hero_1968_kr.cylinderheadvalvetrain.street",
+        "hero_1968_kr.cylinderheadvalvetrain.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Differential",
+      "baselineSpecificationId": "hero_1968_kr.differential.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.differential.factory",
+        "hero_1968_kr.differential.service",
+        "hero_1968_kr.differential.period",
+        "hero_1968_kr.differential.street",
+        "hero_1968_kr.differential.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "DriveshaftAxles",
+      "baselineSpecificationId": "hero_1968_kr.driveshaftaxles.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.driveshaftaxles.factory",
+        "hero_1968_kr.driveshaftaxles.service",
+        "hero_1968_kr.driveshaftaxles.period",
+        "hero_1968_kr.driveshaftaxles.street",
+        "hero_1968_kr.driveshaftaxles.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "ECUCalibration",
+      "baselineSpecificationId": "hero_1968_kr.ecucalibration.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.ecucalibration.factory",
+        "hero_1968_kr.ecucalibration.service",
+        "hero_1968_kr.ecucalibration.period",
+        "hero_1968_kr.ecucalibration.street",
+        "hero_1968_kr.ecucalibration.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Electrical",
+      "baselineSpecificationId": "hero_1968_kr.electrical.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.electrical.factory",
+        "hero_1968_kr.electrical.service",
+        "hero_1968_kr.electrical.period",
+        "hero_1968_kr.electrical.street",
+        "hero_1968_kr.electrical.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "ElectronicFuelInjection",
+      "baselineSpecificationId": "hero_1968_kr.electronicfuelinjection.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.electronicfuelinjection.factory",
+        "hero_1968_kr.electronicfuelinjection.service",
+        "hero_1968_kr.electronicfuelinjection.period",
+        "hero_1968_kr.electronicfuelinjection.street",
+        "hero_1968_kr.electronicfuelinjection.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "EngineBlockBottomEnd",
+      "baselineSpecificationId": "hero_1968_kr.engineblockbottomend.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.engineblockbottomend.factory",
+        "hero_1968_kr.engineblockbottomend.service",
+        "hero_1968_kr.engineblockbottomend.period",
+        "hero_1968_kr.engineblockbottomend.street",
+        "hero_1968_kr.engineblockbottomend.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Exhaust",
+      "baselineSpecificationId": "hero_1968_kr.exhaust.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.exhaust.factory",
+        "hero_1968_kr.exhaust.service",
+        "hero_1968_kr.exhaust.period",
+        "hero_1968_kr.exhaust.street",
+        "hero_1968_kr.exhaust.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "ForcedInduction",
+      "baselineSpecificationId": "hero_1968_kr.forcedinduction.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.forcedinduction.factory",
+        "hero_1968_kr.forcedinduction.service",
+        "hero_1968_kr.forcedinduction.period",
+        "hero_1968_kr.forcedinduction.street",
+        "hero_1968_kr.forcedinduction.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "FuelDelivery",
+      "baselineSpecificationId": "hero_1968_kr.fueldelivery.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.fueldelivery.factory",
+        "hero_1968_kr.fueldelivery.service",
+        "hero_1968_kr.fueldelivery.period",
+        "hero_1968_kr.fueldelivery.street",
+        "hero_1968_kr.fueldelivery.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Ignition",
+      "baselineSpecificationId": "hero_1968_kr.ignition.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.ignition.factory",
+        "hero_1968_kr.ignition.service",
+        "hero_1968_kr.ignition.period",
+        "hero_1968_kr.ignition.street",
+        "hero_1968_kr.ignition.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Intake",
+      "baselineSpecificationId": "hero_1968_kr.intake.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.intake.factory",
+        "hero_1968_kr.intake.service",
+        "hero_1968_kr.intake.period",
+        "hero_1968_kr.intake.street",
+        "hero_1968_kr.intake.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "InteriorDriverInterface",
+      "baselineSpecificationId": "hero_1968_kr.interiordriverinterface.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.interiordriverinterface.factory",
+        "hero_1968_kr.interiordriverinterface.service",
+        "hero_1968_kr.interiordriverinterface.period",
+        "hero_1968_kr.interiordriverinterface.street",
+        "hero_1968_kr.interiordriverinterface.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Lubrication",
+      "baselineSpecificationId": "hero_1968_kr.lubrication.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.lubrication.factory",
+        "hero_1968_kr.lubrication.service",
+        "hero_1968_kr.lubrication.period",
+        "hero_1968_kr.lubrication.street",
+        "hero_1968_kr.lubrication.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Nitrous",
+      "baselineSpecificationId": "hero_1968_kr.nitrous.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.nitrous.factory",
+        "hero_1968_kr.nitrous.service",
+        "hero_1968_kr.nitrous.period",
+        "hero_1968_kr.nitrous.street",
+        "hero_1968_kr.nitrous.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "SafetyCompetition",
+      "baselineSpecificationId": "hero_1968_kr.safetycompetition.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.safetycompetition.factory",
+        "hero_1968_kr.safetycompetition.service",
+        "hero_1968_kr.safetycompetition.period",
+        "hero_1968_kr.safetycompetition.street",
+        "hero_1968_kr.safetycompetition.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "SensorsDataAcquisition",
+      "baselineSpecificationId": "hero_1968_kr.sensorsdataacquisition.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.sensorsdataacquisition.factory",
+        "hero_1968_kr.sensorsdataacquisition.service",
+        "hero_1968_kr.sensorsdataacquisition.period",
+        "hero_1968_kr.sensorsdataacquisition.street",
+        "hero_1968_kr.sensorsdataacquisition.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Steering",
+      "baselineSpecificationId": "hero_1968_kr.steering.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.steering.factory",
+        "hero_1968_kr.steering.service",
+        "hero_1968_kr.steering.period",
+        "hero_1968_kr.steering.street",
+        "hero_1968_kr.steering.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Suspension",
+      "baselineSpecificationId": "hero_1968_kr.suspension.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.suspension.factory",
+        "hero_1968_kr.suspension.service",
+        "hero_1968_kr.suspension.period",
+        "hero_1968_kr.suspension.street",
+        "hero_1968_kr.suspension.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Tires",
+      "baselineSpecificationId": "hero_1968_kr.tires.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.tires.factory",
+        "hero_1968_kr.tires.service",
+        "hero_1968_kr.tires.period",
+        "hero_1968_kr.tires.street",
+        "hero_1968_kr.tires.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Transmission",
+      "baselineSpecificationId": "hero_1968_kr.transmission.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.transmission.factory",
+        "hero_1968_kr.transmission.service",
+        "hero_1968_kr.transmission.period",
+        "hero_1968_kr.transmission.street",
+        "hero_1968_kr.transmission.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "WeightReduction",
+      "baselineSpecificationId": "hero_1968_kr.weightreduction.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.weightreduction.factory",
+        "hero_1968_kr.weightreduction.service",
+        "hero_1968_kr.weightreduction.period",
+        "hero_1968_kr.weightreduction.street",
+        "hero_1968_kr.weightreduction.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    },
+    {
+      "family": "Wheels",
+      "baselineSpecificationId": "hero_1968_kr.wheels.factory",
+      "allowedSpecificationIds": [
+        "hero_1968_kr.wheels.factory",
+        "hero_1968_kr.wheels.service",
+        "hero_1968_kr.wheels.period",
+        "hero_1968_kr.wheels.street",
+        "hero_1968_kr.wheels.competition"
+      ],
+      "rule": "direct_fit_same_generation_family; engineered_fit requires canonical compatibility resolver for cross-generation parts"
+    }
+  ],
+  "renderIdentityRegistry": [
+    {
+      "renderId": "render-803935ce62b5eeba",
+      "sourceOrdinal": 0,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-eff6bb3b41b148b3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-41f8e6701193614c",
+      "sourceOrdinal": 1,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c40c88a35d366503",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f906c0ff00d78e27",
+      "sourceOrdinal": 2,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-84aeb145a8ebea04",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-bb118cf3235186fe",
+      "sourceOrdinal": 3,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-16e2f61a48b7427f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-4bc746fa3500b7da",
+      "sourceOrdinal": 4,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c74e29506b3560ef",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-9555254b56650de6",
+      "sourceOrdinal": 5,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-cb92bb6a697e5bf7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-e24dfb92c102da35",
+      "sourceOrdinal": 6,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e5fa98156c500300",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-8fb57d194cd52a7f",
+      "sourceOrdinal": 7,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-09ea8c1ee24de1e3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-3689b482ca5b05fd",
+      "sourceOrdinal": 8,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-498fb8b0fd2d75fd",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-264ce2465e135668",
+      "sourceOrdinal": 9,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-b7ce6466bbe83985",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-b6316ada4905fd34",
+      "sourceOrdinal": 10,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-96c91ba8bb5d509c",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-e02c8eb8ae02e55f",
+      "sourceOrdinal": 11,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-6dbcad7df5881ec8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-19130741a315508e",
+      "sourceOrdinal": 12,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-254991516e572a51",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-1e662c6e09179215",
+      "sourceOrdinal": 13,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-4cedc5f1d8209b7f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-71f13d2663807c57",
+      "sourceOrdinal": 14,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-0543c9edf6f583cb",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-50a6d7ee0ff366bd",
+      "sourceOrdinal": 15,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e88c312cfa0cfe74",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-21bc2e46dcda62b6",
+      "sourceOrdinal": 16,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-20071a2fefbb127e",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-7220cb7b05f9def6",
+      "sourceOrdinal": 17,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1f418bad058836dd",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-dabb12f63bc5b04d",
+      "sourceOrdinal": 18,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1b151c3c003d864b",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-5949c40baaa162a5",
+      "sourceOrdinal": 19,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-15bd5bb3804436b7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-14bdceb99e3a1492",
+      "sourceOrdinal": 20,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1afce6ea7049626f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-a6804604d2dbd8f1",
+      "sourceOrdinal": 21,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-bf190c80e2ea45f7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-67d7651e03e94f50",
+      "sourceOrdinal": 22,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-6a871a8360604c54",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-10449390a4db6355",
+      "sourceOrdinal": 23,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-ae00580dd339b257",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-895d2606b929ab05",
+      "sourceOrdinal": 24,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-58cda37b87a4b4fe",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-16aa023568d7a6d9",
+      "sourceOrdinal": 25,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-801806752a618cd8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-a7a6e5ff6aaaa65d",
+      "sourceOrdinal": 26,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-3d55aa5bec91153f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-83f64cd0265500f6",
+      "sourceOrdinal": 27,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c787676bde052bab",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-60bb8f11ebb91afd",
+      "sourceOrdinal": 28,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c49f867993052d10",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-7b730cd3a7e68240",
+      "sourceOrdinal": 29,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-b8ae3ed56b193edf",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-0ed4d669426baf4b",
+      "sourceOrdinal": 30,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-ac522014105d371a",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-c5795851fbc1253b",
+      "sourceOrdinal": 31,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-dab38c00aac11815",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-d9402eff1fdec152",
+      "sourceOrdinal": 32,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-ff5afd32bbbe6afa",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-0fbd36fcad46d747",
+      "sourceOrdinal": 33,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-a058c73e3e7d816d",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-478ed204828515fd",
+      "sourceOrdinal": 34,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-2f1aa44ea867b1d5",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-0a8ada251a3dea2c",
+      "sourceOrdinal": 35,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c0b084a7c447dcca",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-741cc6aaba0e9dcb",
+      "sourceOrdinal": 36,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-de6921c1f707ffd1",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-634057cfad092d58",
+      "sourceOrdinal": 37,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-73156ff609b7c66b",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-34f806bdc0f00b49",
+      "sourceOrdinal": 38,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-56960fec69539005",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-57cf91818f79843f",
+      "sourceOrdinal": 39,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e95d3bc46a427837",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-251bce1ed92b62e7",
+      "sourceOrdinal": 40,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-8dd8c3fbdb988f69",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-4e0fea95636cc162",
+      "sourceOrdinal": 41,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-f0e0832df3480f1f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-91e6766cf4a3dbca",
+      "sourceOrdinal": 42,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-04525a927d9068e8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-6b4a0452d2bd087e",
+      "sourceOrdinal": 43,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-4bf22994fa9bcd48",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-ae068b9d2abbd220",
+      "sourceOrdinal": 44,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-2a1542da014eeac0",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-d2755c1c2d32d803",
+      "sourceOrdinal": 45,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-12d83a1f5023e5f0",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-a856a6344d0c7cf7",
+      "sourceOrdinal": 46,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-b2380ba55702db87",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-705beaed788690d9",
+      "sourceOrdinal": 47,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c4a426ce8f35aae3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-ecbee2d9a40ad2c3",
+      "sourceOrdinal": 48,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-8a01cf0c4e565b6d",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-dd77fd183d74f96f",
+      "sourceOrdinal": 49,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-d70e189a052f7d65",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-ca4de2a545edd5e1",
+      "sourceOrdinal": 50,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-7f614c2702578978",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-9eae2ba25d87c542",
+      "sourceOrdinal": 51,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-af4dd8e88f1bee37",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-5066c5631868504b",
+      "sourceOrdinal": 52,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-cafe4beab6ec09f2",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-723d2284e33a44dd",
+      "sourceOrdinal": 53,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-97b496ce80ad740e",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-17bcccd9e0f89788",
+      "sourceOrdinal": 54,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-eff6bb3b41b148b3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-9ee1c50a6e079922",
+      "sourceOrdinal": 55,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c40c88a35d366503",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-4267953410f5e44b",
+      "sourceOrdinal": 56,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-84aeb145a8ebea04",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-7b15d7b2776ecd66",
+      "sourceOrdinal": 57,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-16e2f61a48b7427f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-e8cb412b6232394d",
+      "sourceOrdinal": 58,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c74e29506b3560ef",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-d38da48695e5eac7",
+      "sourceOrdinal": 59,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-cb92bb6a697e5bf7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-afe2f59b3a49c9cc",
+      "sourceOrdinal": 60,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e5fa98156c500300",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-1209bb637e51b448",
+      "sourceOrdinal": 61,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-09ea8c1ee24de1e3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-933ac0481416c65c",
+      "sourceOrdinal": 62,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-498fb8b0fd2d75fd",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-8c1797c9a3e6a180",
+      "sourceOrdinal": 63,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-b7ce6466bbe83985",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-e824f0695e3aed86",
+      "sourceOrdinal": 64,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-96c91ba8bb5d509c",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-ba7a8b44a67a4868",
+      "sourceOrdinal": 65,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-6dbcad7df5881ec8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-a171bbeb8e3dff56",
+      "sourceOrdinal": 66,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-254991516e572a51",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-d5dc8f8216b9ede8",
+      "sourceOrdinal": 67,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-4cedc5f1d8209b7f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-a0ad31393982b1f2",
+      "sourceOrdinal": 68,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-0543c9edf6f583cb",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-80f9522e84567e83",
+      "sourceOrdinal": 69,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e88c312cfa0cfe74",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-4dd4659afadb7516",
+      "sourceOrdinal": 70,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-20071a2fefbb127e",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-cf7f004cf31b31da",
+      "sourceOrdinal": 71,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1f418bad058836dd",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-71a5893b6ec56b33",
+      "sourceOrdinal": 72,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1b151c3c003d864b",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-deb14aa69b68c1ef",
+      "sourceOrdinal": 73,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-15bd5bb3804436b7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-4d87bf7bb28a19a7",
+      "sourceOrdinal": 74,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1afce6ea7049626f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f133b5fa6c4f0734",
+      "sourceOrdinal": 75,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-bf190c80e2ea45f7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-b25c93285b65987b",
+      "sourceOrdinal": 76,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-6a871a8360604c54",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-9f0b68bf0e337bfc",
+      "sourceOrdinal": 77,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-ae00580dd339b257",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-9a360b571166f708",
+      "sourceOrdinal": 78,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-58cda37b87a4b4fe",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-5f620fce762a6ace",
+      "sourceOrdinal": 79,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-801806752a618cd8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-e51890aaf4a27574",
+      "sourceOrdinal": 80,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-3d55aa5bec91153f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-0a33e6e074102e35",
+      "sourceOrdinal": 81,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c787676bde052bab",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f945ecd73867846d",
+      "sourceOrdinal": 82,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c49f867993052d10",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-6254dfbd736ad62a",
+      "sourceOrdinal": 83,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-b8ae3ed56b193edf",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-b2f7be2759dbfdd9",
+      "sourceOrdinal": 84,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-ac522014105d371a",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-d30bfaa08c46ff7a",
+      "sourceOrdinal": 85,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-dab38c00aac11815",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-60776fa6d184424c",
+      "sourceOrdinal": 86,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-ff5afd32bbbe6afa",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-8a728b9d6d2a8ddf",
+      "sourceOrdinal": 87,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-a058c73e3e7d816d",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-e8a4a36ae3a77d14",
+      "sourceOrdinal": 88,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-2f1aa44ea867b1d5",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-56d8962b643fec9a",
+      "sourceOrdinal": 89,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c0b084a7c447dcca",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f3a014a4c740bbe0",
+      "sourceOrdinal": 90,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-de6921c1f707ffd1",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-bd58cac31b0eeed7",
+      "sourceOrdinal": 91,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-73156ff609b7c66b",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-072588624dd18fda",
+      "sourceOrdinal": 92,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-56960fec69539005",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-bab1ff24e6506fed",
+      "sourceOrdinal": 93,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e95d3bc46a427837",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-1153c13e175ffa58",
+      "sourceOrdinal": 94,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-8dd8c3fbdb988f69",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-8f407d28a87cdc35",
+      "sourceOrdinal": 95,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-f0e0832df3480f1f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-3c5ff7d553c6731e",
+      "sourceOrdinal": 96,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-04525a927d9068e8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-5bdee83c544d0564",
+      "sourceOrdinal": 97,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-4bf22994fa9bcd48",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f7ef01c66cd52fe7",
+      "sourceOrdinal": 98,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-2a1542da014eeac0",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-4a03d614c9ee4fa0",
+      "sourceOrdinal": 99,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-12d83a1f5023e5f0",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-126e60280cb9729a",
+      "sourceOrdinal": 100,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-b2380ba55702db87",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-20cbfc1f7a3037e6",
+      "sourceOrdinal": 101,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c4a426ce8f35aae3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-95506703d609999a",
+      "sourceOrdinal": 102,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-8a01cf0c4e565b6d",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-8f2a48108bfbc4d1",
+      "sourceOrdinal": 103,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-d70e189a052f7d65",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-bcb58e7175074d85",
+      "sourceOrdinal": 104,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-7f614c2702578978",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-d4771fad0b9c2f05",
+      "sourceOrdinal": 105,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-af4dd8e88f1bee37",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-3806970cc374b68e",
+      "sourceOrdinal": 106,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-cafe4beab6ec09f2",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f2a8efc19b9fbd48",
+      "sourceOrdinal": 107,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-97b496ce80ad740e",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-529849c976531e6c",
+      "sourceOrdinal": 108,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-eff6bb3b41b148b3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-b9da28e38633ba94",
+      "sourceOrdinal": 109,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c40c88a35d366503",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-9df8ec7ab30e6a82",
+      "sourceOrdinal": 110,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-84aeb145a8ebea04",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-997c1a8dfabeabf0",
+      "sourceOrdinal": 111,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-16e2f61a48b7427f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-2b1247928bf5997b",
+      "sourceOrdinal": 112,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c74e29506b3560ef",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f9ad975a90d88716",
+      "sourceOrdinal": 113,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-cb92bb6a697e5bf7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-9be13be079ab5c01",
+      "sourceOrdinal": 114,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e5fa98156c500300",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-e2b2303a689aac64",
+      "sourceOrdinal": 115,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-09ea8c1ee24de1e3",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-efc8cd1943123858",
+      "sourceOrdinal": 116,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-498fb8b0fd2d75fd",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-5b5272288b8dfd3e",
+      "sourceOrdinal": 117,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-b7ce6466bbe83985",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-f4d1ed16f9d6594f",
+      "sourceOrdinal": 118,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-96c91ba8bb5d509c",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-94e7eb8a92b5d7b8",
+      "sourceOrdinal": 119,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-6dbcad7df5881ec8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-cfc48208a9e0ee25",
+      "sourceOrdinal": 120,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-254991516e572a51",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-1e1546b7a0de1224",
+      "sourceOrdinal": 121,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-4cedc5f1d8209b7f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-552fa594d705de4f",
+      "sourceOrdinal": 122,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-0543c9edf6f583cb",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-0c592fa570b84d31",
+      "sourceOrdinal": 123,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-e88c312cfa0cfe74",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-7fa9654e567ffa5e",
+      "sourceOrdinal": 124,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-20071a2fefbb127e",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-092c1c8007dd2da7",
+      "sourceOrdinal": 125,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1f418bad058836dd",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-3d7fc742826892d1",
+      "sourceOrdinal": 126,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1b151c3c003d864b",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-20efafcec75f1db1",
+      "sourceOrdinal": 127,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-15bd5bb3804436b7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-dad41ad42ed8ca61",
+      "sourceOrdinal": 128,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-1afce6ea7049626f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-7839c63ede4a4233",
+      "sourceOrdinal": 129,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-bf190c80e2ea45f7",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-39b42623e8ddd848",
+      "sourceOrdinal": 130,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-6a871a8360604c54",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-dd3a42906a6aeacc",
+      "sourceOrdinal": 131,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-ae00580dd339b257",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-b1a15f63e35f2f60",
+      "sourceOrdinal": 132,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-58cda37b87a4b4fe",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-c54161090547ba90",
+      "sourceOrdinal": 133,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-801806752a618cd8",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-cdb8c82875906611",
+      "sourceOrdinal": 134,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-3d55aa5bec91153f",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    },
+    {
+      "renderId": "render-c9c9cd044e5473cc",
+      "sourceOrdinal": 135,
+      "mappingState": "assembly_visual",
+      "mechanicalNodeId": "heroexec-c787676bde052bab",
+      "authority": "presentation_only",
+      "upgradeGate": "replace ordinal with serialized Blender/Unity object identity when available"
+    }
+  ],
+  "invariants": [
+    "presentation never owns physics",
+    "component mutation requires dependency/access satisfaction",
+    "Master Part and Part Physics use canonical specificationId",
+    "failure effects flow through Part Physics primitives where mapped",
+    "cross-generation fitment must use canonical compatibility resolver"
+  ]
+}

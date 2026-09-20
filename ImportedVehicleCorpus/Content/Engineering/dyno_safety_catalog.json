@@ -1,0 +1,889 @@
+{
+  "schema": "rev33.dyno-safety.v2",
+  "profileCount": 9,
+  "profiles": [
+    {
+      "generationId": "hero_1967",
+      "displayName": "Hero 1967",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 6293.0,
+          "warningHigh": 6107.0,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.15,
+          "warningHigh": 1.115,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 22.0,
+          "warningLow": 24.6,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 95.0,
+          "warningLow": 112.1,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 140.0,
+          "warningHigh": 128.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 116.0,
+          "warningHigh": 106.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 78.0,
+          "warningHigh": 68.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 82.0,
+          "warningHigh": 72.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.82,
+          "warningHigh": 0.58,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 35.0,
+          "warningHigh": 25.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "hero_1968_kr",
+      "displayName": "Hero 1968 KR",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 6293.0,
+          "warningHigh": 6107.0,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.15,
+          "warningHigh": 1.115,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 22.0,
+          "warningLow": 24.6,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 95.0,
+          "warningLow": 112.1,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 140.0,
+          "warningHigh": 128.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 116.0,
+          "warningHigh": 106.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 78.0,
+          "warningHigh": 68.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 82.0,
+          "warningHigh": 72.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.82,
+          "warningHigh": 0.58,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 35.0,
+          "warningHigh": 25.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "hero_1969_70",
+      "displayName": "Hero 1969-70",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 6293.0,
+          "warningHigh": 6107.0,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.15,
+          "warningHigh": 1.115,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 22.0,
+          "warningLow": 24.6,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 95.0,
+          "warningLow": 112.1,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 140.0,
+          "warningHigh": 128.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 116.0,
+          "warningHigh": 106.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 78.0,
+          "warningHigh": 68.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 82.0,
+          "warningHigh": 72.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.82,
+          "warningHigh": 0.58,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 35.0,
+          "warningHigh": 25.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "hero_2007_09",
+      "displayName": "Hero 2007-09",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 6597.5,
+          "warningHigh": 6402.5,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.08,
+          "warningHigh": 1.045,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 240.0,
+          "warningLow": 268.8,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 130.0,
+          "warningLow": 153.4,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 150.0,
+          "warningHigh": 138.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 122.0,
+          "warningHigh": 112.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 92.0,
+          "warningHigh": 80.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 105.0,
+          "warningHigh": 92.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.7,
+          "warningHigh": 0.45,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 81.2,
+          "warningHigh": 72.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "hero_2010_12",
+      "displayName": "Hero 2010-12",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 6597.5,
+          "warningHigh": 6402.5,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.08,
+          "warningHigh": 1.045,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 300.0,
+          "warningLow": 336.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 150.0,
+          "warningLow": 177.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 150.0,
+          "warningHigh": 138.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 122.0,
+          "warningHigh": 112.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 92.0,
+          "warningHigh": 80.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 105.0,
+          "warningHigh": 92.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.7,
+          "warningHigh": 0.45,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 81.2,
+          "warningHigh": 72.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "hero_2013_14",
+      "displayName": "Hero 2013-14",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 7105.0,
+          "warningHigh": 6895.0,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.08,
+          "warningHigh": 1.045,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 300.0,
+          "warningLow": 336.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 150.0,
+          "warningLow": 177.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 150.0,
+          "warningHigh": 138.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 122.0,
+          "warningHigh": 112.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 92.0,
+          "warningHigh": 80.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 105.0,
+          "warningHigh": 92.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.7,
+          "warningHigh": 0.45,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 121.9,
+          "warningHigh": 109.2,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "hero_2020_22",
+      "displayName": "Hero 2020-22",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 7612.5,
+          "warningHigh": 7387.5,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.08,
+          "warningHigh": 1.045,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 300.0,
+          "warningLow": 336.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 150.0,
+          "warningLow": 177.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 158.0,
+          "warningHigh": 146.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 126.0,
+          "warningHigh": 116.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 92.0,
+          "warningHigh": 80.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 105.0,
+          "warningHigh": 92.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.7,
+          "warningHigh": 0.45,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 105.6,
+          "warningHigh": 94.4,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "hero_exp",
+      "displayName": "Hero EXP",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 10657.5,
+          "warningHigh": 10342.5,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.08,
+          "warningHigh": 1.045,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 300.0,
+          "warningLow": 336.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 150.0,
+          "warningLow": 177.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 158.0,
+          "warningHigh": 146.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 126.0,
+          "warningHigh": 116.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 92.0,
+          "warningHigh": 80.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 105.0,
+          "warningHigh": 92.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.7,
+          "warningHigh": 0.45,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 35.0,
+          "warningHigh": 25.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    },
+    {
+      "generationId": "legend_gtx",
+      "displayName": "Legend GT-X",
+      "thresholds": [
+        {
+          "kind": "EngineRpm",
+          "abortHigh": 10657.5,
+          "warningHigh": 10342.5,
+          "calibrationSource": "generation envelope; tightened by active component/calibration limit",
+          "calibrationConfidence01": 0.78,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Lambda",
+          "abortHigh": 1.08,
+          "warningHigh": 1.045,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "FuelPressure",
+          "abortLow": 300.0,
+          "warningLow": 336.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilPressure",
+          "abortLow": 150.0,
+          "warningLow": 177.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "OilTemperature",
+          "abortHigh": 158.0,
+          "warningHigh": 146.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "CoolantTemperature",
+          "abortHigh": 126.0,
+          "warningHigh": 116.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "IntakeAirTemperature",
+          "abortHigh": 92.0,
+          "warningHigh": 80.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "ChargeTemperature",
+          "abortHigh": 105.0,
+          "warningHigh": 92.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "Knock",
+          "abortHigh": 0.7,
+          "warningHigh": 0.45,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BatteryVoltage",
+          "abortLow": 10.7,
+          "abortHigh": 16.3,
+          "warningLow": 11.8,
+          "warningHigh": 15.3,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.68,
+          "requiresReferenceConfirmation": true
+        },
+        {
+          "kind": "BoostPressure",
+          "abortHigh": 35.0,
+          "warningHigh": 25.0,
+          "calibrationSource": "generation engineering envelope",
+          "calibrationConfidence01": 0.62,
+          "requiresReferenceConfirmation": true
+        }
+      ],
+      "calibrationSource": "vehicle-generation baseline + active build/calibration limits",
+      "calibrationConfidence01": 0.7
+    }
+  ],
+  "calibrationPolicy": "Limits are vehicle/build-specific operational safety envelopes. Exact component limits remain replaceable by measured/reference-authoritative data."
+}
