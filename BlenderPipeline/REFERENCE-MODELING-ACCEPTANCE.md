@@ -12,8 +12,21 @@ All earlier procedural fleet outputs that assumed X as vehicle length are disqua
 
 ## Current accepted blockout baselines
 
-- `correct_axis_heroes/1967_crownfire_v5.blend`
-- `correct_axis_heroes/marsh_nsx91_v4.blend`
+- `correct_axis_heroes/1967_crownfire_v7.blend` (body), propagated with
+  wheel arches + panel seams into `pipeline_updated/
+  1967_crownfire_v9_seams.blend` -- the exported, Unity-wired FBX is
+  `pipeline_updated/HeroCrownfire.fbx`.
+- `correct_axis_heroes/marsh_nsx91_v6.blend` (body), propagated into
+  `pipeline_updated/marsh_nsx91_v8_seams.blend` -- exported as
+  `pipeline_updated/MarshNsx.fbx`.
+
+(Corrected 2026-09-20: this section previously pointed at
+`1967_crownfire_v5.blend`/`marsh_nsx91_v4.blend`, which was already
+stale -- the actual accepted, Unity-wired vehicles were the v7/v6
+files, as every changelog entry below and `WTRL-Unity`'s own
+`VerticalSliceSceneBuilder.cs` doc comments already said. This pointer
+just hadn't been updated to match. See the reconciliation entry below
+for how this was caught.)
 
 The attached-fender experiments are rejected. Current versions use radius-following upper arch lips, recessed roof panels, multi-spoke wheels, panel seams, mirrors, and model-specific grille/intake structures.
 
@@ -82,3 +95,64 @@ This is a separate, later pass in the same day, run against a different pair of 
 **New scripts this pass:** `scripts/export_body_lods.py`, `scripts/export_full_vehicle.py` (all other scripts used were pre-existing and reused unmodified: `dump_object_report.py`, `add_wheel_arches.py`, `add_panel_seams.py`, `export_collision_hulls.py`).
 
 **Honesty notes / limitations carried forward:** the same limitations documented in the entry above still apply to these new outputs - no new vehicle-specific lamp/grille geometry, seam cuts are bounding-box-restricted bisect+bevel rather than hand-sculpted panel gaps, no wheel-arch lip/flare geometry at the cut edge, and no new render/visual-gate validation was performed in this pass.
+
+### 2026-09-20 - Reconciliation: the two passes above diverged, and this pass's output was flawed -- REJECTED
+
+The two entries above were two independent, parallel work runs against
+DIFFERENT source baselines (v7/v6 vs v5/v4), producing two divergent,
+never-reconciled output sets that both sat uncommitted-then-locally-
+committed without either being wired into Unity. This entry resolves
+that by directly re-verifying both outputs' real FBX files (re-
+importing each into a clean Blender scene and counting actual objects/
+vertices/faces -- not trusting either changelog entry's own self-
+report) rather than picking one arbitrarily.
+
+**Verified real counts** (re-imported fresh, not copied from either
+changelog entry above):
+
+| File | Objects | Verts | Faces |
+|---|---|---|---|
+| `pipeline_updated/HeroCrownfire.fbx` (first pass) | 97 | 10512 | 9452 |
+| `export/HeroCrownfire.fbx` (second pass) | **67** | **6108** | 5414 |
+| `pipeline_updated/MarshNsx.fbx` (first pass) | 92 | 7968 | 7095 |
+| `export/MarshNsx.fbx` (second pass) | **68** | **5640** | 4948 |
+| Previously Unity-wired `HeroCrownfire.fbx` (no arches/seams) | 97 | 9336 | 8366 |
+| Previously Unity-wired `MarshNsx.fbx` (no arches/seams) | 92 | 6968 | 6172 |
+
+The first pass's object counts (97/92) exactly match the previously-
+wired baseline's object counts, with vertex growth consistent with
+adding wheel-arch cuts and seam bevels on top of the same geometry
+(+1176 verts Hero, +1000 verts Marsh) -- this is the real, complete
+propagation.
+
+The second pass's object counts (67/68) are missing **30 Crownfire
+objects and 24 Marsh objects** compared to the real baseline -- its own
+`--prefix Crownfire` export filter silently dropped mesh objects that
+should have matched, and its own changelog entry's self-reported
+"2235 verts / 1320 faces combined" for Crownfire doesn't even match
+this re-verification of its own file (6108/5414) -- that pass's own
+verification step was itself wrong, not just the export.
+
+**Decision: the first pass's output (`pipeline_updated/`) is
+CANONICAL.** Its files are now the ones referenced by the corrected
+"Current accepted blockout baselines" section above, and have been
+copied into `WTRL-Unity/Assets/WrenchToRaceLegends/Art/Vehicles/
+HeroCrownfire.fbx` / `MarshNsx.fbx`, replacing the pre-arch/seam
+versions. The second pass's entire output (`export/HeroCrownfire.fbx`,
+`export/MarshNsx.fbx`, `export/collision/`, `export/lods/`, and its
+intermediate `v6_arches`/`v7_seams`/`v5_arches`/`v6_seams` .blend files
+under `export/correct_axis_heroes/`) has been deleted from this repo
+-- kept only in git history (the `cd81e07` commit) if ever needed for
+forensic comparison, not left on disk to cause future confusion about
+which output is real. `scripts/export_body_lods.py` and
+`scripts/export_full_vehicle.py` (that pass's own new scripts) were
+deleted for the same reason; `scripts/export_lods.py` and
+`scripts/export_main_body_fbx.py` (the first pass's equivalents) are
+kept as the canonical versions.
+
+**Lesson for future parallel work on this project**: when delegating
+the same task to two independent runs, either have them coordinate on
+a single source baseline and output location up front, or explicitly
+plan a reconciliation step before either output is treated as done --
+letting both sit uncommitted/unreconciled for a full session was the
+actual root cause here, not the individual mistakes either pass made.
