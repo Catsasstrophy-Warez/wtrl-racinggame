@@ -222,3 +222,63 @@ Verified end-to-end in `WTRL-Unity`: rebuilt `VerticalSlice.unity` and
 all 6 `Scenes/Tracks/*.unity` scenes against every new asset; 125/125
 EditMode + 18/18 PlayMode tests still pass, 16 assemblies / 85 C#
 files, no reference cycles.
+
+### 2026-09-20 - Real PBR maps: normal, AO, and metallic-smoothness for every ground-level surface
+
+Direct follow-up request: the prior pass raised color-texture
+resolution but stayed "color-only procedural texturing, not a
+materials-authoring upgrade." This pass adds the 3 missing map types
+for all 3 surfaces this pipeline generates (track asphalt, track
+barriers, ground grass) -- 17 surfaces total (8 tracks x 2 + 1 ground).
+
+**Real derivation, not hand-painted maps**: for each surface, the
+existing per-texel "surface description" logic that already drove the
+color painter was extracted into a shared function
+(`_asphalt_sample`/`_barrier_sample`/`_ground_sample`) that ALSO
+produces a scalar height value -- painted lines/bolt heads/corrugation
+ridges sit physically "higher," worn patches/scuff bands/mowing
+grooves sit "lower." A new `_height_to_normal_and_ao` helper then
+derives the normal map via real finite-difference slope (sampling the
+height field at each texel and its two tile-wrapped neighbors, building
+a proper tangent-space normal vector from the gradient) and the AO map
+from that same gradient's magnitude (steeper local relief = a crevice
+= darker, the actual physical intuition AO is supposed to capture).
+Metallic-smoothness maps are hand-authored per-surface (asphalt: fully
+non-metallic, rougher in weathered patches, smoother on painted lines;
+barrier: non-metallic painted steel EXCEPT bolt heads, which are
+genuinely metallic and glossier; ground: fully non-metallic, matte,
+slightly rougher in dirt patches) -- packed R=metallic, A=smoothness,
+matching Unity URP/Lit's Metallic Gloss Map texture convention.
+
+**Real bug found and fixed before any of this reached Unity**: the
+first generation pass silently saved the metallic-smoothness textures
+as 24-bit RGB, discarding the alpha channel the smoothness value was
+packed into -- `bpy.data.images.new()` defaults to `alpha=False` and
+the pixel array's alpha values are simply dropped on save if the image
+datablock itself has no alpha channel. Caught by checking the actual
+saved file's real format with `file` (24-bit RGB, no alpha) rather
+than assuming the pixel data round-tripped correctly, since nothing
+would have errored -- fixed by passing `alpha=True` explicitly, and
+reconfirmed the regenerated files are real 32-bit RGBA before copying
+anything into Unity.
+
+**New/changed scripts**: `generate_world_tracks.py` gained
+`_height_to_normal_and_ao`, `_save_pbr_maps`, `make_asphalt_pbr_maps`,
+`make_barrier_pbr_maps`, and the `_asphalt_sample`/`_barrier_sample`
+refactor; `make_ground_texture.py` gained the equivalent
+`_ground_sample`/`make_ground_pbr_maps` (duplicated rather than
+imported, since each script is Blender's independent `--python` entry
+point with no shared import path between them -- noted in both files'
+comments to keep in sync if either changes).
+
+**Honest limitations**: still procedural/synthetic, not scanned/
+photogrammetry-sourced PBR data -- a real material author would very
+likely tune these values differently once actually seen. No real
+displacement/parallax mapping, no anisotropic reflection model for the
+barrier's corrugation direction. Verification is entirely file-format
+and Unity-import-setting inspection (real PNG resolution/channel
+checks, `TextureImporter` settings confirmed via meta-file inspection,
+shader keyword/texture-reference presence confirmed in the saved
+scene) -- still no screenshot or human-eyes confirmation of how any of
+this actually looks, since that capability does not exist in this
+environment.

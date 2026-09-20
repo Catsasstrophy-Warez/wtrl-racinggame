@@ -57,6 +57,37 @@ def _layered_noise(x, y, octaves):
     return total / weight
 
 
+def _asphalt_sample(x, y, size):
+    """The single source of truth for one asphalt texel's surface
+    description -- shared by the color painter AND the PBR map
+    generator below, so the normal/roughness/AO maps are guaranteed to
+    line up with what the albedo texture actually shows (a line pixel
+    is smoother AND has less relief in every map, not just tinted white
+    in the color one). Returns (height, is_line, fine_grain, patch)."""
+    u = x / size
+    v = y / size
+    fine_grain = _layered_noise(x * 0.5, y * 0.5, 3)
+    patch = _layered_noise(x * 0.04, y * 0.04, 2)
+
+    on_edge_line = u < 0.06 or u > 0.94
+    on_centerline = abs(u - 0.5) < 0.025
+    dash_on = (v * 10) % 1.0 < 0.55
+    is_line = on_edge_line or (on_centerline and dash_on)
+
+    # Height field driving the normal/AO maps: fine grain for the
+    # asphalt's granular surface relief, plus a slight extra rise where
+    # the painted line sits (real road paint/thermoplastic markings
+    # stand a millimeter or two proud of the asphalt), and a slight dip
+    # in worn/resurfaced patches (shallow, not a pothole).
+    height = fine_grain * 0.6
+    if is_line:
+        height += 0.35
+    if patch > 0.62:
+        height -= min((patch - 0.62) / 0.38, 1.0) * 0.15
+
+    return height, is_line, fine_grain, patch
+
+
 def make_asphalt_image(name, size=1024):
     """Procedurally paints a tileable asphalt texture directly into pixel
     data (no external texture asset, no PIL dependency). Upgraded from a
@@ -73,33 +104,18 @@ def make_asphalt_image(name, size=1024):
     pixels = [0.0] * (size * size * 4)
 
     for y in range(size):
-        v = y / size  # along track length
         for x in range(size):
-            u = x / size  # across track width
             idx = (y * size + x) * 4
-
-            fine_grain = _layered_noise(x * 0.5, y * 0.5, 3)
-            patch = _layered_noise(x * 0.04, y * 0.04, 2)
+            _, is_line, fine_grain, patch = _asphalt_sample(x, y, size)
 
             base = 0.085 + fine_grain * 0.035
-            # Sun-bleached/resurfaced patches: lighter and slightly
-            # desaturated where the coarse patch noise peaks.
             if patch > 0.62:
                 fade = min((patch - 0.62) / 0.38, 1.0)
                 base = base * (1 - fade) + 0.16 * fade
 
             r = g = b = base
-
-            # Solid edge lines, ~5% of road width in from each side.
-            on_edge_line = u < 0.06 or u > 0.94
-            # Dashed centerline: a band around u=0.5, on for the first
-            # half of each length-wise tile period, off for the second.
-            on_centerline = abs(u - 0.5) < 0.025
-            dash_on = (v * 10) % 1.0 < 0.55
-
-            if on_edge_line or (on_centerline and dash_on):
-                line_shade = 0.82 + fine_grain * 0.06  # lines pick up a little grime too, not pure white
-                r = g = b = line_shade
+            if is_line:
+                r = g = b = 0.82 + fine_grain * 0.06  # lines pick up a little grime too, not pure white
 
             pixels[idx] = r
             pixels[idx + 1] = g
@@ -109,6 +125,106 @@ def make_asphalt_image(name, size=1024):
     img.pixels = pixels
     _save_image(img, name)
     return img
+
+
+def _height_to_normal_and_ao(height_fn, size, bump_strength=6.0, ao_strength=1.6):
+    """Real PBR map derivation, not painted-on fakery: samples
+    `height_fn(x, y, size)` (the same procedural surface-relief field
+    each color painter above already computes) at a texel and its two
+    tile-wrapped neighbors, takes the finite-difference slope in each
+    direction, and builds a proper tangent-space normal vector from it
+    (OpenGL/Unity convention: +X right, +Y up, +Z out of the surface --
+    Unity decodes this correctly as long as the resulting PNG's Texture
+    Type is set to "Normal Map" on import, which
+    `PbrTextureImportSettings.cs` on the Unity side does for every
+    `*_normal.png` this pipeline produces). Ambient occlusion is
+    derived from the same slope's magnitude -- steeper local relief
+    (a crack, a seam, a bolt) reads as a small crevice and darkens,
+    exactly the physical intuition AO is supposed to capture, rather
+    than a hand-painted dark blob.
+
+    Returns (normal_pixels, ao_pixels), each a flat RGBA float list
+    the same shape as `Image.pixels`."""
+    normal_px = [0.0] * (size * size * 4)
+    ao_px = [0.0] * (size * size * 4)
+
+    for y in range(size):
+        for x in range(size):
+            h_c = height_fn(x, y, size)
+            h_x = height_fn((x + 1) % size, y, size)
+            h_y = height_fn(x, (y + 1) % size, size)
+
+            dx = (h_x - h_c) * bump_strength
+            dy = (h_y - h_c) * bump_strength
+
+            nx, ny, nz = -dx, -dy, 1.0
+            length = math.sqrt(nx * nx + ny * ny + nz * nz)
+            nx, ny, nz = nx / length, ny / length, nz / length
+
+            idx = (y * size + x) * 4
+            normal_px[idx] = nx * 0.5 + 0.5
+            normal_px[idx + 1] = ny * 0.5 + 0.5
+            normal_px[idx + 2] = nz * 0.5 + 0.5
+            normal_px[idx + 3] = 1.0
+
+            grad_mag = math.sqrt(dx * dx + dy * dy)
+            ao = max(0.0, min(1.0, 1.0 - grad_mag * ao_strength))
+            ao_px[idx] = ao_px[idx + 1] = ao_px[idx + 2] = ao
+            ao_px[idx + 3] = 1.0
+
+    return normal_px, ao_px
+
+
+def _save_pbr_maps(name_prefix, size, normal_px, ao_px, metallic_smoothness_px):
+    """Saves the 3 companion PBR maps for one surface as separate PNGs,
+    same pattern as `_save_image` (real files on disk, not packed-only
+    -- FBX texture embedding is already known not to survive Unity's
+    importer, and these are loaded directly in C# exactly like the
+    existing albedo textures)."""
+    for suffix, px in (("_normal", normal_px), ("_ao", ao_px), ("_metallicsmoothness", metallic_smoothness_px)):
+        # alpha=True matters for real: _metallicsmoothness packs
+        # smoothness into the alpha channel (Unity URP/Lit's Metallic
+        # Gloss Map convention). An earlier version of this function
+        # omitted `alpha=True` (Blender's own default), which silently
+        # saved the PNG as 24-bit RGB with the alpha data discarded --
+        # caught by checking the actual saved file's format with `file`
+        # rather than assuming the pixel array round-tripped correctly.
+        img = bpy.data.images.new(f"{name_prefix}{suffix}", width=size, height=size, alpha=True)
+        img.pixels = px
+        _save_image(img, f"{name_prefix}{suffix}")
+
+
+def _asphalt_height(x, y, size):
+    return _asphalt_sample(x, y, size)[0]
+
+
+def make_asphalt_pbr_maps(name, size=1024):
+    """Generates the real normal/AO/metallic-smoothness maps to
+    accompany `make_asphalt_image`'s albedo texture, derived from the
+    exact same `_asphalt_sample` surface description (see that
+    function's own doc comment for why sharing it matters)."""
+    normal_px, ao_px = _height_to_normal_and_ao(_asphalt_height, size, bump_strength=5.0, ao_strength=1.4)
+
+    ms_px = [0.0] * (size * size * 4)
+    for y in range(size):
+        for x in range(size):
+            idx = (y * size + x) * 4
+            _, is_line, fine_grain, patch = _asphalt_sample(x, y, size)
+            # Asphalt is non-metallic (R=metallic stays ~0). Roughness:
+            # base asphalt is quite rough (low smoothness); painted
+            # lines are semi-gloss thermoplastic (smoother); worn/
+            # resurfaced patches are rougher (more weathered).
+            smoothness = 0.12 + fine_grain * 0.05
+            if is_line:
+                smoothness = 0.45
+            if patch > 0.62:
+                smoothness *= 0.7
+            ms_px[idx] = 0.0
+            ms_px[idx + 1] = 0.0
+            ms_px[idx + 2] = 0.0
+            ms_px[idx + 3] = max(0.0, min(1.0, smoothness))
+
+    _save_pbr_maps(name, size, normal_px, ao_px, ms_px)
 
 
 def _save_image(img, name):
@@ -129,6 +245,37 @@ def _save_image(img, name):
     img.save()
 
 
+def _cheap_noise(x, y):
+    n = math.sin(x * 12.9898 + y * 78.233) * 43758.5453
+    return n - math.floor(n)
+
+
+def _barrier_sample(x, y, size):
+    """Shared surface description for one barrier texel -- same
+    "one source of truth for color AND PBR maps" pattern as
+    `_asphalt_sample`. Returns (height, stripe_on, is_bolt, scuff, grain)."""
+    u = x / size
+    v = y / size
+    stripe_on = (v * 6) % 1.0 < 0.5
+    grain = (_cheap_noise(x, y) - 0.5) * 0.04
+
+    scuff = max(0.0, (u - 0.82) / 0.18) if u > 0.82 else 0.0
+
+    bolt_seam = abs(u - 0.5) < 0.015
+    bolt_spacing = (v * 24) % 1.0
+    is_bolt = bolt_seam and bolt_spacing < 0.12
+
+    # Height field: corrugated panel ridges give the whole barrier a
+    # gentle sinusoidal profile across its height (u), bolt heads stand
+    # proud, and the scuffed band is worn slightly concave.
+    height = math.sin(u * math.pi * 8) * 0.15
+    if is_bolt:
+        height += 0.4
+    height -= scuff * 0.2
+
+    return height, stripe_on, is_bolt, scuff, grain
+
+
 def make_barrier_image(name, size=256):
     """Alternating red/white barrier stripe, tiled along the wall's
     length -- the same cheap visibility convention real barrier/curbing
@@ -143,35 +290,22 @@ def make_barrier_image(name, size=256):
     img = bpy.data.images.new(name, width=size, height=size)
     pixels = [0.0] * (size * size * 4)
 
-    def noise(x, y):
-        n = math.sin(x * 12.9898 + y * 78.233) * 43758.5453
-        return n - math.floor(n)
-
     for y in range(size):
-        v = y / size
-        stripe_on = (v * 6) % 1.0 < 0.5
         for x in range(size):
-            u = x / size
             idx = (y * size + x) * 4
+            _, stripe_on, is_bolt, scuff, grain = _barrier_sample(x, y, size)
 
-            grain = (noise(x, y) - 0.5) * 0.04
             if stripe_on:
                 r, g, b = 0.75 + grain, 0.05 + grain * 0.4, 0.05 + grain * 0.4
             else:
                 r, g, b = 0.85 + grain, 0.85 + grain, 0.82 + grain
 
-            # Weathered/scuffed band near the bottom edge of the panel.
-            if u > 0.82:
-                scuff = (u - 0.82) / 0.18
+            if scuff > 0:
                 r = r * (1 - scuff * 0.5) + 0.25 * scuff * 0.5
                 g = g * (1 - scuff * 0.5) + 0.24 * scuff * 0.5
                 b = b * (1 - scuff * 0.5) + 0.22 * scuff * 0.5
 
-            # Bolt-head dots along a horizontal seam near mid-height,
-            # spaced evenly along the tiled length.
-            bolt_seam = abs(u - 0.5) < 0.015
-            bolt_spacing = (v * 24) % 1.0
-            if bolt_seam and bolt_spacing < 0.12:
+            if is_bolt:
                 r, g, b = 0.12, 0.12, 0.13
 
             pixels[idx] = max(0.0, min(1.0, r))
@@ -181,6 +315,39 @@ def make_barrier_image(name, size=256):
     img.pixels = pixels
     _save_image(img, name)
     return img
+
+
+def _barrier_height(x, y, size):
+    return _barrier_sample(x, y, size)[0]
+
+
+def make_barrier_pbr_maps(name, size=256):
+    """Real normal/AO/metallic-smoothness maps for the barrier, from
+    the same `_barrier_sample` height field the albedo painter uses --
+    the corrugation ridges and bolt heads actually read as raised
+    geometry in the normal map, not just a flat color change."""
+    normal_px, ao_px = _height_to_normal_and_ao(_barrier_height, size, bump_strength=4.0, ao_strength=1.2)
+
+    ms_px = [0.0] * (size * size * 4)
+    for y in range(size):
+        for x in range(size):
+            idx = (y * size + x) * 4
+            _, stripe_on, is_bolt, scuff, grain = _barrier_sample(x, y, size)
+            # Painted corrugated steel: fairly smooth/semi-gloss where
+            # clean, rougher where scuffed. Bolt heads are bare metal --
+            # a genuine metallic surface, unlike everything else in
+            # this scene, and noticeably glossier.
+            metallic = 0.85 if is_bolt else 0.0
+            smoothness = 0.55 + grain * 0.5
+            if is_bolt:
+                smoothness = 0.75
+            smoothness *= (1.0 - scuff * 0.6)
+            ms_px[idx] = max(0.0, min(1.0, metallic))
+            ms_px[idx + 1] = 0.0
+            ms_px[idx + 2] = 0.0
+            ms_px[idx + 3] = max(0.0, min(1.0, smoothness))
+
+    _save_pbr_maps(name, size, normal_px, ao_px, ms_px)
 
 
 def textured_material(name, image, roughness=0.8):
@@ -260,8 +427,10 @@ def make_ribbon(track_id, nodes_xzbe, closed, width_m, out_dir, barrier_offset_m
     clear_scene()
 
     road_image = make_asphalt_image(f"{track_id}_asphalt")
+    make_asphalt_pbr_maps(f"{track_id}_asphalt")
     road_mat = textured_material(f"{track_id}_road_mat", road_image)
     barrier_image = make_barrier_image(f"{track_id}_barrier_stripe")
+    make_barrier_pbr_maps(f"{track_id}_barrier_stripe")
     barrier_mat = textured_material(f"{track_id}_barrier_mat", barrier_image, roughness=0.6)
 
     count = len(nodes_xzbe)
