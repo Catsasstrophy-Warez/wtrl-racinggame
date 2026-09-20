@@ -156,3 +156,69 @@ a single source baseline and output location up front, or explicitly
 plan a reconciliation step before either output is treated as done --
 letting both sit uncommitted/unreconciled for a full session was the
 actual root cause here, not the individual mistakes either pass made.
+
+### 2026-09-20 - Mesh-artifact cleanup + higher-resolution track/ground textures
+
+A further quality pass across everything Blender produces for this
+project, prompted directly by a real defect surfaced during the
+reconciliation above: importing the canonical `HeroCrownfire.fbx` into
+Unity logged 17 "self-intersecting polygon discarded" warnings on
+`Crownfire_BODY_SHELL`.
+
+**Mesh cleanup**: diagnosed first, not guessed at -- a bmesh health
+check (non-manifold edge count, degenerate/zero-area face count)
+against the seam-complete body found ZERO of either, ruling out
+topology damage. The actual cause is tiny near-coincident geometry
+left at the boolean wheel-arch cut seam (a known Blender exact-boolean
+solver artifact). Fixed with a new reusable script
+(`scripts/clean_body_mesh_artifacts.py`): merge-by-distance (weld
+threshold 0.0008) + dissolve-degenerate + recalculate outside normals,
+applied to both `Crownfire_BODY_SHELL` (392->384 verts) and
+`Marsh_BODY_SHELL` (304->292 verts, one truly-degenerate face
+dissolved). Re-exported both full vehicles from the cleaned bodies
+using the existing `export_main_body_fbx.py` (unmodified) -- real
+re-import verification after export: Hero 97 objects/10504 verts (was
+10512, i.e. exactly the expected -8 from the vertex weld), Marsh 92
+objects/7944 verts (was 7968). Re-importing the new `HeroCrownfire.fbx`
+into Unity now logs ZERO self-intersecting-polygon warnings (down from
+17), confirmed by directly re-running the same diagnostic that first
+found the defect, not by assumption.
+
+**Higher-resolution, more detailed track textures**
+(`generate_world_tracks.py`): `make_asphalt_image` raised 256px->1024px
+and rewritten from single-octave noise to a new `_layered_noise` helper
+(multi-octave sum) driving both fine grain and coarser tonal/staining
+patches, plus a solid white edge line at each side of the road (real
+tracks mark both edges, not just the centerline -- the old texture only
+had a dashed centerline). `make_barrier_image` raised 64px->256px and
+gained per-stripe paint-grain noise, a darker weathered/scuffed band
+near the bottom edge, and periodic dark bolt-head dots along a seam
+line (corrugated guardrail panels are bolted, not a single painted
+sheet). Regenerated and re-exported all 8 tracks' textures + FBX
+(`scripts/export_track_fbx.py`, new -- no track FBX export script
+existed before this pass; the .fbx files in `Assets/Art/Tracks/` had
+apparently been produced by an ad hoc scratch step in an earlier
+session, never saved as a reusable script).
+
+**Higher-resolution, more detailed ground texture**
+(`make_ground_texture.py`): raised 512px->1024px, upgraded to the same
+`_layered_noise` technique for both the grass grain and the dirt-patch
+mask (for visual consistency with the track asphalt texture), and
+added a subtle darker streak pattern loosely suggesting mowing-line/
+blade-direction variation.
+
+**Honest limitations, not fixed this pass**: none of this is a real
+PBR material (no normal maps, no roughness/AO texture channels, still
+a single Base-Color-only Principled BSDF hookup) -- this is higher-
+resolution and more detailed procedural color texturing, not a
+materials-authoring upgrade. No new render/visual-gate validation was
+performed (still no screenshot capability in the Unity-side
+environment this feeds). The vehicle mesh-cleanup fixed THIS pass's
+self-intersection defect; it does not add wheel-arch lip/flare
+geometry or hand-sculpted panel gaps, both still open per the
+"Required visual gates" list above.
+
+Verified end-to-end in `WTRL-Unity`: rebuilt `VerticalSlice.unity` and
+all 6 `Scenes/Tracks/*.unity` scenes against every new asset; 125/125
+EditMode + 18/18 PlayMode tests still pass, 16 assemblies / 85 C#
+files, no reference cycles.

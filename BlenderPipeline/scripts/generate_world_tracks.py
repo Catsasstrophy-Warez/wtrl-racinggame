@@ -37,21 +37,40 @@ def clear_scene():
                 datablocks.remove(block)
 
 
-def make_asphalt_image(name, size=256):
+def _layered_noise(x, y, octaves):
+    """Cheap deterministic multi-octave pseudo-noise (no numpy/PIL
+    dependency): sums several frequencies of the same sin-hash noise so
+    detail reads at both a coarse (patch/stain) and fine (grain) scale,
+    instead of one uniform-frequency speckle. Still not a real Perlin/
+    Worley noise -- good enough for a tileable asphalt look, not a
+    claim of physically based material authoring."""
+    total = 0.0
+    amplitude = 1.0
+    weight = 0.0
+    freq = 1.0
+    for _ in range(octaves):
+        n = math.sin(x * freq * 12.9898 + y * freq * 78.233) * 43758.5453
+        total += (n - math.floor(n)) * amplitude
+        weight += amplitude
+        amplitude *= 0.5
+        freq *= 2.3
+    return total / weight
+
+
+def make_asphalt_image(name, size=1024):
     """Procedurally paints a tileable asphalt texture directly into pixel
-    data (no external texture asset, no PIL dependency) -- a dark,
-    lightly-varied base with a dashed white centerline band, so the road
-    reads as a road rather than a flat gray color. Tiles along V
-    (the track's length direction); U 0..1 spans the road's width."""
+    data (no external texture asset, no PIL dependency). Upgraded from a
+    single-octave speckle + plain dashed centerline to: multi-octave
+    grain (fine speckle + coarser tonal patches/staining), soft worn/
+    faded patches (lighter, desaturated blotches simulating sun-bleached
+    resurfacing), a solid white edge line at each side of the road (real
+    tracks mark both edges, not just center), and a dashed centerline.
+    Tiles along V (the track's length direction); U 0..1 spans the
+    road's width. Resolution raised 256->1024 since this texture now
+    covers the whole visible road surface at much closer camera
+    distances than a 256px source supports without visible blur."""
     img = bpy.data.images.new(name, width=size, height=size)
     pixels = [0.0] * (size * size * 4)
-
-    # Cheap deterministic pseudo-noise (no numpy/PIL dependency) --
-    # good enough for a subtle asphalt grain, not meant to be a real
-    # procedural material.
-    def noise(x, y):
-        n = math.sin(x * 12.9898 + y * 78.233) * 43758.5453
-        return n - math.floor(n)
 
     for y in range(size):
         v = y / size  # along track length
@@ -59,15 +78,28 @@ def make_asphalt_image(name, size=256):
             u = x / size  # across track width
             idx = (y * size + x) * 4
 
-            base = 0.09 + noise(x, y) * 0.03
+            fine_grain = _layered_noise(x * 0.5, y * 0.5, 3)
+            patch = _layered_noise(x * 0.04, y * 0.04, 2)
+
+            base = 0.085 + fine_grain * 0.035
+            # Sun-bleached/resurfaced patches: lighter and slightly
+            # desaturated where the coarse patch noise peaks.
+            if patch > 0.62:
+                fade = min((patch - 0.62) / 0.38, 1.0)
+                base = base * (1 - fade) + 0.16 * fade
+
+            r = g = b = base
+
+            # Solid edge lines, ~5% of road width in from each side.
+            on_edge_line = u < 0.06 or u > 0.94
             # Dashed centerline: a band around u=0.5, on for the first
             # half of each length-wise tile period, off for the second.
-            on_centerline = abs(u - 0.5) < 0.03
+            on_centerline = abs(u - 0.5) < 0.025
             dash_on = (v * 10) % 1.0 < 0.55
-            if on_centerline and dash_on:
-                r = g = b = 0.85
-            else:
-                r = g = b = base
+
+            if on_edge_line or (on_centerline and dash_on):
+                line_shade = 0.82 + fine_grain * 0.06  # lines pick up a little grime too, not pure white
+                r = g = b = line_shade
 
             pixels[idx] = r
             pixels[idx + 1] = g
@@ -97,21 +129,54 @@ def _save_image(img, name):
     img.save()
 
 
-def make_barrier_image(name, size=64):
+def make_barrier_image(name, size=256):
     """Alternating red/white barrier stripe, tiled along the wall's
     length -- the same cheap visibility convention real barrier/curbing
-    uses, not a modeled physical barrier structure."""
+    uses, not a modeled physical barrier structure. Upgraded from flat
+    stripe colors to: subtle per-stripe noise (paint isn't a perfectly
+    flat color), a darker weathered/scuffed band along the bottom edge
+    (barriers get scraped and dirty near the ground, not just up top),
+    and periodic dark bolt-head dots along a seam line (corrugated
+    guardrail panels are bolted, not painted as a single sheet).
+    Resolution raised 64->256 for the same close-camera-distance reason
+    as the asphalt texture."""
     img = bpy.data.images.new(name, width=size, height=size)
     pixels = [0.0] * (size * size * 4)
+
+    def noise(x, y):
+        n = math.sin(x * 12.9898 + y * 78.233) * 43758.5453
+        return n - math.floor(n)
+
     for y in range(size):
         v = y / size
         stripe_on = (v * 6) % 1.0 < 0.5
-        r, g, b = (0.75, 0.05, 0.05) if stripe_on else (0.85, 0.85, 0.82)
         for x in range(size):
+            u = x / size
             idx = (y * size + x) * 4
-            pixels[idx] = r
-            pixels[idx + 1] = g
-            pixels[idx + 2] = b
+
+            grain = (noise(x, y) - 0.5) * 0.04
+            if stripe_on:
+                r, g, b = 0.75 + grain, 0.05 + grain * 0.4, 0.05 + grain * 0.4
+            else:
+                r, g, b = 0.85 + grain, 0.85 + grain, 0.82 + grain
+
+            # Weathered/scuffed band near the bottom edge of the panel.
+            if u > 0.82:
+                scuff = (u - 0.82) / 0.18
+                r = r * (1 - scuff * 0.5) + 0.25 * scuff * 0.5
+                g = g * (1 - scuff * 0.5) + 0.24 * scuff * 0.5
+                b = b * (1 - scuff * 0.5) + 0.22 * scuff * 0.5
+
+            # Bolt-head dots along a horizontal seam near mid-height,
+            # spaced evenly along the tiled length.
+            bolt_seam = abs(u - 0.5) < 0.015
+            bolt_spacing = (v * 24) % 1.0
+            if bolt_seam and bolt_spacing < 0.12:
+                r, g, b = 0.12, 0.12, 0.13
+
+            pixels[idx] = max(0.0, min(1.0, r))
+            pixels[idx + 1] = max(0.0, min(1.0, g))
+            pixels[idx + 2] = max(0.0, min(1.0, b))
             pixels[idx + 3] = 1.0
     img.pixels = pixels
     _save_image(img, name)

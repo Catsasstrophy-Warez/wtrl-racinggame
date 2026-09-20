@@ -31,19 +31,49 @@ def _noise(x, y, seed=0):
     return n - math.floor(n)
 
 
-def make_ground_image(name, size=512):
-    """A tileable grass base with sparse worn-dirt patches."""
+def _layered_noise(x, y, seed, octaves):
+    """Multi-octave version of `_noise` -- sums several frequencies so
+    the grass reads with both coarse tonal variation and fine grain,
+    instead of one uniform-frequency speckle. Matches the technique
+    added to generate_world_tracks.py's asphalt texture, for visual
+    consistency between the two ground-level textures."""
+    total, amplitude, weight, freq = 0.0, 1.0, 0.0, 1.0
+    for _ in range(octaves):
+        total += _noise(x * freq, y * freq, seed) * amplitude
+        weight += amplitude
+        amplitude *= 0.5
+        freq *= 2.3
+    return total / weight
+
+
+def make_ground_image(name, size=1024):
+    """A tileable grass base with sparse worn-dirt patches. Upgraded
+    from single-octave noise to layered noise for both the fine grass
+    grain and the coarse dirt-patch mask, plus a subtle darker "blade
+    shadow" streak pattern so the grass doesn't read as a flat speckled
+    color at close range. Resolution raised 512->1024 since this
+    texture now tiles across large track-scene ground planes viewed
+    from much closer than a hub-world overview camera."""
     img = bpy.data.images.new(name, width=size, height=size, alpha=False)
     px = [0.0] * (size * size * 4)
     for y in range(size):
         for x in range(size):
             u, v = x / size, y / size
-            base_n = _noise(u * 40, v * 40, 1)
-            patch_n = _noise(u * 6, v * 6, 7)
+            base_n = _layered_noise(u * 40, v * 40, 1, 3)
+            patch_n = _layered_noise(u * 6, v * 6, 7, 2)
+            # Elongated streaks along V to loosely suggest blade
+            # direction/mowing lines, without modeling real grass blades.
+            streak_n = _noise(u * 90, v * 14, 3)
 
-            g = 0.28 + base_n * 0.07
-            r = 0.14 + base_n * 0.05
-            b = 0.10 + base_n * 0.04
+            g = 0.28 + base_n * 0.08
+            r = 0.14 + base_n * 0.055
+            b = 0.10 + base_n * 0.045
+
+            if streak_n > 0.72:
+                darken = (streak_n - 0.72) / 0.28 * 0.06
+                r -= darken * 0.5
+                g -= darken
+                b -= darken * 0.4
 
             if patch_n > 0.78:
                 dirt_mix = (patch_n - 0.78) / 0.22
@@ -52,9 +82,9 @@ def make_ground_image(name, size=512):
                 b = b * (1 - dirt_mix) + 0.16 * dirt_mix
 
             idx = (y * size + x) * 4
-            px[idx + 0] = r
-            px[idx + 1] = g
-            px[idx + 2] = b
+            px[idx + 0] = max(0.0, r)
+            px[idx + 1] = max(0.0, g)
+            px[idx + 2] = max(0.0, b)
             px[idx + 3] = 1.0
     img.pixels = px
 
