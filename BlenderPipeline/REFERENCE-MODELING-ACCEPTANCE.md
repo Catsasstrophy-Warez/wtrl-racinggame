@@ -282,3 +282,49 @@ shader keyword/texture-reference presence confirmed in the saved
 scene) -- still no screenshot or human-eyes confirmation of how any of
 this actually looks, since that capability does not exist in this
 environment.
+
+## Human verification checklist (added 2026-09-20 -- read this first if you're the first human to open the Editor)
+
+Everything above this line was built and verified entirely without
+eyes on it -- no screenshot or rendering capability has existed in this
+project's authoring environment at any point. The items below cannot
+be meaningfully progressed further without a human actually looking at
+the result in the Unity Editor or Blender's viewport. Ordered by how
+much they'd unblock if resolved:
+
+1. **Open `WTRL-Unity/Assets/WrenchToRaceLegends/Scenes/VerticalSlice.unity`
+   in Play mode and just look.** Nothing in this entire project has
+   ever been confirmed to look like anything -- not "good" or "bad,"
+   literally unconfirmed whether materials/lighting/geometry render as
+   intended at all versus e.g. magenta missing-shader errors, inverted
+   normals, or a texture that imported at the wrong scale. This is the
+   single highest-value 10 minutes available once an Editor is open.
+2. **Grade gates 1, 2, 5, 6, 7, 9, 10** (silhouette, 3-quarter read,
+   hood/roof/glasshouse/deck/beltline coherence, vehicle-specific
+   lamp/grille signatures, glasshouse detail, material response under
+   lighting, and the render-validation gate itself) against
+   `HeroCrownfire.fbx`/`MarshNsx.fbx` as currently wired -- these are
+   explicitly visual-judgment gates that no amount of vertex-count or
+   bounding-box verification can close. Gates 3 and 4 are already met
+   (measured, not judged) and don't need re-checking.
+3. **Look at the new PBR maps on track asphalt/barriers/ground** (real
+   normal/AO/metallic-smoothness maps exist and are wired, verified
+   only by file format and Unity import-setting inspection) -- do the
+   normal maps actually read as sensible surface relief, or does the
+   height-field-derivation math need retuning (`bump_strength`/
+   `ao_strength` constants in `generate_world_tracks.py`/
+   `make_ground_texture.py` are hand-picked, never seen)?
+4. **Decide whether to extend PBR maps to vehicle paint/glass/trim.**
+   The technique (shared per-texel height field -> finite-difference
+   normal/AO derivation) already exists and works for the 3 ground-
+   level surfaces; extending it to vehicles is mechanical repetition of
+   already-proven code, gated only on a human deciding it's worth doing
+   before or after the higher-priority gates above.
+5. **If gates 1/2/5/9 fail badly**, the next real modeling operation
+   (per this doc's own "Next modeling operation" section) is
+   vehicle-specific front/rear lamp/grille geometry and hand-sculpted
+   panel gaps with real shut-line depth -- both are real Blender
+   scripting work that CAN be done headless once a human has confirmed
+   which specific silhouette/proportion issues to actually target
+   (right now there's no way to know what to aim for without seeing
+   the current state first).
