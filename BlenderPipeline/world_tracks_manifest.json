@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "source": "WTRL-Unity WTRL.World.SampleContent / WTRL.Racing.SampleContent (hand-authored track content, 2026-09-20)",
+  "note": "Node coordinates for hand-authored tracks are transcribed exactly from the C# source to keep this Blender geometry in sync. Oval tracks are regenerated here from the same straightLengthM/turnRadiusM parameters as WTRL.Racing.SampleContent.BuildOvalLine, rather than transcribing generated points, to avoid transcription drift.",
+  "explicitTracks": [
+    {
+      "id": "foundry-row-circuit",
+      "kind": "circuit",
+      "closed": true,
+      "widthM": 10,
+      "nodes": [
+        [0, 0], [200, 0], [220, 20], [220, 80], [200, 100], [0, 100], [-20, 80], [-20, 20]
+      ]
+    },
+    {
+      "id": "redline-raceway",
+      "kind": "drag",
+      "closed": false,
+      "widthM": 9,
+      "nodes": [
+        [0, 0], [0, 402.336]
+      ]
+    },
+    {
+      "id": "whisperwood-forest-circuit",
+      "kind": "circuit",
+      "closed": true,
+      "widthM": 11,
+      "nodes": [
+        [0, 0], [320, 60], [480, 220], [420, 420], [200, 520], [-60, 480], [-260, 340], [-300, 140], [-160, 20]
+      ]
+    },
+    {
+      "id": "cliffside-coastal-circuit",
+      "kind": "circuit",
+      "closed": true,
+      "widthM": 10,
+      "nodes": [
+        [0, 0], [180, -40], [340, 40], [420, 220], [360, 380], [160, 400], [-60, 320], [-140, 140]
+      ]
+    },
+    {
+      "id": "ironclad-technical-circuit",
+      "kind": "circuit",
+      "closed": true,
+      "widthM": 9,
+      "nodes": [
+        [0, 0], [140, 10], [160, 100], [90, 160], [10, 130], [-70, 180], [-150, 110], [-140, 20]
+      ]
+    }
+  ],
+  "ovalTracks": [
+    { "id": "cutback-tri-oval", "straightLengthM": 290, "turnRadiusM": 100, "bankingDeg": 20, "widthM": 14 },
+    { "id": "longbow-speedway", "straightLengthM": 579, "turnRadiusM": 200, "bankingDeg": 24, "widthM": 15 },
+    { "id": "highbank-superspeedway", "straightLengthM": 1069, "turnRadiusM": 300, "bankingDeg": 28, "widthM": 16 }
+  ]
+}
